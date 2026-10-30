@@ -6,7 +6,7 @@ import { handle, deliver } from '../lib/onboarding.mjs';
 
 // Exercise the production SQL and request handlers against transactional SQLite.
 class D1 {
-  constructor() { this.db = new DatabaseSync(':memory:'); for (const f of readdirSync('drizzle').filter(f => f.endsWith('.sql')).sort()) this.db.exec(readFileSync(`drizzle/${f}`, 'utf8')); }
+  constructor() { this.db = new DatabaseSync(':memory:'); for (const f of readdirSync('tests/fixtures/sqlite').filter(f => f.endsWith('.sql')).sort()) this.db.exec(readFileSync(`tests/fixtures/sqlite/${f}`, 'utf8')); }
   prepare(sql) {
     const db = this.db;
     const wrapper = args => ({ bind: (...a) => wrapper(a), first: async () => db.prepare(sql).get(...args) || null, all: async () => ({ results: db.prepare(sql).all(...args) }), run: async () => ({ meta: { changes: db.prepare(sql).run(...args).changes } }), execute: () => ({ meta: { changes: db.prepare(sql).run(...args).changes } }) });
@@ -17,7 +17,7 @@ class D1 {
 const owner = { 'oai-authenticated-user-id': 'owner-test', 'oai-authenticated-user-email': 'owner@example.org' };
 const fixture = () => ({ DB: new D1(), OWNER_USER_ID: 'owner-test', OWNER_EMAIL: 'owner@example.org', MAIL_MODE: 'preview', MAIL_ENCRYPTION_KEY: Buffer.from(crypto.getRandomValues(new Uint8Array(32))).toString('base64') });
 async function call(env, path, data, headers = owner) {
-  const response = await handle(new Request(`https://portal.example/api/${path}`, { method: data === undefined ? 'GET' : 'POST', headers: { ...headers, ...(data === undefined ? {} : { origin: 'https://portal.example', 'content-type': 'application/json' }) }, body: data === undefined ? undefined : JSON.stringify(data) }), env);
+  const response = await handle(new Request(`https://portal.example/api/${path}`, { method: data === undefined ? 'GET' : 'POST', headers: { ...headers, ...(data === undefined ? {} : { origin: 'https://portal.example', 'content-type': 'application/json' }) }, body: data === undefined ? undefined : JSON.stringify(data) }), { ...env, identity: headers["oai-authenticated-user-id"] ? { id: headers["oai-authenticated-user-id"], email: headers["oai-authenticated-user-email"], emailVerified: true } : null });
   return { response, data: await response.json(), status: response.status };
 }
 const inviteData = (address = 'member@example.org') => ({ name: 'Pilot Member', email: address, designation: 'Research Fellow', requestKey: crypto.randomUUID() });

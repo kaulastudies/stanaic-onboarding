@@ -3,11 +3,8 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "STANAIC · Member onboarding",
-  description: "A simple, secure path from invitation to community membership.",
+  description: "An onboarding module contributed to STANAIC by Rama Chandra.",
   robots: { index: false, follow: false },
-  other: {
-    "codex-preview": "development",
-  },
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",

@@ -1,39 +1,36 @@
-# Pilot operations
+# Operations
 
-## Owner's first onboarding
+## Hosting and data
 
-Use the owner's real name and email for the first invitation only after signing into the private pilot. The code contains no seeded personal profile. In test mode, open the invitation through Test inbox; complete your own information and leave the record at Ready for review for the designated STANAIC reviewer. Do not approve your own formal appointment by treating a test as an official decision.
+The repository contains frontend, backend, database schema, tests, and deployment instructions. Vercel runs the server. Neon Postgres is persistent storage; neither browser localStorage nor a serverless filesystem holds membership records. The Neon-managed authentication tables are separate from the application tables.
 
-## Before external invitations
+Keep production and preview on distinct Neon branches. Do not add secrets to source control. All credentials belong in Vercel environment settings or an ignored `.env.local` for development. Use the committed lockfile with `npm ci`.
 
-- Verify owner sign-in and the trusted hosting authentication boundary.
-- Set the intended Site audience. Private owner-only access blocks other people before the application loads.
-- Configure a verified sender, restricted provider key, and notification recipient. Send one test to an address you control and verify receipt and provider logs.
-- Add staff deliberately. Team access changes take effect on the next request; formal membership titles grant no staff access.
-- Agree a retention period, privacy contact, and backup/recovery responsibilities with the organisation. Do not collect government identifiers, financial records, or signatures through this basic form.
+## First owner and staff
 
-## Daily review
+Set `OWNER_EMAIL` before inviting anyone. Sign in using its emailed one-time code; the API requires a verified email. Optionally pin `OWNER_USER_ID` from `/api/session` afterward. Only the owner can grant or remove staff roles. Staff revocation takes effect on their next API call even if they still hold a valid authentication session.
 
-Use To review to open submissions. Inspect the details, record the decision and optional note, and check Email activity. An approved onboarding row is not a signed appointment agreement. Formal documentation is a separate process.
+Neon provides development authentication email delivery. Configure an organization-controlled sender before a public production rollout, following Neon's current documentation. Do not store or log sign-in codes. The app exposes only OTP sign-in, session lookup, and sign-out routes through its auth proxy; upstream authentication alone never grants application access.
 
-## Common recovery
+## Invitation and email lifecycle
 
-| Situation | Action |
-|---|---|
-| Link expired, used elsewhere, or member lost browser session | Open the invited record and create a replacement link. Previous link and sessions become invalid. |
-| Wrong recipient | Revoke the still-pending invitation, then create a new invitation for the correct address. |
-| Email configuration missing | Fix runtime secrets, redeploy, and retry eligible failed messages. |
-| Uncertain provider response | Check provider logs. Retry within the UI's 23-hour window with the original idempotency key. |
-| Sending stuck after worker interruption | Check provider logs using the outbox ID/idempotency key. An operator may change the row to uncertain in the database after verifying no worker is still sending; retry within 23 hours. Older rows require manual reconciliation. Do not blindly resend. |
-| Member asks to correct a submitted profile | Contact the onboarding team. Self-editing after submission is deferred; do not invent replacement data. |
-| Data export or deletion request | Authorised operator handles it using the D1 console, following agreed retention policy and foreign-key ordering. No public export/delete endpoint exists. |
+Invitation tokens contain 256 random bits. Only hashes are stored in invitation records. A link expires after seven days and is consumed atomically once. A fourteen-day HttpOnly member cookie only grants access to that invitation. Renewing an invitation invalidates prior links and sessions; revoking prevents further access.
 
-The audit table records staff and onboarding actions. Protect database backups and the encryption key separately. Losing the key makes existing outbox payloads unreadable; replacing it without a migration is not key rotation.
+Prepared email bodies, including invitation links, are AES-GCM encrypted in the outbox. `MAIL_MODE=preview` stores private test messages and never sends onboarding email. Switching to `resend` affects new messages only. Do not expose preview message bodies in public demos.
 
-## Limits of this release
+Configure a Resend sending domain/address, `RESEND_API_KEY`, `MAIL_FROM`, and `ADMIN_NOTIFY_EMAIL`. Retry queued, failed, or uncertain messages from Email activity. Retries reuse the same idempotency key within 23 hours of the first attempt. After that, first inspect the provider log to avoid duplicate delivery. An interrupted attempt may leave a message in `sending`; check the provider log before an operator changes that row to `uncertain` for a controlled retry. There is no automatic retry schedule or delivery webhook in this initial module.
 
-Dashboard lists the most recent 500 records and email activity the latest 200 messages. Counts describe the loaded dashboard records. No files, digital signatures, payments, automated certificates, AI processing, email open tracking, scheduled retries, or delivery webhooks are included. Browser sessions expire after 14 days. Link tokens expire after seven days and can be redeemed once.
+Database submission and notification creation are one transaction. Email provider failures do not lose submitted profiles. The dashboard reports actual local/provider status; `accepted` means the provider accepted the request, not that the recipient read or received it.
 
-## Validation completed
+## Review and handover
 
-Run `npm test` for executable evidence; tests use synthetic identities and addresses. Browser checks should cover desktop and narrow screens, keyboard operation, an invitation and member submission, dashboard refresh, and review status. Do not claim live external delivery until a configured provider test has reached its recipient.
+Start with the contributor's own onboarding trial. Do not use another person's details without authorization. STANAIC should confirm its role titles, approved documents, controller contact, retention/deletion policy, and email sender before general use. Nothing here signs an agreement or issues a certificate.
+
+For handover, transfer the repository, Vercel project, and Neon resources to the designated organization's accounts through their normal transfer procedures; then rotate secrets and update `OWNER_EMAIL`. Back up the database and check restoration before handling production records.
+
+## References
+
+- https://neon.com/docs/auth/quick-start/nextjs-api-only
+- https://neon.com/docs/auth/guides/plugins/email-otp
+- https://resend.com/docs/dashboard/domains/introduction
+- https://resend.com/docs/dashboard/emails/idempotency-keys
