@@ -1,5 +1,7 @@
 # STANAIC onboarding module
 
+[Open the Vercel portal](https://stanaic-onboarding.vercel.app) · [Administrator sign in](https://stanaic-onboarding.vercel.app/sign-in)
+
 An open-source onboarding contribution by Rama Chandra, offered in gratitude for STANAIC's support. This module manages invitations, profile submission, team review, and restricted staff access. STANAIC controls the roles, programmes, eligibility, fees, agreements, and appointment decisions.
 
 Application and backend source are in this repository. **Vercel runs the Next.js application and API; Neon stores the records and authenticates staff.** GitHub is the source host, not the runtime database.
