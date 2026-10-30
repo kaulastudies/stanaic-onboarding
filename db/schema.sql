@@ -65,3 +65,24 @@ CREATE TABLE IF NOT EXISTS "staff" (
 CREATE UNIQUE INDEX IF NOT EXISTS "staff_email_unique" ON "staff" ("email");
 CREATE UNIQUE INDEX IF NOT EXISTS "staff_user_id_unique" ON "staff" ("user_id");
 CREATE UNIQUE INDEX IF NOT EXISTS "one_active_invitation_per_email" ON "invitations" ("email") WHERE "invitations"."status" NOT IN ('revoked','declined');
+
+-- Isolated, expiring demonstration data. Never joined to live onboarding records.
+CREATE TABLE IF NOT EXISTS demo_workspaces (
+  id text PRIMARY KEY,
+  state jsonb NOT NULL,
+  expires_at bigint NOT NULL
+);
+CREATE INDEX IF NOT EXISTS demo_workspaces_expiry ON demo_workspaces(expires_at);
+CREATE TABLE IF NOT EXISTS demo_sessions (
+  token_hash text PRIMARY KEY,
+  workspace_id text NOT NULL REFERENCES demo_workspaces(id) ON DELETE CASCADE,
+  role text NOT NULL CHECK (role IN ('admin','member')),
+  member_id text NOT NULL,
+  expires_at bigint NOT NULL,
+  UNIQUE(workspace_id, role)
+);
+CREATE TABLE IF NOT EXISTS demo_login_limits (
+  key text PRIMARY KEY,
+  count bigint NOT NULL,
+  expires_at bigint NOT NULL
+);

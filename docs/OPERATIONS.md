@@ -34,3 +34,10 @@ For handover, transfer the repository, Vercel project, and Neon resources to the
 - https://neon.com/docs/auth/guides/plugins/email-otp
 - https://resend.com/docs/dashboard/domains/introduction
 - https://resend.com/docs/dashboard/emails/idempotency-keys
+
+
+## Demo accounts
+
+The public `/demo` login is isolated from live staff authentication. Its credentials are listed on the page and in README.md. A browser keeps separate admin and member sessions in one private, six-hour sample workspace. A reset removes sample records and invalidates the member session, so sign in again as the member afterward. Email previews are local to that workspace and never sent. Invitations/team samples accept reserved example.org/com/net addresses only. Do not enter real member data into the demo.
+
+The sample team form demonstrates permission configuration without provisioning accounts. Only the two listed demo logins work. Real staff access remains email-verified and allowlisted through the existing production routes. Demo session tokens cannot authenticate those routes.

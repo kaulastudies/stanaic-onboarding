@@ -1,6 +1,6 @@
 # STANAIC onboarding module
 
-[Open the Vercel portal](https://stanaic-onboarding.vercel.app) · [Administrator sign in](https://stanaic-onboarding.vercel.app/sign-in)
+[Open the Vercel portal](https://stanaic-onboarding.vercel.app) · [Administrator sign in](https://stanaic-onboarding.vercel.app/sign-in) · [Try the demo](https://stanaic-onboarding.vercel.app/demo)
 
 An open-source onboarding contribution by Rama Chandra, offered in gratitude for STANAIC's support. This module manages invitations, profile submission, team review, and restricted staff access. STANAIC controls the roles, programmes, eligibility, fees, agreements, and appointment decisions.
 
@@ -15,6 +15,24 @@ Application and backend source are in this repository. **Vercel runs the Next.js
 5. The team dashboard updates every eight seconds while visible. An administrator or maintainer reviews the record and prepares a review notification.
 
 The module does not prescribe membership pricing, issue qualifications, collect payments, or sign agreements. An onboarding decision is distinct from STANAIC's formal appointment or certification process.
+
+## Public demo
+
+Open [the demo sign-in page](https://stanaic-onboarding.vercel.app/demo). These credentials are intentionally public and work **only in the isolated demo**:
+
+| Account | Username | Password |
+|---|---|---|
+| Administrator | `demo-admin` | `AdminDemo2026!` |
+| Member | `demo-member` | `MemberDemo2026!` |
+
+1. Sign in as the member and submit the seeded Demo Member form using fictional details.
+2. Sign in as the administrator in the **same browser**, open Demo Member, and save a review.
+3. Return to the member portal to see the result. Both demo roles can stay signed in across tabs.
+4. To try invitations, create a sample member using an `@example.org`, `@example.com`, or `@example.net` address. Open its invitation from the test inbox.
+
+Each browser receives its own database-backed demo workspace. Sessions and access expire after six hours; expired rows are cleaned up on a subsequent demo login. The administrator can reset their sample workspace at any time. Demo cookies are opaque, hashed in separate session tables, HttpOnly, Secure, and scoped to `/api/demo`. All mutations check the request origin. Login attempts and workspace sizes are bounded.
+
+Demo operations never access live member/staff tables, call the email provider, or create real staff accounts. Team & access demonstrates sample permission records; it does not create additional working demo logins. The public credentials do not authorize the live `/api/admin` routes. Use fictional information only. Formal appointment documents and signatures are outside this demo.
 
 ## Run locally
 
@@ -36,7 +54,7 @@ npm run typecheck
 npm run build
 ```
 
-Tests exercise the onboarding handlers, roles, invitation consumption/revocation, consent, transaction rollback, email failure/retry, Postgres SQL, and rejection of spoofed identity headers.
+Tests exercise the onboarding handlers, roles, invitation consumption/revocation, consent, transaction rollback, email failure/retry, Postgres SQL, rejection of spoofed identity headers, demo role and workspace isolation, and the complete demo submission/review cycle.
 
 ## Deploy to Vercel
 
