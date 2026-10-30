@@ -1,0 +1,20 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1793355919512,
+      "tag": "0000_same_the_santerians",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1793356468641,
+      "tag": "0001_wakeful_silk_fever",
+      "breakpoints": true
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX `one_active_invitation_per_email` ON `invitations` (`email`) WHERE "invitations"."status" NOT IN ('revoked','declined');
