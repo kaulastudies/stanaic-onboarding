@@ -34,3 +34,9 @@ test('upload endpoint rejects absent sessions, cross-site writes and oversized r
  assert.equal((await a.files('upload',{mode:'demo',...source},{origin:'https://other.test'})).status,403);
  assert.equal((await a.files('upload',{mode:'demo',padding:'x'.repeat(3*1024*1024)})).status,413);
 });
+
+test('public demo attachment storage has a shared upper bound across workspaces',async t=>{
+ const f=await fixture(t),a=f.browser();await a.platform('demo/start',{});await a.action('switchRole',{role:'author'});const r=await a.action('submitPaper',{title:'Quota test',abstract:'Synthetic',manuscript:'Synthetic',consent:true});const id=r.data.state.submissions[0].id;await a.files('upload',{mode:'demo',submissionId:id,...source});
+ await f.pool.query('UPDATE stanaic_manuscript_files SET size=$1',[50*1024*1024]);
+ const blocked=await a.files('upload',{mode:'demo',submissionId:id,...source,base64:Buffer.from('Different synthetic file').toString('base64')});assert.equal(blocked.status,413);assert.match(blocked.data.error,/Shared demonstration/);
+});
