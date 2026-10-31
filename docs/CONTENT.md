@@ -10,6 +10,6 @@ Accordingly, the portal contains neutral process wording only: invite, submit de
 
 The administrator supplies the role or programme agreed for each invitation. Historical invitation titles populate the suggestion list; they are operational records, not a published catalogue. Staff access roles describe software permissions only.
 
-Rama Chandra contributes this onboarding module in gratitude for STANAIC's understanding and support. His individual invitation terms do not define terms for other applicants. His personal circumstances are not part of the public application copy.
+The review demo uses fictional records. Individual invitation terms do not define institutional membership policy.
 
 Future additions must use STANAIC-approved source documents for pricing, agreements, programme descriptions, document signatures, certificates, or public directory publication. This initial version does not invent those policies.
