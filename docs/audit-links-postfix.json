@@ -1,0 +1,3010 @@
+{
+  "origin": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app",
+  "captured_at": "2026-10-31T17:29:01Z",
+  "static_pages": 9,
+  "link_occurrences": 319,
+  "asset_occurrences": 27,
+  "app_literal_link_occurrences": 46,
+  "unique_http_targets": 69,
+  "occurrences": [
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "/verify",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/verify"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "/architecture",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/architecture"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "/",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "/institution",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institution"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "/research",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/research"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "/journal",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/journal"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "/learning",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/learning"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "/membership",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/membership"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "/announcements",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/announcements"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "/workspace",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/workspace"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "/workspace",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/workspace"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "/institutional/architecture.md",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institutional/architecture.md"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "https://github.com/kaulastudies/stanaic-onboarding/blob/main/docs/PLATFORM-API.md",
+      "url": "https://github.com/kaulastudies/stanaic-onboarding/blob/main/docs/PLATFORM-API.md"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "#audit",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/architecture#audit"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "#topology",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/architecture#topology"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "#roles",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/architecture#roles"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "#flows",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/architecture#flows"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "#data",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/architecture#data"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "#operations",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/architecture#operations"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "#roadmap",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/architecture#roadmap"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "#decisions",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/architecture#decisions"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "#sources",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/architecture#sources"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "https://stanaic.org/",
+      "url": "https://stanaic.org/"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "https://stanaic.org/?ai-certifications/",
+      "url": "https://stanaic.org/?ai-certifications/"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "https://stanaic.org/?training-agent/59.html",
+      "url": "https://stanaic.org/?training-agent/59.html"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "https://stanaic.org/?society-publications/548.html",
+      "url": "https://stanaic.org/?society-publications/548.html"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "https://stanaic.org/?official-announcements/537.html",
+      "url": "https://stanaic.org/?official-announcements/537.html"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "https://stanaic.org/?research-reports/",
+      "url": "https://stanaic.org/?research-reports/"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "https://learn.stanaic.com/",
+      "url": "https://learn.stanaic.com/"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "/demo",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/demo"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "https://github.com/kaulastudies/stanaic-onboarding",
+      "url": "https://github.com/kaulastudies/stanaic-onboarding"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "https://github.com/pkp/pkp-docs/blob/main/learning-ojs/editorial-workflow/en/review.md",
+      "url": "https://github.com/pkp/pkp-docs/blob/main/learning-ojs/editorial-workflow/en/review.md"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "https://docs.stripe.com/webhooks",
+      "url": "https://docs.stripe.com/webhooks"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "https://www.1edtech.org/standards/open-badges",
+      "url": "https://www.1edtech.org/standards/open-badges"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "/",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "/institution",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institution"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "/research",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/research"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "/governance",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/governance"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "/partnerships",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/partnerships"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "/journal",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/journal"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "/membership",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/membership"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "/learning",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/learning"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "/verify",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/verify"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "https://learn.stanaic.com/",
+      "url": "https://learn.stanaic.com/"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "/demo",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/demo"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "mailto:info@stanaic.org",
+      "url": "mailto:info@stanaic.org"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "https://stanaic.org/",
+      "url": "https://stanaic.org/"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "/architecture",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/architecture"
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "/workspace",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/workspace"
+    },
+    {
+      "source": "/architecture",
+      "kind": "asset",
+      "href": "/institutional/assets/site.css",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institutional/assets/site.css"
+    },
+    {
+      "source": "/architecture",
+      "kind": "asset",
+      "href": "/institutional/assets/extra.css",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institutional/assets/extra.css"
+    },
+    {
+      "source": "/architecture",
+      "kind": "asset",
+      "href": "/institutional/assets/public.js",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institutional/assets/public.js"
+    },
+    {
+      "source": "/governance",
+      "kind": "link",
+      "href": "/verify",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/verify"
+    },
+    {
+      "source": "/governance",
+      "kind": "link",
+      "href": "/architecture",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/architecture"
+    },
+    {
+      "source": "/governance",
+      "kind": "link",
+      "href": "/",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/"
+    },
+    {
+      "source": "/governance",
+      "kind": "link",
+      "href": "/institution",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institution"
+    },
+    {
+      "source": "/governance",
+      "kind": "link",
+      "href": "/research",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/research"
+    },
+    {
+      "source": "/governance",
+      "kind": "link",
+      "href": "/journal",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/journal"
+    },
+    {
+      "source": "/governance",
+      "kind": "link",
+      "href": "/learning",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/learning"
+    },
+    {
+      "source": "/governance",
+      "kind": "link",
+      "href": "/membership",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/membership"
+    },
+    {
+      "source": "/governance",
+      "kind": "link",
+      "href": "/announcements",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/announcements"
+    },
+    {
+      "source": "/governance",
+      "kind": "link",
+      "href": "/workspace",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/workspace"
+    },
+    {
+      "source": "/governance",
+      "kind": "link",
+      "href": "https://stanaic.org/?preamble-mission/",
+      "url": "https://stanaic.org/?preamble-mission/"
+    },
+    {
+      "source": "/governance",
+      "kind": "link",
+      "href": "https://stanaic.org/?scope-applicability/",
+      "url": "https://stanaic.org/?scope-applicability/"
+    },
+    {
+      "source": "/governance",
+      "kind": "link",
+      "href": "https://stanaic.org/?governance-structure/",
+      "url": "https://stanaic.org/?governance-structure/"
+    },
+    {
+      "source": "/governance",
+      "kind": "link",
+      "href": "https://stanaic.org/?ethical-principles/",
+      "url": "https://stanaic.org/?ethical-principles/"
+    },
+    {
+      "source": "/governance",
+      "kind": "link",
+      "href": "https://stanaic.org/?risk-compliance/",
+      "url": "https://stanaic.org/?risk-compliance/"
+    },
+    {
+      "source": "/governance",
+      "kind": "link",
+      "href": "https://stanaic.org/?accountability-oversight/",
+      "url": "https://stanaic.org/?accountability-oversight/"
+    },
+    {
+      "source": "/governance",
+      "kind": "link",
+      "href": "https://stanaic.org/?compliance-procedures/",
+      "url": "https://stanaic.org/?compliance-procedures/"
+    },
+    {
+      "source": "/governance",
+      "kind": "link",
+      "href": "https://stanaic.org/?certification-rules/",
+      "url": "https://stanaic.org/?certification-rules/"
+    },
+    {
+      "source": "/governance",
+      "kind": "link",
+      "href": "https://stanaic.org/?working-regulations/intellectual-property/",
+      "url": "https://stanaic.org/?working-regulations/intellectual-property/"
+    },
+    {
+      "source": "/governance",
+      "kind": "link",
+      "href": "https://stanaic.org/?resources-tools/",
+      "url": "https://stanaic.org/?resources-tools/"
+    },
+    {
+      "source": "/governance",
+      "kind": "link",
+      "href": "/",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/"
+    },
+    {
+      "source": "/governance",
+      "kind": "link",
+      "href": "/institution",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institution"
+    },
+    {
+      "source": "/governance",
+      "kind": "link",
+      "href": "/research",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/research"
+    },
+    {
+      "source": "/governance",
+      "kind": "link",
+      "href": "/governance",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/governance"
+    },
+    {
+      "source": "/governance",
+      "kind": "link",
+      "href": "/partnerships",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/partnerships"
+    },
+    {
+      "source": "/governance",
+      "kind": "link",
+      "href": "/journal",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/journal"
+    },
+    {
+      "source": "/governance",
+      "kind": "link",
+      "href": "/membership",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/membership"
+    },
+    {
+      "source": "/governance",
+      "kind": "link",
+      "href": "/learning",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/learning"
+    },
+    {
+      "source": "/governance",
+      "kind": "link",
+      "href": "/verify",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/verify"
+    },
+    {
+      "source": "/governance",
+      "kind": "link",
+      "href": "https://learn.stanaic.com/",
+      "url": "https://learn.stanaic.com/"
+    },
+    {
+      "source": "/governance",
+      "kind": "link",
+      "href": "/demo",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/demo"
+    },
+    {
+      "source": "/governance",
+      "kind": "link",
+      "href": "mailto:info@stanaic.org",
+      "url": "mailto:info@stanaic.org"
+    },
+    {
+      "source": "/governance",
+      "kind": "link",
+      "href": "https://stanaic.org/",
+      "url": "https://stanaic.org/"
+    },
+    {
+      "source": "/governance",
+      "kind": "link",
+      "href": "/architecture",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/architecture"
+    },
+    {
+      "source": "/governance",
+      "kind": "link",
+      "href": "/workspace",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/workspace"
+    },
+    {
+      "source": "/governance",
+      "kind": "asset",
+      "href": "/institutional/assets/site.css",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institutional/assets/site.css"
+    },
+    {
+      "source": "/governance",
+      "kind": "asset",
+      "href": "/institutional/assets/extra.css",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institutional/assets/extra.css"
+    },
+    {
+      "source": "/governance",
+      "kind": "asset",
+      "href": "/institutional/assets/public.js",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institutional/assets/public.js"
+    },
+    {
+      "source": "/",
+      "kind": "link",
+      "href": "/verify",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/verify"
+    },
+    {
+      "source": "/",
+      "kind": "link",
+      "href": "/architecture",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/architecture"
+    },
+    {
+      "source": "/",
+      "kind": "link",
+      "href": "/",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/"
+    },
+    {
+      "source": "/",
+      "kind": "link",
+      "href": "/institution",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institution"
+    },
+    {
+      "source": "/",
+      "kind": "link",
+      "href": "/research",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/research"
+    },
+    {
+      "source": "/",
+      "kind": "link",
+      "href": "/journal",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/journal"
+    },
+    {
+      "source": "/",
+      "kind": "link",
+      "href": "/learning",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/learning"
+    },
+    {
+      "source": "/",
+      "kind": "link",
+      "href": "/membership",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/membership"
+    },
+    {
+      "source": "/",
+      "kind": "link",
+      "href": "/announcements",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/announcements"
+    },
+    {
+      "source": "/",
+      "kind": "link",
+      "href": "/workspace",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/workspace"
+    },
+    {
+      "source": "/",
+      "kind": "link",
+      "href": "/research",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/research"
+    },
+    {
+      "source": "/",
+      "kind": "link",
+      "href": "/institution",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institution"
+    },
+    {
+      "source": "/",
+      "kind": "link",
+      "href": "/institution",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institution"
+    },
+    {
+      "source": "/",
+      "kind": "link",
+      "href": "/research",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/research"
+    },
+    {
+      "source": "/",
+      "kind": "link",
+      "href": "/learning",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/learning"
+    },
+    {
+      "source": "/",
+      "kind": "link",
+      "href": "/journal",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/journal"
+    },
+    {
+      "source": "/",
+      "kind": "link",
+      "href": "/workspace?mode=demo&view=publishing&role=author",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/workspace?mode=demo&view=publishing&role=author"
+    },
+    {
+      "source": "/",
+      "kind": "link",
+      "href": "/learning",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/learning"
+    },
+    {
+      "source": "/",
+      "kind": "link",
+      "href": "/workspace?mode=demo&view=learning&role=learner",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/workspace?mode=demo&view=learning&role=learner"
+    },
+    {
+      "source": "/",
+      "kind": "link",
+      "href": "https://learn.stanaic.com/",
+      "url": "https://learn.stanaic.com/"
+    },
+    {
+      "source": "/",
+      "kind": "link",
+      "href": "/workspace?mode=demo&view=learning&role=learner",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/workspace?mode=demo&view=learning&role=learner"
+    },
+    {
+      "source": "/",
+      "kind": "link",
+      "href": "https://learn.stanaic.com/",
+      "url": "https://learn.stanaic.com/"
+    },
+    {
+      "source": "/",
+      "kind": "link",
+      "href": "/workspace?mode=demo&view=learning&role=learner",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/workspace?mode=demo&view=learning&role=learner"
+    },
+    {
+      "source": "/",
+      "kind": "link",
+      "href": "https://learn.stanaic.com/",
+      "url": "https://learn.stanaic.com/"
+    },
+    {
+      "source": "/",
+      "kind": "link",
+      "href": "https://stanaic.org/?white-papers/427.html",
+      "url": "https://stanaic.org/?white-papers/427.html"
+    },
+    {
+      "source": "/",
+      "kind": "link",
+      "href": "https://stanaic.org/?white-papers/384.html",
+      "url": "https://stanaic.org/?white-papers/384.html"
+    },
+    {
+      "source": "/",
+      "kind": "link",
+      "href": "/membership",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/membership"
+    },
+    {
+      "source": "/",
+      "kind": "link",
+      "href": "/",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/"
+    },
+    {
+      "source": "/",
+      "kind": "link",
+      "href": "/institution",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institution"
+    },
+    {
+      "source": "/",
+      "kind": "link",
+      "href": "/research",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/research"
+    },
+    {
+      "source": "/",
+      "kind": "link",
+      "href": "/governance",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/governance"
+    },
+    {
+      "source": "/",
+      "kind": "link",
+      "href": "/partnerships",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/partnerships"
+    },
+    {
+      "source": "/",
+      "kind": "link",
+      "href": "/journal",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/journal"
+    },
+    {
+      "source": "/",
+      "kind": "link",
+      "href": "/membership",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/membership"
+    },
+    {
+      "source": "/",
+      "kind": "link",
+      "href": "/learning",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/learning"
+    },
+    {
+      "source": "/",
+      "kind": "link",
+      "href": "/verify",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/verify"
+    },
+    {
+      "source": "/",
+      "kind": "link",
+      "href": "https://learn.stanaic.com/",
+      "url": "https://learn.stanaic.com/"
+    },
+    {
+      "source": "/",
+      "kind": "link",
+      "href": "/demo",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/demo"
+    },
+    {
+      "source": "/",
+      "kind": "link",
+      "href": "mailto:info@stanaic.org",
+      "url": "mailto:info@stanaic.org"
+    },
+    {
+      "source": "/",
+      "kind": "link",
+      "href": "https://stanaic.org/",
+      "url": "https://stanaic.org/"
+    },
+    {
+      "source": "/",
+      "kind": "link",
+      "href": "/architecture",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/architecture"
+    },
+    {
+      "source": "/",
+      "kind": "link",
+      "href": "/workspace",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/workspace"
+    },
+    {
+      "source": "/",
+      "kind": "asset",
+      "href": "/institutional/assets/site.css",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institutional/assets/site.css"
+    },
+    {
+      "source": "/",
+      "kind": "asset",
+      "href": "/institutional/assets/extra.css",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institutional/assets/extra.css"
+    },
+    {
+      "source": "/",
+      "kind": "asset",
+      "href": "/institutional/assets/public.js",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institutional/assets/public.js"
+    },
+    {
+      "source": "/institution",
+      "kind": "link",
+      "href": "/verify",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/verify"
+    },
+    {
+      "source": "/institution",
+      "kind": "link",
+      "href": "/architecture",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/architecture"
+    },
+    {
+      "source": "/institution",
+      "kind": "link",
+      "href": "/",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/"
+    },
+    {
+      "source": "/institution",
+      "kind": "link",
+      "href": "/institution",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institution"
+    },
+    {
+      "source": "/institution",
+      "kind": "link",
+      "href": "/research",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/research"
+    },
+    {
+      "source": "/institution",
+      "kind": "link",
+      "href": "/journal",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/journal"
+    },
+    {
+      "source": "/institution",
+      "kind": "link",
+      "href": "/learning",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/learning"
+    },
+    {
+      "source": "/institution",
+      "kind": "link",
+      "href": "/membership",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/membership"
+    },
+    {
+      "source": "/institution",
+      "kind": "link",
+      "href": "/announcements",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/announcements"
+    },
+    {
+      "source": "/institution",
+      "kind": "link",
+      "href": "/workspace",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/workspace"
+    },
+    {
+      "source": "/institution",
+      "kind": "link",
+      "href": "/governance",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/governance"
+    },
+    {
+      "source": "/institution",
+      "kind": "link",
+      "href": "/journal",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/journal"
+    },
+    {
+      "source": "/institution",
+      "kind": "link",
+      "href": "https://stanaic.org/?ai-certifications/",
+      "url": "https://stanaic.org/?ai-certifications/"
+    },
+    {
+      "source": "/institution",
+      "kind": "link",
+      "href": "https://www.linkedin.com/in/guomingxu/",
+      "url": "https://www.linkedin.com/in/guomingxu/"
+    },
+    {
+      "source": "/institution",
+      "kind": "link",
+      "href": "https://github.com/kaulastudies/ai-evaluation-lab",
+      "url": "https://github.com/kaulastudies/ai-evaluation-lab"
+    },
+    {
+      "source": "/institution",
+      "kind": "link",
+      "href": "/",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/"
+    },
+    {
+      "source": "/institution",
+      "kind": "link",
+      "href": "/institution",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institution"
+    },
+    {
+      "source": "/institution",
+      "kind": "link",
+      "href": "/research",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/research"
+    },
+    {
+      "source": "/institution",
+      "kind": "link",
+      "href": "/governance",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/governance"
+    },
+    {
+      "source": "/institution",
+      "kind": "link",
+      "href": "/partnerships",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/partnerships"
+    },
+    {
+      "source": "/institution",
+      "kind": "link",
+      "href": "/journal",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/journal"
+    },
+    {
+      "source": "/institution",
+      "kind": "link",
+      "href": "/membership",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/membership"
+    },
+    {
+      "source": "/institution",
+      "kind": "link",
+      "href": "/learning",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/learning"
+    },
+    {
+      "source": "/institution",
+      "kind": "link",
+      "href": "/verify",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/verify"
+    },
+    {
+      "source": "/institution",
+      "kind": "link",
+      "href": "https://learn.stanaic.com/",
+      "url": "https://learn.stanaic.com/"
+    },
+    {
+      "source": "/institution",
+      "kind": "link",
+      "href": "/demo",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/demo"
+    },
+    {
+      "source": "/institution",
+      "kind": "link",
+      "href": "mailto:info@stanaic.org",
+      "url": "mailto:info@stanaic.org"
+    },
+    {
+      "source": "/institution",
+      "kind": "link",
+      "href": "https://stanaic.org/",
+      "url": "https://stanaic.org/"
+    },
+    {
+      "source": "/institution",
+      "kind": "link",
+      "href": "/architecture",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/architecture"
+    },
+    {
+      "source": "/institution",
+      "kind": "link",
+      "href": "/workspace",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/workspace"
+    },
+    {
+      "source": "/institution",
+      "kind": "asset",
+      "href": "/institutional/assets/site.css",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institutional/assets/site.css"
+    },
+    {
+      "source": "/institution",
+      "kind": "asset",
+      "href": "/institutional/assets/extra.css",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institutional/assets/extra.css"
+    },
+    {
+      "source": "/institution",
+      "kind": "asset",
+      "href": "/institutional/assets/public.js",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institutional/assets/public.js"
+    },
+    {
+      "source": "/journal",
+      "kind": "link",
+      "href": "/verify",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/verify"
+    },
+    {
+      "source": "/journal",
+      "kind": "link",
+      "href": "/architecture",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/architecture"
+    },
+    {
+      "source": "/journal",
+      "kind": "link",
+      "href": "/",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/"
+    },
+    {
+      "source": "/journal",
+      "kind": "link",
+      "href": "/institution",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institution"
+    },
+    {
+      "source": "/journal",
+      "kind": "link",
+      "href": "/research",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/research"
+    },
+    {
+      "source": "/journal",
+      "kind": "link",
+      "href": "/journal",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/journal"
+    },
+    {
+      "source": "/journal",
+      "kind": "link",
+      "href": "/learning",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/learning"
+    },
+    {
+      "source": "/journal",
+      "kind": "link",
+      "href": "/membership",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/membership"
+    },
+    {
+      "source": "/journal",
+      "kind": "link",
+      "href": "/announcements",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/announcements"
+    },
+    {
+      "source": "/journal",
+      "kind": "link",
+      "href": "/workspace",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/workspace"
+    },
+    {
+      "source": "/journal",
+      "kind": "link",
+      "href": "/workspace?mode=demo&view=publishing&role=author",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/workspace?mode=demo&view=publishing&role=author"
+    },
+    {
+      "source": "/journal",
+      "kind": "link",
+      "href": "https://stanaic.org/?society-publications/548.html",
+      "url": "https://stanaic.org/?society-publications/548.html"
+    },
+    {
+      "source": "/journal",
+      "kind": "link",
+      "href": "mailto:info@stanaic.org",
+      "url": "mailto:info@stanaic.org"
+    },
+    {
+      "source": "/journal",
+      "kind": "link",
+      "href": "/architecture#flows",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/architecture#flows"
+    },
+    {
+      "source": "/journal",
+      "kind": "link",
+      "href": "/",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/"
+    },
+    {
+      "source": "/journal",
+      "kind": "link",
+      "href": "/institution",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institution"
+    },
+    {
+      "source": "/journal",
+      "kind": "link",
+      "href": "/research",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/research"
+    },
+    {
+      "source": "/journal",
+      "kind": "link",
+      "href": "/governance",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/governance"
+    },
+    {
+      "source": "/journal",
+      "kind": "link",
+      "href": "/partnerships",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/partnerships"
+    },
+    {
+      "source": "/journal",
+      "kind": "link",
+      "href": "/journal",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/journal"
+    },
+    {
+      "source": "/journal",
+      "kind": "link",
+      "href": "/membership",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/membership"
+    },
+    {
+      "source": "/journal",
+      "kind": "link",
+      "href": "/learning",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/learning"
+    },
+    {
+      "source": "/journal",
+      "kind": "link",
+      "href": "/verify",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/verify"
+    },
+    {
+      "source": "/journal",
+      "kind": "link",
+      "href": "https://learn.stanaic.com/",
+      "url": "https://learn.stanaic.com/"
+    },
+    {
+      "source": "/journal",
+      "kind": "link",
+      "href": "/demo",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/demo"
+    },
+    {
+      "source": "/journal",
+      "kind": "link",
+      "href": "mailto:info@stanaic.org",
+      "url": "mailto:info@stanaic.org"
+    },
+    {
+      "source": "/journal",
+      "kind": "link",
+      "href": "https://stanaic.org/",
+      "url": "https://stanaic.org/"
+    },
+    {
+      "source": "/journal",
+      "kind": "link",
+      "href": "/architecture",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/architecture"
+    },
+    {
+      "source": "/journal",
+      "kind": "link",
+      "href": "/workspace",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/workspace"
+    },
+    {
+      "source": "/journal",
+      "kind": "asset",
+      "href": "/institutional/assets/site.css",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institutional/assets/site.css"
+    },
+    {
+      "source": "/journal",
+      "kind": "asset",
+      "href": "/institutional/assets/extra.css",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institutional/assets/extra.css"
+    },
+    {
+      "source": "/journal",
+      "kind": "asset",
+      "href": "/institutional/assets/public.js",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institutional/assets/public.js"
+    },
+    {
+      "source": "/learning",
+      "kind": "link",
+      "href": "/verify",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/verify"
+    },
+    {
+      "source": "/learning",
+      "kind": "link",
+      "href": "/architecture",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/architecture"
+    },
+    {
+      "source": "/learning",
+      "kind": "link",
+      "href": "/",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/"
+    },
+    {
+      "source": "/learning",
+      "kind": "link",
+      "href": "/institution",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institution"
+    },
+    {
+      "source": "/learning",
+      "kind": "link",
+      "href": "/research",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/research"
+    },
+    {
+      "source": "/learning",
+      "kind": "link",
+      "href": "/journal",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/journal"
+    },
+    {
+      "source": "/learning",
+      "kind": "link",
+      "href": "/learning",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/learning"
+    },
+    {
+      "source": "/learning",
+      "kind": "link",
+      "href": "/membership",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/membership"
+    },
+    {
+      "source": "/learning",
+      "kind": "link",
+      "href": "/announcements",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/announcements"
+    },
+    {
+      "source": "/learning",
+      "kind": "link",
+      "href": "/workspace",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/workspace"
+    },
+    {
+      "source": "/learning",
+      "kind": "link",
+      "href": "https://learn.stanaic.com/",
+      "url": "https://learn.stanaic.com/"
+    },
+    {
+      "source": "/learning",
+      "kind": "link",
+      "href": "/workspace?mode=demo&view=learning&role=learner",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/workspace?mode=demo&view=learning&role=learner"
+    },
+    {
+      "source": "/learning",
+      "kind": "link",
+      "href": "/workspace?mode=demo&view=learning&role=learner",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/workspace?mode=demo&view=learning&role=learner"
+    },
+    {
+      "source": "/learning",
+      "kind": "link",
+      "href": "https://learn.stanaic.com/",
+      "url": "https://learn.stanaic.com/"
+    },
+    {
+      "source": "/learning",
+      "kind": "link",
+      "href": "/workspace?mode=demo&view=learning&role=learner",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/workspace?mode=demo&view=learning&role=learner"
+    },
+    {
+      "source": "/learning",
+      "kind": "link",
+      "href": "https://learn.stanaic.com/",
+      "url": "https://learn.stanaic.com/"
+    },
+    {
+      "source": "/learning",
+      "kind": "link",
+      "href": "/workspace?mode=demo&view=learning&role=learner",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/workspace?mode=demo&view=learning&role=learner"
+    },
+    {
+      "source": "/learning",
+      "kind": "link",
+      "href": "https://learn.stanaic.com/",
+      "url": "https://learn.stanaic.com/"
+    },
+    {
+      "source": "/learning",
+      "kind": "link",
+      "href": "/",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/"
+    },
+    {
+      "source": "/learning",
+      "kind": "link",
+      "href": "/institution",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institution"
+    },
+    {
+      "source": "/learning",
+      "kind": "link",
+      "href": "/research",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/research"
+    },
+    {
+      "source": "/learning",
+      "kind": "link",
+      "href": "/governance",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/governance"
+    },
+    {
+      "source": "/learning",
+      "kind": "link",
+      "href": "/partnerships",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/partnerships"
+    },
+    {
+      "source": "/learning",
+      "kind": "link",
+      "href": "/journal",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/journal"
+    },
+    {
+      "source": "/learning",
+      "kind": "link",
+      "href": "/membership",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/membership"
+    },
+    {
+      "source": "/learning",
+      "kind": "link",
+      "href": "/learning",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/learning"
+    },
+    {
+      "source": "/learning",
+      "kind": "link",
+      "href": "/verify",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/verify"
+    },
+    {
+      "source": "/learning",
+      "kind": "link",
+      "href": "https://learn.stanaic.com/",
+      "url": "https://learn.stanaic.com/"
+    },
+    {
+      "source": "/learning",
+      "kind": "link",
+      "href": "/demo",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/demo"
+    },
+    {
+      "source": "/learning",
+      "kind": "link",
+      "href": "mailto:info@stanaic.org",
+      "url": "mailto:info@stanaic.org"
+    },
+    {
+      "source": "/learning",
+      "kind": "link",
+      "href": "https://stanaic.org/",
+      "url": "https://stanaic.org/"
+    },
+    {
+      "source": "/learning",
+      "kind": "link",
+      "href": "/architecture",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/architecture"
+    },
+    {
+      "source": "/learning",
+      "kind": "link",
+      "href": "/workspace",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/workspace"
+    },
+    {
+      "source": "/learning",
+      "kind": "asset",
+      "href": "/institutional/assets/site.css",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institutional/assets/site.css"
+    },
+    {
+      "source": "/learning",
+      "kind": "asset",
+      "href": "/institutional/assets/extra.css",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institutional/assets/extra.css"
+    },
+    {
+      "source": "/learning",
+      "kind": "asset",
+      "href": "/institutional/assets/public.js",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institutional/assets/public.js"
+    },
+    {
+      "source": "/membership",
+      "kind": "link",
+      "href": "/verify",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/verify"
+    },
+    {
+      "source": "/membership",
+      "kind": "link",
+      "href": "/architecture",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/architecture"
+    },
+    {
+      "source": "/membership",
+      "kind": "link",
+      "href": "/",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/"
+    },
+    {
+      "source": "/membership",
+      "kind": "link",
+      "href": "/institution",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institution"
+    },
+    {
+      "source": "/membership",
+      "kind": "link",
+      "href": "/research",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/research"
+    },
+    {
+      "source": "/membership",
+      "kind": "link",
+      "href": "/journal",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/journal"
+    },
+    {
+      "source": "/membership",
+      "kind": "link",
+      "href": "/learning",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/learning"
+    },
+    {
+      "source": "/membership",
+      "kind": "link",
+      "href": "/membership",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/membership"
+    },
+    {
+      "source": "/membership",
+      "kind": "link",
+      "href": "/announcements",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/announcements"
+    },
+    {
+      "source": "/membership",
+      "kind": "link",
+      "href": "/workspace",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/workspace"
+    },
+    {
+      "source": "/membership",
+      "kind": "link",
+      "href": "mailto:info@stanaic.org?subject=Individual%20membership%20inquiry",
+      "url": "mailto:info@stanaic.org?subject=Individual%20membership%20inquiry"
+    },
+    {
+      "source": "/membership",
+      "kind": "link",
+      "href": "mailto:info@stanaic.org?subject=Institutional%20membership%20inquiry",
+      "url": "mailto:info@stanaic.org?subject=Institutional%20membership%20inquiry"
+    },
+    {
+      "source": "/membership",
+      "kind": "link",
+      "href": "https://stanaic.org/?global-partners/",
+      "url": "https://stanaic.org/?global-partners/"
+    },
+    {
+      "source": "/membership",
+      "kind": "link",
+      "href": "/workspace?mode=demo&view=membership&role=admin",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/workspace?mode=demo&view=membership&role=admin"
+    },
+    {
+      "source": "/membership",
+      "kind": "link",
+      "href": "/demo",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/demo"
+    },
+    {
+      "source": "/membership",
+      "kind": "link",
+      "href": "/",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/"
+    },
+    {
+      "source": "/membership",
+      "kind": "link",
+      "href": "/institution",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institution"
+    },
+    {
+      "source": "/membership",
+      "kind": "link",
+      "href": "/research",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/research"
+    },
+    {
+      "source": "/membership",
+      "kind": "link",
+      "href": "/governance",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/governance"
+    },
+    {
+      "source": "/membership",
+      "kind": "link",
+      "href": "/partnerships",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/partnerships"
+    },
+    {
+      "source": "/membership",
+      "kind": "link",
+      "href": "/journal",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/journal"
+    },
+    {
+      "source": "/membership",
+      "kind": "link",
+      "href": "/membership",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/membership"
+    },
+    {
+      "source": "/membership",
+      "kind": "link",
+      "href": "/learning",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/learning"
+    },
+    {
+      "source": "/membership",
+      "kind": "link",
+      "href": "/verify",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/verify"
+    },
+    {
+      "source": "/membership",
+      "kind": "link",
+      "href": "https://learn.stanaic.com/",
+      "url": "https://learn.stanaic.com/"
+    },
+    {
+      "source": "/membership",
+      "kind": "link",
+      "href": "/demo",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/demo"
+    },
+    {
+      "source": "/membership",
+      "kind": "link",
+      "href": "mailto:info@stanaic.org",
+      "url": "mailto:info@stanaic.org"
+    },
+    {
+      "source": "/membership",
+      "kind": "link",
+      "href": "https://stanaic.org/",
+      "url": "https://stanaic.org/"
+    },
+    {
+      "source": "/membership",
+      "kind": "link",
+      "href": "/architecture",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/architecture"
+    },
+    {
+      "source": "/membership",
+      "kind": "link",
+      "href": "/workspace",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/workspace"
+    },
+    {
+      "source": "/membership",
+      "kind": "asset",
+      "href": "/institutional/assets/site.css",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institutional/assets/site.css"
+    },
+    {
+      "source": "/membership",
+      "kind": "asset",
+      "href": "/institutional/assets/extra.css",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institutional/assets/extra.css"
+    },
+    {
+      "source": "/membership",
+      "kind": "asset",
+      "href": "/institutional/assets/public.js",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institutional/assets/public.js"
+    },
+    {
+      "source": "/partnerships",
+      "kind": "link",
+      "href": "/verify",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/verify"
+    },
+    {
+      "source": "/partnerships",
+      "kind": "link",
+      "href": "/architecture",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/architecture"
+    },
+    {
+      "source": "/partnerships",
+      "kind": "link",
+      "href": "/",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/"
+    },
+    {
+      "source": "/partnerships",
+      "kind": "link",
+      "href": "/institution",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institution"
+    },
+    {
+      "source": "/partnerships",
+      "kind": "link",
+      "href": "/research",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/research"
+    },
+    {
+      "source": "/partnerships",
+      "kind": "link",
+      "href": "/journal",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/journal"
+    },
+    {
+      "source": "/partnerships",
+      "kind": "link",
+      "href": "/learning",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/learning"
+    },
+    {
+      "source": "/partnerships",
+      "kind": "link",
+      "href": "/membership",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/membership"
+    },
+    {
+      "source": "/partnerships",
+      "kind": "link",
+      "href": "/announcements",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/announcements"
+    },
+    {
+      "source": "/partnerships",
+      "kind": "link",
+      "href": "/workspace",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/workspace"
+    },
+    {
+      "source": "/partnerships",
+      "kind": "link",
+      "href": "https://stanaic.org/?university-cooperation/",
+      "url": "https://stanaic.org/?university-cooperation/"
+    },
+    {
+      "source": "/partnerships",
+      "kind": "link",
+      "href": "https://stanaic.org/?training-agent/",
+      "url": "https://stanaic.org/?training-agent/"
+    },
+    {
+      "source": "/partnerships",
+      "kind": "link",
+      "href": "https://stanaic.org/?enterprise-cooperation/",
+      "url": "https://stanaic.org/?enterprise-cooperation/"
+    },
+    {
+      "source": "/partnerships",
+      "kind": "link",
+      "href": "https://stanaic.org/?association-recognition/",
+      "url": "https://stanaic.org/?association-recognition/"
+    },
+    {
+      "source": "/partnerships",
+      "kind": "link",
+      "href": "https://stanaic.org/?apply-partner/",
+      "url": "https://stanaic.org/?apply-partner/"
+    },
+    {
+      "source": "/partnerships",
+      "kind": "link",
+      "href": "https://stanaic.org/?inquiry-services/",
+      "url": "https://stanaic.org/?inquiry-services/"
+    },
+    {
+      "source": "/partnerships",
+      "kind": "link",
+      "href": "https://stanaic.org/?society-publications/548.html",
+      "url": "https://stanaic.org/?society-publications/548.html"
+    },
+    {
+      "source": "/partnerships",
+      "kind": "link",
+      "href": "https://stanaic.org/?official-announcements/537.html",
+      "url": "https://stanaic.org/?official-announcements/537.html"
+    },
+    {
+      "source": "/partnerships",
+      "kind": "link",
+      "href": "https://stanaic.org/?news-events/",
+      "url": "https://stanaic.org/?news-events/"
+    },
+    {
+      "source": "/partnerships",
+      "kind": "link",
+      "href": "/",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/"
+    },
+    {
+      "source": "/partnerships",
+      "kind": "link",
+      "href": "/institution",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institution"
+    },
+    {
+      "source": "/partnerships",
+      "kind": "link",
+      "href": "/research",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/research"
+    },
+    {
+      "source": "/partnerships",
+      "kind": "link",
+      "href": "/governance",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/governance"
+    },
+    {
+      "source": "/partnerships",
+      "kind": "link",
+      "href": "/partnerships",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/partnerships"
+    },
+    {
+      "source": "/partnerships",
+      "kind": "link",
+      "href": "/journal",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/journal"
+    },
+    {
+      "source": "/partnerships",
+      "kind": "link",
+      "href": "/membership",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/membership"
+    },
+    {
+      "source": "/partnerships",
+      "kind": "link",
+      "href": "/learning",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/learning"
+    },
+    {
+      "source": "/partnerships",
+      "kind": "link",
+      "href": "/verify",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/verify"
+    },
+    {
+      "source": "/partnerships",
+      "kind": "link",
+      "href": "https://learn.stanaic.com/",
+      "url": "https://learn.stanaic.com/"
+    },
+    {
+      "source": "/partnerships",
+      "kind": "link",
+      "href": "/demo",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/demo"
+    },
+    {
+      "source": "/partnerships",
+      "kind": "link",
+      "href": "mailto:info@stanaic.org",
+      "url": "mailto:info@stanaic.org"
+    },
+    {
+      "source": "/partnerships",
+      "kind": "link",
+      "href": "https://stanaic.org/",
+      "url": "https://stanaic.org/"
+    },
+    {
+      "source": "/partnerships",
+      "kind": "link",
+      "href": "/architecture",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/architecture"
+    },
+    {
+      "source": "/partnerships",
+      "kind": "link",
+      "href": "/workspace",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/workspace"
+    },
+    {
+      "source": "/partnerships",
+      "kind": "asset",
+      "href": "/institutional/assets/site.css",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institutional/assets/site.css"
+    },
+    {
+      "source": "/partnerships",
+      "kind": "asset",
+      "href": "/institutional/assets/extra.css",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institutional/assets/extra.css"
+    },
+    {
+      "source": "/partnerships",
+      "kind": "asset",
+      "href": "/institutional/assets/public.js",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institutional/assets/public.js"
+    },
+    {
+      "source": "/research",
+      "kind": "link",
+      "href": "/verify",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/verify"
+    },
+    {
+      "source": "/research",
+      "kind": "link",
+      "href": "/architecture",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/architecture"
+    },
+    {
+      "source": "/research",
+      "kind": "link",
+      "href": "/",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/"
+    },
+    {
+      "source": "/research",
+      "kind": "link",
+      "href": "/institution",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institution"
+    },
+    {
+      "source": "/research",
+      "kind": "link",
+      "href": "/research",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/research"
+    },
+    {
+      "source": "/research",
+      "kind": "link",
+      "href": "/journal",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/journal"
+    },
+    {
+      "source": "/research",
+      "kind": "link",
+      "href": "/learning",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/learning"
+    },
+    {
+      "source": "/research",
+      "kind": "link",
+      "href": "/membership",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/membership"
+    },
+    {
+      "source": "/research",
+      "kind": "link",
+      "href": "/announcements",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/announcements"
+    },
+    {
+      "source": "/research",
+      "kind": "link",
+      "href": "/workspace",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/workspace"
+    },
+    {
+      "source": "/research",
+      "kind": "link",
+      "href": "https://stanaic.org/?white-papers/427.html",
+      "url": "https://stanaic.org/?white-papers/427.html"
+    },
+    {
+      "source": "/research",
+      "kind": "link",
+      "href": "https://stanaic.org/?white-papers/396.html",
+      "url": "https://stanaic.org/?white-papers/396.html"
+    },
+    {
+      "source": "/research",
+      "kind": "link",
+      "href": "https://stanaic.org/?white-papers/384.html",
+      "url": "https://stanaic.org/?white-papers/384.html"
+    },
+    {
+      "source": "/research",
+      "kind": "link",
+      "href": "https://stanaic.org/?white-papers/322.html",
+      "url": "https://stanaic.org/?white-papers/322.html"
+    },
+    {
+      "source": "/research",
+      "kind": "link",
+      "href": "https://stanaic.org/?white-papers/30.html",
+      "url": "https://stanaic.org/?white-papers/30.html"
+    },
+    {
+      "source": "/research",
+      "kind": "link",
+      "href": "https://stanaic.org/?industry-research-projects/238.html",
+      "url": "https://stanaic.org/?industry-research-projects/238.html"
+    },
+    {
+      "source": "/research",
+      "kind": "link",
+      "href": "https://stanaic.org/?industry-research-projects/224.html",
+      "url": "https://stanaic.org/?industry-research-projects/224.html"
+    },
+    {
+      "source": "/research",
+      "kind": "link",
+      "href": "https://stanaic.org/?accountability-oversight/",
+      "url": "https://stanaic.org/?accountability-oversight/"
+    },
+    {
+      "source": "/research",
+      "kind": "link",
+      "href": "https://stanaic.org/?risk-compliance/",
+      "url": "https://stanaic.org/?risk-compliance/"
+    },
+    {
+      "source": "/research",
+      "kind": "link",
+      "href": "https://stanaic.org/?governance-structure/",
+      "url": "https://stanaic.org/?governance-structure/"
+    },
+    {
+      "source": "/research",
+      "kind": "link",
+      "href": "https://stanaic.org/?official-announcements/542.html",
+      "url": "https://stanaic.org/?official-announcements/542.html"
+    },
+    {
+      "source": "/research",
+      "kind": "link",
+      "href": "https://stanaic.org/?official-announcements/537.html",
+      "url": "https://stanaic.org/?official-announcements/537.html"
+    },
+    {
+      "source": "/research",
+      "kind": "link",
+      "href": "/",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/"
+    },
+    {
+      "source": "/research",
+      "kind": "link",
+      "href": "/institution",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institution"
+    },
+    {
+      "source": "/research",
+      "kind": "link",
+      "href": "/research",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/research"
+    },
+    {
+      "source": "/research",
+      "kind": "link",
+      "href": "/governance",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/governance"
+    },
+    {
+      "source": "/research",
+      "kind": "link",
+      "href": "/partnerships",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/partnerships"
+    },
+    {
+      "source": "/research",
+      "kind": "link",
+      "href": "/journal",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/journal"
+    },
+    {
+      "source": "/research",
+      "kind": "link",
+      "href": "/membership",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/membership"
+    },
+    {
+      "source": "/research",
+      "kind": "link",
+      "href": "/learning",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/learning"
+    },
+    {
+      "source": "/research",
+      "kind": "link",
+      "href": "/verify",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/verify"
+    },
+    {
+      "source": "/research",
+      "kind": "link",
+      "href": "https://learn.stanaic.com/",
+      "url": "https://learn.stanaic.com/"
+    },
+    {
+      "source": "/research",
+      "kind": "link",
+      "href": "/demo",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/demo"
+    },
+    {
+      "source": "/research",
+      "kind": "link",
+      "href": "mailto:info@stanaic.org",
+      "url": "mailto:info@stanaic.org"
+    },
+    {
+      "source": "/research",
+      "kind": "link",
+      "href": "https://stanaic.org/",
+      "url": "https://stanaic.org/"
+    },
+    {
+      "source": "/research",
+      "kind": "link",
+      "href": "/architecture",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/architecture"
+    },
+    {
+      "source": "/research",
+      "kind": "link",
+      "href": "/workspace",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/workspace"
+    },
+    {
+      "source": "/research",
+      "kind": "asset",
+      "href": "/institutional/assets/site.css",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institutional/assets/site.css"
+    },
+    {
+      "source": "/research",
+      "kind": "asset",
+      "href": "/institutional/assets/extra.css",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institutional/assets/extra.css"
+    },
+    {
+      "source": "/research",
+      "kind": "asset",
+      "href": "/institutional/assets/public.js",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institutional/assets/public.js"
+    }
+  ],
+  "app_literal_links": [
+    {
+      "source": "app/page.tsx",
+      "href": "/institution",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institution"
+    },
+    {
+      "source": "app/portal.tsx",
+      "href": "/",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/"
+    },
+    {
+      "source": "app/portal.tsx",
+      "href": "/demo",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/demo"
+    },
+    {
+      "source": "app/portal.tsx",
+      "href": "/admin",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/admin"
+    },
+    {
+      "source": "app/portal.tsx",
+      "href": "/join",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/join"
+    },
+    {
+      "source": "app/portal.tsx",
+      "href": "https://stanaic.org/",
+      "url": "https://stanaic.org/"
+    },
+    {
+      "source": "app/portal.tsx",
+      "href": "/demo",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/demo"
+    },
+    {
+      "source": "app/demo/ui.tsx",
+      "href": "/",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/"
+    },
+    {
+      "source": "app/demo/ui.tsx",
+      "href": "/sign-in",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/sign-in"
+    },
+    {
+      "source": "app/demo/ui.tsx",
+      "href": "/demo/admin",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/demo/admin"
+    },
+    {
+      "source": "app/demo/ui.tsx",
+      "href": "/demo/member",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/demo/member"
+    },
+    {
+      "source": "app/demo/ui.tsx",
+      "href": "/demo",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/demo"
+    },
+    {
+      "source": "app/assistant/assistant.tsx",
+      "href": "/",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/"
+    },
+    {
+      "source": "app/assistant/assistant.tsx",
+      "href": "/workspace",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/workspace"
+    },
+    {
+      "source": "app/assistant/assistant.tsx",
+      "href": "/announcements",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/announcements"
+    },
+    {
+      "source": "app/assistant/assistant.tsx",
+      "href": "/sign-in",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/sign-in"
+    },
+    {
+      "source": "app/assistant/assistant.tsx",
+      "href": "/architecture",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/architecture"
+    },
+    {
+      "source": "app/announcements/announcements.tsx",
+      "href": "/",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/"
+    },
+    {
+      "source": "app/announcements/announcements.tsx",
+      "href": "/",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/"
+    },
+    {
+      "source": "app/announcements/announcements.tsx",
+      "href": "/admin",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/admin"
+    },
+    {
+      "source": "app/announcements/announcements.tsx",
+      "href": "/workspace",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/workspace"
+    },
+    {
+      "source": "app/announcements/announcements.tsx",
+      "href": "/sign-in",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/sign-in"
+    },
+    {
+      "source": "app/sign-in/page.tsx",
+      "href": "/",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/"
+    },
+    {
+      "source": "app/sign-in/page.tsx",
+      "href": "https://stanaic.org/",
+      "url": "https://stanaic.org/"
+    },
+    {
+      "source": "app/workspace/workspace.tsx",
+      "href": "/",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/"
+    },
+    {
+      "source": "app/workspace/workspace.tsx",
+      "href": "/announcements",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/announcements"
+    },
+    {
+      "source": "app/workspace/workspace.tsx",
+      "href": "/assistant",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/assistant"
+    },
+    {
+      "source": "app/workspace/workspace.tsx",
+      "href": "/admin",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/admin"
+    },
+    {
+      "source": "app/workspace/workspace.tsx",
+      "href": "/announcements",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/announcements"
+    },
+    {
+      "source": "app/workspace/workspace.tsx",
+      "href": "/research",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/research"
+    },
+    {
+      "source": "app/workspace/workspace.tsx",
+      "href": "/sign-in",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/sign-in"
+    },
+    {
+      "source": "app/workspace/workspace.tsx",
+      "href": "/admin",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/admin"
+    },
+    {
+      "source": "app/workspace/workspace.tsx",
+      "href": "/announcements",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/announcements"
+    },
+    {
+      "source": "app/workspace/workspace.tsx",
+      "href": "#workspace-content",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app#workspace-content"
+    },
+    {
+      "source": "app/workspace/workspace.tsx",
+      "href": "/",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/"
+    },
+    {
+      "source": "app/workspace/workspace.tsx",
+      "href": "/announcements",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/announcements"
+    },
+    {
+      "source": "app/workspace/workspace.tsx",
+      "href": "/assistant",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/assistant"
+    },
+    {
+      "source": "app/workspace/workspace.tsx",
+      "href": "/",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/"
+    },
+    {
+      "source": "app/workspace/workspace.tsx",
+      "href": "/workspace?mode=live",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/workspace?mode=live"
+    },
+    {
+      "source": "app/workspace/workspace.tsx",
+      "href": "/sign-in",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/sign-in"
+    },
+    {
+      "source": "app/workspace/workspace.tsx",
+      "href": "/sign-in",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/sign-in"
+    },
+    {
+      "source": "app/publications/[id]/page.tsx",
+      "href": "/journal",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/journal"
+    },
+    {
+      "source": "app/welcome/[id]/page.tsx",
+      "href": "/",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/"
+    },
+    {
+      "source": "app/verify/[id]/verify.tsx",
+      "href": "/",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/"
+    },
+    {
+      "source": "app/verify/[id]/verify.tsx",
+      "href": "/workspace?view=credentials",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/workspace?view=credentials"
+    },
+    {
+      "source": "app/verify/[id]/verify.tsx",
+      "href": "/workspace?view=credentials",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/workspace?view=credentials"
+    }
+  ],
+  "anchor_checks": [
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "#audit",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/architecture#audit",
+      "anchor_exists": true
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "#topology",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/architecture#topology",
+      "anchor_exists": true
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "#roles",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/architecture#roles",
+      "anchor_exists": true
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "#flows",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/architecture#flows",
+      "anchor_exists": true
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "#data",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/architecture#data",
+      "anchor_exists": true
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "#operations",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/architecture#operations",
+      "anchor_exists": true
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "#roadmap",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/architecture#roadmap",
+      "anchor_exists": true
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "#decisions",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/architecture#decisions",
+      "anchor_exists": true
+    },
+    {
+      "source": "/architecture",
+      "kind": "link",
+      "href": "#sources",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/architecture#sources",
+      "anchor_exists": true
+    },
+    {
+      "source": "/journal",
+      "kind": "link",
+      "href": "/architecture#flows",
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/architecture#flows",
+      "anchor_exists": true
+    }
+  ],
+  "http_checks": [
+    {
+      "url": "https://docs.stripe.com/webhooks",
+      "status": 200,
+      "final_url": "https://docs.stripe.com/webhooks",
+      "result": "passed",
+      "seconds": 7.16
+    },
+    {
+      "url": "https://github.com/kaulastudies/ai-evaluation-lab",
+      "status": 200,
+      "final_url": "https://github.com/kaulastudies/ai-evaluation-lab",
+      "result": "passed",
+      "seconds": 6.8
+    },
+    {
+      "url": "https://github.com/kaulastudies/stanaic-onboarding",
+      "status": 200,
+      "final_url": "https://github.com/kaulastudies/stanaic-onboarding",
+      "result": "passed",
+      "seconds": 6.91
+    },
+    {
+      "url": "https://github.com/kaulastudies/stanaic-onboarding/blob/main/docs/PLATFORM-API.md",
+      "status": 200,
+      "final_url": "https://github.com/kaulastudies/stanaic-onboarding/blob/main/docs/PLATFORM-API.md",
+      "result": "passed",
+      "seconds": 6.56
+    },
+    {
+      "url": "https://github.com/pkp/pkp-docs/blob/main/learning-ojs/editorial-workflow/en/review.md",
+      "status": 200,
+      "final_url": "https://github.com/pkp/pkp-docs/blob/main/learning-ojs/editorial-workflow/en/review.md",
+      "result": "passed",
+      "seconds": 5.67
+    },
+    {
+      "url": "https://learn.stanaic.com/",
+      "status": 200,
+      "final_url": "https://learn.stanaic.com/",
+      "result": "passed",
+      "seconds": 7.73
+    },
+    {
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app",
+      "result": "passed",
+      "seconds": 4.7
+    },
+    {
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/",
+      "result": "passed",
+      "seconds": 4.94
+    },
+    {
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/admin",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/admin",
+      "result": "passed",
+      "seconds": 7.86
+    },
+    {
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/announcements",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/announcements",
+      "result": "passed",
+      "seconds": 7.61
+    },
+    {
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/architecture",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/architecture",
+      "result": "passed",
+      "seconds": 6.82
+    },
+    {
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/assistant",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/assistant",
+      "result": "passed",
+      "seconds": 6.01
+    },
+    {
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/demo",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/demo",
+      "result": "passed",
+      "seconds": 5.73
+    },
+    {
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/demo/admin",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/demo/admin",
+      "result": "passed",
+      "seconds": 5.66
+    },
+    {
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/demo/member",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/demo/member",
+      "result": "passed",
+      "seconds": 5.33
+    },
+    {
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/governance",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/governance",
+      "result": "passed",
+      "seconds": 4.76
+    },
+    {
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institution",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institution",
+      "result": "passed",
+      "seconds": 8.14
+    },
+    {
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institutional/architecture.md",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institutional/architecture.md",
+      "result": "passed",
+      "seconds": 8.23
+    },
+    {
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institutional/assets/extra.css",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institutional/assets/extra.css",
+      "result": "passed",
+      "seconds": 8.19
+    },
+    {
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institutional/assets/public.js",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institutional/assets/public.js",
+      "result": "passed",
+      "seconds": 8.14
+    },
+    {
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institutional/assets/site.css",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/institutional/assets/site.css",
+      "result": "passed",
+      "seconds": 8.16
+    },
+    {
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/join",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/join",
+      "result": "passed",
+      "seconds": 8.14
+    },
+    {
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/journal",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/journal",
+      "result": "passed",
+      "seconds": 8.11
+    },
+    {
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/learning",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/learning",
+      "result": "passed",
+      "seconds": 8.06
+    },
+    {
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/membership",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/membership",
+      "result": "passed",
+      "seconds": 7.77
+    },
+    {
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/partnerships",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/partnerships",
+      "result": "passed",
+      "seconds": 7.76
+    },
+    {
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/research",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/research",
+      "result": "passed",
+      "seconds": 7.8
+    },
+    {
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/sign-in",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/sign-in",
+      "result": "passed",
+      "seconds": 7.8
+    },
+    {
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/verify",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/verify",
+      "result": "passed",
+      "seconds": 7.72
+    },
+    {
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/workspace",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/workspace",
+      "result": "passed",
+      "seconds": 7.67
+    },
+    {
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/workspace?mode=demo&view=learning&role=learner",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/workspace?mode=demo&view=learning&role=learner",
+      "result": "passed",
+      "seconds": 7.69
+    },
+    {
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/workspace?mode=demo&view=membership&role=admin",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/workspace?mode=demo&view=membership&role=admin",
+      "result": "passed",
+      "seconds": 7.67
+    },
+    {
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/workspace?mode=demo&view=publishing&role=author",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/workspace?mode=demo&view=publishing&role=author",
+      "result": "passed",
+      "seconds": 7.62
+    },
+    {
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/workspace?mode=live",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/workspace?mode=live",
+      "result": "passed",
+      "seconds": 7.66
+    },
+    {
+      "url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/workspace?view=credentials",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app/workspace?view=credentials",
+      "result": "passed",
+      "seconds": 7.61
+    },
+    {
+      "url": "https://stanaic.org/",
+      "status": 200,
+      "final_url": "https://stanaic.org/",
+      "result": "passed",
+      "seconds": 7.03,
+      "initial_status": 504,
+      "retried": true
+    },
+    {
+      "url": "https://stanaic.org/?accountability-oversight/",
+      "status": 200,
+      "final_url": "https://stanaic.org/?accountability-oversight/",
+      "result": "passed",
+      "seconds": 7.02,
+      "initial_status": 504,
+      "retried": true
+    },
+    {
+      "url": "https://stanaic.org/?ai-certifications/",
+      "status": 504,
+      "final_url": "https://stanaic.org/?ai-certifications/",
+      "result": "unverified",
+      "seconds": 7.0,
+      "initial_status": 504,
+      "retried": true
+    },
+    {
+      "url": "https://stanaic.org/?apply-partner/",
+      "status": 200,
+      "final_url": "https://stanaic.org/?apply-partner/",
+      "result": "passed",
+      "seconds": 7.13
+    },
+    {
+      "url": "https://stanaic.org/?association-recognition/",
+      "status": 504,
+      "final_url": "https://stanaic.org/?association-recognition/",
+      "result": "unverified",
+      "seconds": 6.93,
+      "initial_status": 504,
+      "retried": true
+    },
+    {
+      "url": "https://stanaic.org/?certification-rules/",
+      "status": 200,
+      "final_url": "https://stanaic.org/?certification-rules/",
+      "result": "passed",
+      "seconds": 9.56
+    },
+    {
+      "url": "https://stanaic.org/?compliance-procedures/",
+      "status": 200,
+      "final_url": "https://stanaic.org/?compliance-procedures/",
+      "result": "passed",
+      "seconds": 7.9
+    },
+    {
+      "url": "https://stanaic.org/?enterprise-cooperation/",
+      "status": 200,
+      "final_url": "https://stanaic.org/?enterprise-cooperation/",
+      "result": "passed",
+      "seconds": 10.03
+    },
+    {
+      "url": "https://stanaic.org/?ethical-principles/",
+      "status": 504,
+      "final_url": "https://stanaic.org/?ethical-principles/",
+      "result": "unverified",
+      "seconds": 7.92,
+      "initial_status": 504,
+      "retried": true
+    },
+    {
+      "url": "https://stanaic.org/?global-partners/",
+      "status": 504,
+      "final_url": "https://stanaic.org/?global-partners/",
+      "result": "unverified",
+      "seconds": 7.48,
+      "initial_status": 504,
+      "retried": true
+    },
+    {
+      "url": "https://stanaic.org/?governance-structure/",
+      "status": 200,
+      "final_url": "https://stanaic.org/?governance-structure/",
+      "result": "passed",
+      "seconds": 7.08,
+      "initial_status": 504,
+      "retried": true
+    },
+    {
+      "url": "https://stanaic.org/?industry-research-projects/224.html",
+      "status": 200,
+      "final_url": "https://stanaic.org/?industry-research-projects/224.html",
+      "result": "passed",
+      "seconds": 7.07,
+      "initial_status": 504,
+      "retried": true
+    },
+    {
+      "url": "https://stanaic.org/?industry-research-projects/238.html",
+      "status": 504,
+      "final_url": "https://stanaic.org/?industry-research-projects/238.html",
+      "result": "unverified",
+      "seconds": 7.04,
+      "initial_status": 504,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "retried": true
+    },
+    {
+      "url": "https://stanaic.org/?inquiry-services/",
+      "status": 504,
+      "final_url": "https://stanaic.org/?inquiry-services/",
+      "result": "unverified",
+      "seconds": 7.37,
+      "initial_status": 504,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "retried": true
+    },
+    {
+      "url": "https://stanaic.org/?news-events/",
+      "status": 504,
+      "final_url": "https://stanaic.org/?news-events/",
+      "result": "unverified",
+      "seconds": 7.32,
+      "initial_status": 504,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "retried": true
+    },
+    {
+      "url": "https://stanaic.org/?official-announcements/537.html",
+      "status": 504,
+      "final_url": "https://stanaic.org/?official-announcements/537.html",
+      "result": "unverified",
+      "seconds": 7.33,
+      "initial_status": 504,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "retried": true
+    },
+    {
+      "url": "https://stanaic.org/?official-announcements/542.html",
+      "status": 504,
+      "final_url": "https://stanaic.org/?official-announcements/542.html",
+      "result": "unverified",
+      "seconds": 7.31,
+      "initial_status": 504,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "retried": true
+    },
+    {
+      "url": "https://stanaic.org/?preamble-mission/",
+      "status": 200,
+      "final_url": "https://stanaic.org/?preamble-mission/",
+      "result": "passed",
+      "seconds": 7.55
+    },
+    {
+      "url": "https://stanaic.org/?research-reports/",
+      "status": 200,
+      "final_url": "https://stanaic.org/?research-reports/",
+      "result": "passed",
+      "seconds": 7.42
+    },
+    {
+      "url": "https://stanaic.org/?resources-tools/",
+      "status": 504,
+      "final_url": "https://stanaic.org/?resources-tools/",
+      "result": "unverified",
+      "seconds": 5.49,
+      "initial_status": 504,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "retried": true
+    },
+    {
+      "url": "https://stanaic.org/?risk-compliance/",
+      "status": 504,
+      "final_url": "https://stanaic.org/?risk-compliance/",
+      "result": "unverified",
+      "seconds": 4.96,
+      "initial_status": 504,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "retried": true
+    },
+    {
+      "url": "https://stanaic.org/?scope-applicability/",
+      "status": 200,
+      "final_url": "https://stanaic.org/?scope-applicability/",
+      "result": "passed",
+      "seconds": 7.14
+    },
+    {
+      "url": "https://stanaic.org/?society-publications/548.html",
+      "status": 504,
+      "final_url": "https://stanaic.org/?society-publications/548.html",
+      "result": "unverified",
+      "seconds": 6.8,
+      "initial_status": 504,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "retried": true
+    },
+    {
+      "url": "https://stanaic.org/?training-agent/",
+      "status": 504,
+      "final_url": "https://stanaic.org/?training-agent/",
+      "result": "unverified",
+      "seconds": 6.77,
+      "initial_status": 504,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "retried": true
+    },
+    {
+      "url": "https://stanaic.org/?training-agent/59.html",
+      "status": 504,
+      "final_url": "https://stanaic.org/?training-agent/59.html",
+      "result": "unverified",
+      "seconds": 6.81,
+      "initial_status": 504,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "retried": true
+    },
+    {
+      "url": "https://stanaic.org/?university-cooperation/",
+      "status": 200,
+      "final_url": "https://stanaic.org/?university-cooperation/",
+      "result": "passed",
+      "seconds": 7.0
+    },
+    {
+      "url": "https://stanaic.org/?white-papers/30.html",
+      "status": 504,
+      "final_url": "https://stanaic.org/?white-papers/30.html",
+      "result": "unverified",
+      "seconds": 6.77,
+      "initial_status": 504,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "retried": true
+    },
+    {
+      "url": "https://stanaic.org/?white-papers/322.html",
+      "status": 504,
+      "final_url": "https://stanaic.org/?white-papers/322.html",
+      "result": "unverified",
+      "seconds": 6.47,
+      "initial_status": 504,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "retried": true
+    },
+    {
+      "url": "https://stanaic.org/?white-papers/384.html",
+      "status": 200,
+      "final_url": "https://stanaic.org/?white-papers/384.html",
+      "result": "passed",
+      "seconds": 6.6
+    },
+    {
+      "url": "https://stanaic.org/?white-papers/396.html",
+      "status": 200,
+      "final_url": "https://stanaic.org/?white-papers/396.html",
+      "result": "passed",
+      "seconds": 8.48
+    },
+    {
+      "url": "https://stanaic.org/?white-papers/427.html",
+      "status": 200,
+      "final_url": "https://stanaic.org/?white-papers/427.html",
+      "result": "passed",
+      "seconds": 8.46
+    },
+    {
+      "url": "https://stanaic.org/?working-regulations/intellectual-property/",
+      "status": 504,
+      "final_url": "https://stanaic.org/?working-regulations/intellectual-property/",
+      "result": "unverified",
+      "seconds": 8.15,
+      "initial_status": 504,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "retried": true
+    },
+    {
+      "url": "https://www.1edtech.org/standards/open-badges",
+      "status": 200,
+      "final_url": "https://www.1edtech.org/standards/open-badges",
+      "result": "passed",
+      "seconds": 6.66
+    },
+    {
+      "url": "https://www.linkedin.com/in/guomingxu/",
+      "status": 999,
+      "final_url": "https://www.linkedin.com/in/guomingxu/",
+      "result": "blocked",
+      "seconds": 6.65
+    }
+  ],
+  "limitations": [
+    "HTTP checks do not verify interactive outcomes.",
+    "App links are literal href strings only; generated identifiers and conditional links require workflow coverage.",
+    "External 401/403/429 responses are blocked, not proof that the destination is broken.",
+    "mailto links are inspected but not sent.",
+    "Transient external 502/503/504 timeouts are retried once and classified unverified if repeated; they are not established broken links."
+  ],
+  "css_asset_checks": [
+    {
+      "source": "public/institutional/assets/site.css",
+      "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Caslon+Display&family=Manrope:wght@400;500;600;700;800&display=swap",
+      "status": 200,
+      "result": "passed",
+      "font_binary_urls": [
+        "https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxhTg.ttf",
+        "https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAkJxhTg.ttf",
+        "https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAfJthTg.ttf",
+        "https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwARZthTg.ttf",
+        "https://fonts.gstatic.com/s/librecaslondisplay/v18/TuGOUUFxWphYQ6YI6q9Xp61FQzxDRKmzr2lR.ttf",
+        "https://fonts.gstatic.com/s/manrope/v23/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk79FO_F.ttf",
+        "https://fonts.gstatic.com/s/manrope/v23/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk7PFO_F.ttf",
+        "https://fonts.gstatic.com/s/manrope/v23/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk4jE-_F.ttf",
+        "https://fonts.gstatic.com/s/manrope/v23/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk4aE-_F.ttf",
+        "https://fonts.gstatic.com/s/manrope/v23/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk59E-_F.ttf"
+      ],
+      "font_binary_checks": [
+        {
+          "url": "https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxhTg.ttf",
+          "result": "unverified",
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+        },
+        {
+          "url": "https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAkJxhTg.ttf",
+          "result": "unverified",
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+        },
+        {
+          "url": "https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAfJthTg.ttf",
+          "result": "unverified",
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+        },
+        {
+          "url": "https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwARZthTg.ttf",
+          "result": "unverified",
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+        },
+        {
+          "url": "https://fonts.gstatic.com/s/librecaslondisplay/v18/TuGOUUFxWphYQ6YI6q9Xp61FQzxDRKmzr2lR.ttf",
+          "result": "unverified",
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+        },
+        {
+          "url": "https://fonts.gstatic.com/s/manrope/v23/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk79FO_F.ttf",
+          "result": "unverified",
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+        },
+        {
+          "url": "https://fonts.gstatic.com/s/manrope/v23/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk7PFO_F.ttf",
+          "result": "unverified",
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+        },
+        {
+          "url": "https://fonts.gstatic.com/s/manrope/v23/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk4jE-_F.ttf",
+          "result": "unverified",
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+        },
+        {
+          "url": "https://fonts.gstatic.com/s/manrope/v23/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk4aE-_F.ttf",
+          "result": "unverified",
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+        },
+        {
+          "url": "https://fonts.gstatic.com/s/manrope/v23/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk59E-_F.ttf",
+          "result": "unverified",
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "base": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app",
+  "timestamp": "2026-10-31T17:28:04Z",
+  "tests": [
+    {
+      "test": "Create reset regression sandbox",
+      "method": "POST",
+      "path": "/api/platform/demo/start",
+      "status": 201,
+      "expected": 201,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Switch role author",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Submit reset regression manuscript",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Fill tiny attachment quota 1",
+      "method": "POST",
+      "path": "/api/platform/files/upload?mode=demo",
+      "status": 201,
+      "expected": 201,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Fill tiny attachment quota 2",
+      "method": "POST",
+      "path": "/api/platform/files/upload?mode=demo",
+      "status": 201,
+      "expected": 201,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Fill tiny attachment quota 3",
+      "method": "POST",
+      "path": "/api/platform/files/upload?mode=demo",
+      "status": 201,
+      "expected": 201,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Fill tiny attachment quota 4",
+      "method": "POST",
+      "path": "/api/platform/files/upload?mode=demo",
+      "status": 201,
+      "expected": 201,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Fill tiny attachment quota 5",
+      "method": "POST",
+      "path": "/api/platform/files/upload?mode=demo",
+      "status": 201,
+      "expected": 201,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Fill tiny attachment quota 6",
+      "method": "POST",
+      "path": "/api/platform/files/upload?mode=demo",
+      "status": 201,
+      "expected": 201,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Fill tiny attachment quota 7",
+      "method": "POST",
+      "path": "/api/platform/files/upload?mode=demo",
+      "status": 201,
+      "expected": 201,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Fill tiny attachment quota 8",
+      "method": "POST",
+      "path": "/api/platform/files/upload?mode=demo",
+      "status": 201,
+      "expected": 201,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Fill tiny attachment quota 9",
+      "method": "POST",
+      "path": "/api/platform/files/upload?mode=demo",
+      "status": 201,
+      "expected": 201,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Fill tiny attachment quota 10",
+      "method": "POST",
+      "path": "/api/platform/files/upload?mode=demo",
+      "status": 201,
+      "expected": 201,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Fill tiny attachment quota 11",
+      "method": "POST",
+      "path": "/api/platform/files/upload?mode=demo",
+      "status": 201,
+      "expected": 201,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Fill tiny attachment quota 12",
+      "method": "POST",
+      "path": "/api/platform/files/upload?mode=demo",
+      "status": 201,
+      "expected": 201,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Fill tiny attachment quota 13",
+      "method": "POST",
+      "path": "/api/platform/files/upload?mode=demo",
+      "status": 201,
+      "expected": 201,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Fill tiny attachment quota 14",
+      "method": "POST",
+      "path": "/api/platform/files/upload?mode=demo",
+      "status": 201,
+      "expected": 201,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Fill tiny attachment quota 15",
+      "method": "POST",
+      "path": "/api/platform/files/upload?mode=demo",
+      "status": 201,
+      "expected": 201,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Fill tiny attachment quota 16",
+      "method": "POST",
+      "path": "/api/platform/files/upload?mode=demo",
+      "status": 201,
+      "expected": 201,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Fill tiny attachment quota 17",
+      "method": "POST",
+      "path": "/api/platform/files/upload?mode=demo",
+      "status": 201,
+      "expected": 201,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Fill tiny attachment quota 18",
+      "method": "POST",
+      "path": "/api/platform/files/upload?mode=demo",
+      "status": 201,
+      "expected": 201,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Fill tiny attachment quota 19",
+      "method": "POST",
+      "path": "/api/platform/files/upload?mode=demo",
+      "status": 201,
+      "expected": 201,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Fill tiny attachment quota 20",
+      "method": "POST",
+      "path": "/api/platform/files/upload?mode=demo",
+      "status": 201,
+      "expected": 201,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Fill tiny attachment quota 21",
+      "method": "POST",
+      "path": "/api/platform/files/upload?mode=demo",
+      "status": 201,
+      "expected": 201,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Fill tiny attachment quota 22",
+      "method": "POST",
+      "path": "/api/platform/files/upload?mode=demo",
+      "status": 201,
+      "expected": 201,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Fill tiny attachment quota 23",
+      "method": "POST",
+      "path": "/api/platform/files/upload?mode=demo",
+      "status": 201,
+      "expected": 201,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Fill tiny attachment quota 24",
+      "method": "POST",
+      "path": "/api/platform/files/upload?mode=demo",
+      "status": 201,
+      "expected": 201,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Fill tiny attachment quota 25",
+      "method": "POST",
+      "path": "/api/platform/files/upload?mode=demo",
+      "status": 201,
+      "expected": 201,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Fill tiny attachment quota 26",
+      "method": "POST",
+      "path": "/api/platform/files/upload?mode=demo",
+      "status": 201,
+      "expected": 201,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Fill tiny attachment quota 27",
+      "method": "POST",
+      "path": "/api/platform/files/upload?mode=demo",
+      "status": 201,
+      "expected": 201,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Fill tiny attachment quota 28",
+      "method": "POST",
+      "path": "/api/platform/files/upload?mode=demo",
+      "status": 201,
+      "expected": 201,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Fill tiny attachment quota 29",
+      "method": "POST",
+      "path": "/api/platform/files/upload?mode=demo",
+      "status": 201,
+      "expected": 201,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Fill tiny attachment quota 30",
+      "method": "POST",
+      "path": "/api/platform/files/upload?mode=demo",
+      "status": 201,
+      "expected": 201,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Reset own sandbox",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Submit manuscript after reset",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Attachment capacity should recover after reset",
+      "method": "POST",
+      "path": "/api/platform/files/upload?mode=demo",
+      "status": 201,
+      "expected": 201,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Reset regression records",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    }
+  ]
+}
