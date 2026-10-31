@@ -2,7 +2,7 @@
 
 [Open the application](https://stanaic-onboarding.vercel.app) · [Operations sandbox](https://stanaic-onboarding.vercel.app/workspace) · [Member onboarding](https://stanaic-onboarding.vercel.app/demo) · [Announcement studio](https://stanaic-onboarding.vercel.app/announcements?demo=1)
 
-An open-source contribution by Rama Chandra M. GitHub hosts the source; Vercel runs the Next.js application and APIs; PostgreSQL/Neon stores live and isolated demonstration records. The official stanaic.org website and partner learn.stanaic.com remain independent.
+A STANAIC workflow demonstration prepared for review and feedback. GitHub hosts the source; Vercel runs the Next.js application and APIs; PostgreSQL/Neon stores live and isolated demonstration records. The official stanaic.org website and partner learn.stanaic.com remain independent.
 
 ## Implemented flows
 

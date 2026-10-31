@@ -1,5 +1,5 @@
 # STANAIC institutional platform — technical architecture
-Prepared 31 October 2026 · proposal and interactive prototype · Rama Chandra M
+Prepared 31 October 2026 · workflow demonstration for feedback
 
 ## Decision brief
 Build one coherent institutional front door and a permissioned operations workspace. Preserve the existing onboarding application and the partner learning platform; integrate through versioned contracts after access and ownership are confirmed. Start with a modular monolith, a relational database, durable background work and managed infrastructure. Separate software permissions, membership designations and operational assignments.
