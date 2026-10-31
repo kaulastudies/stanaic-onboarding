@@ -11,7 +11,7 @@ An open-source contribution by Rama Chandra M. GitHub hosts the source; Vercel r
 - Server-owned operational roles, per-record permissions, isolated opaque-cookie demo workspaces, and verified live learner accounts.
 - Original course authoring, immutable enrolled versions, entitlement-protected lessons, server grading, independent assessor review, completion-credential registry and revocation. Public holder name is withheld unless the learner opts in.
 - Separate order/finance workflow, hosted Stripe Checkout, raw-body signed payment reconciliation, duplicate protection, safe expired-checkout renewal, approved refunds and signed refund confirmation.
-- Anonymised text-manuscript submission, reviewer assignment, multiple independent reviews, revisions, editorial decisions, author proof/licence approval, and public released articles.
+- Anonymised text-manuscript submission with private PDF/text attachments, reviewer assignment, multiple independent reviews, revisions, editorial decisions, author proof/licence approval, and public released articles. Attachments are versioned private downloads with server-enforced author/editor/assigned-reviewer access.
 - Branded 1200×627 PNG member-announcement editor, photo upload, reusable corporate/personal copy, member-specific approval, separately attested publicity consent, public announcement package and LinkedIn Images/Posts API adapter. Stale membership details block publication; duplicate/uncertain requests cannot silently post twice.
 - Public-source knowledge guide and optional staff-only, consented LLM assistance through the AI SDK and AI Gateway. No private records are used for training or model context.
 
@@ -46,7 +46,7 @@ Existing demo credentials remain intentionally public and only access isolated o
 | Onboarding emails | Protected preview inbox | Verified sender and Resend credentials; provider acceptance is not inbox delivery |
 | Paid learning and refunds | Isolated simulations; provider adapters tested with mocks | Institutional merchant keys and webhook registration; never mark paid from a browser redirect |
 | Credential registry | Sample issue/verify/revoke | Independent server signing key and approved programme policy; HMAC validation is issuer-server verification, not an externally certified signature |
-| Journal publication | Complete text workflow in sandbox | Approved licence/quorum; file uploads, archival preservation, DOI/ISSN registration remain outside this initial release |
+| Journal publication | Complete text workflow in sandbox | Approved licence/quorum; private PDF/text attachments supported; archival preservation and DOI/ISSN registration remain external setup |
 | LinkedIn images/text | PNG download, copy and approved URL sharing | GuoMing/Page OAuth authorisation, eligible API permissions and verified person mention URN; a share URL cannot auto-attach an image or tag a person |
 | LLM generation | Public-source retrieval guide | Explicit enablement, a verified current model ID and gateway authentication/budget; no model training is claimed |
 
@@ -56,11 +56,13 @@ No provider credentials are stored in GitHub. The app fails closed when required
 
 The existing onboarding `invitations` table remains the canonical member source. The operations platform reads approved references; it does not invent live appointments. The deployment owner grants operational assignments separately. Live journal decisions require at least two independent reports (or a higher configured quorum); the author approves proofs before release. Payment does not confer a credential or advisory role.
 
-This initial operational release uses bounded transactional JSONB state with row locking: 1.5 MB per workspace, up to 500 orders and 200 manuscripts, bounded audit and notification history. Normalised archival tables, document uploads, partner-LMS API access and a scheduled notification-delivery worker are future work. In-app notifications are durable records; they are not a claim of external delivery. Keep backups, configure restore tests, assign maintainers and review access before expanding beyond an initial cohort.
+This initial operational release uses bounded transactional JSONB state with row locking: 1.5 MB per workspace, up to 500 orders and 200 manuscripts, bounded audit and notification history. Normalised archival tables and partner-LMS API access remain future work. Private manuscript attachments and a notification processing worker are implemented. Staff can process previews or configured provider delivery; the authenticated cron callback still requires its own secret and an approved schedule. Provider acceptance is not proof of inbox delivery. Keep backups, configure restore tests, assign maintainers and review access before expanding beyond an initial cohort.
 
 ## Technical documentation
 
 - [Platform APIs, roles and state transitions](docs/PLATFORM-API.md)
+- [Private manuscript files](docs/MANUSCRIPT-FILES.md)
+- [Notification processing](docs/NOTIFICATIONS.md)
 - [Membership corrections](docs/MEMBERSHIP-FIXES.md)
 - [Payment setup and reconciliation](docs/PAYMENTS.md)
 - [LinkedIn permissions and publication workflow](docs/LINKEDIN.md)
