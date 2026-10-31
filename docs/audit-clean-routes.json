@@ -1,0 +1,7 @@
+{
+  "base": "https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app",
+  "status": "blocked",
+  "tests": [],
+  "passed": 0,
+  "error": "The command was interrupted by the tool with: network approval was cancelled before a decision was returned. No per-case output was produced; no redirect cases are claimed passed by this interrupted run."
+}

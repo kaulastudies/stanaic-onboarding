@@ -55,3 +55,13 @@ Run from the repository root with Python 3 and HTTPS network access:
 - `python scripts/audit-reset-attachments.py`
 
 Each script creates its own sandbox and emits a JSON ledger without session cookies or secrets. The HTTP client uses the configured `HTTPS_PROXY` and persistent connections. The reset regression intentionally fills only its own 30-file quota with tiny synthetic text. Do not run these against a different environment without checking its isolation semantics.
+
+## Post-fix preview verification
+
+Preview: https://stanaic-onboarding-anjcbfzjl-kaulastudies-projects.vercel.app (commit `5c5eed6`). The attachment reset regression was rerun against this deployment in a new isolated sandbox. **37/37 checks passed.** After uploading 30 tiny text attachments, resetting the sandbox and submitting a new manuscript, its first attachment returned **201**, resolving the baseline **413** failure. Evidence is preserved separately in `audit-reset-attachments-postfix.json`; the baseline failure ledger remains unchanged.
+
+The broader platform workflow suite also passed **104/104** checks against this same preview, including learning, credentials, manuscript revision/review/proof, paid simulations/refunds, memberships, resources and notification access controls. See `audit-workflows-postfix.json`. Combined post-fix preview checks: **141/141 passed**. Original onboarding and additional options baseline checks were not repeated on this preview; their unchanged baseline evidence is retained separately.
+
+## Final production smoke
+
+Following production deployment of main commit `79f0d51822354b81f4150ce7b3915b52cb9e4c06`, the reset attachment regression was repeated at https://stanaic-onboarding.vercel.app. **37/37 checks passed**, including a successful `201` first upload after filling and resetting the prior 30-file quota. Final synthetic records were reset. Evidence: `audit-reset-attachments-production.json`. The broader 141-check preview verification above was not repeated unnecessarily on production; this smoke specifically confirms that the deployed production build contains the reset fix.

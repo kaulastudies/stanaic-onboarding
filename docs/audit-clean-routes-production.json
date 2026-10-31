@@ -1,0 +1,223 @@
+{
+  "base": "https://stanaic-onboarding.vercel.app",
+  "commit": "79f0d51822354b81f4150ce7b3915b52cb9e4c06",
+  "tests": [
+    {
+      "path": "/",
+      "status": 200,
+      "final": "https://stanaic-onboarding.vercel.app/",
+      "passed": true
+    },
+    {
+      "path": "/institutional/index.html",
+      "status": 308,
+      "location": "/?audit=1",
+      "passed": true
+    },
+    {
+      "path": "/index.html",
+      "status": 308,
+      "location": "/?audit=1",
+      "passed": true
+    },
+    {
+      "path": "/institutional/index",
+      "status": 308,
+      "location": "/?audit=1",
+      "passed": true
+    },
+    {
+      "path": "/institution",
+      "status": 200,
+      "final": "https://stanaic-onboarding.vercel.app/institution",
+      "passed": true
+    },
+    {
+      "path": "/institutional/institution.html",
+      "status": 308,
+      "location": "/institution?audit=1",
+      "passed": true
+    },
+    {
+      "path": "/institution.html",
+      "status": 308,
+      "location": "/institution?audit=1",
+      "passed": true
+    },
+    {
+      "path": "/institutional/institution",
+      "status": 308,
+      "location": "/institution?audit=1",
+      "passed": true
+    },
+    {
+      "path": "/research",
+      "status": 200,
+      "final": "https://stanaic-onboarding.vercel.app/research",
+      "passed": true
+    },
+    {
+      "path": "/institutional/research.html",
+      "status": 308,
+      "location": "/research?audit=1",
+      "passed": true
+    },
+    {
+      "path": "/research.html",
+      "status": 308,
+      "location": "/research?audit=1",
+      "passed": true
+    },
+    {
+      "path": "/institutional/research",
+      "status": 308,
+      "location": "/research?audit=1",
+      "passed": true
+    },
+    {
+      "path": "/journal",
+      "status": 200,
+      "final": "https://stanaic-onboarding.vercel.app/journal",
+      "passed": true
+    },
+    {
+      "path": "/institutional/journal.html",
+      "status": 308,
+      "location": "/journal?audit=1",
+      "passed": true
+    },
+    {
+      "path": "/journal.html",
+      "status": 308,
+      "location": "/journal?audit=1",
+      "passed": true
+    },
+    {
+      "path": "/institutional/journal",
+      "status": 308,
+      "location": "/journal?audit=1",
+      "passed": true
+    },
+    {
+      "path": "/learning",
+      "status": 200,
+      "final": "https://stanaic-onboarding.vercel.app/learning",
+      "passed": true
+    },
+    {
+      "path": "/institutional/learning.html",
+      "status": 308,
+      "location": "/learning?audit=1",
+      "passed": true
+    },
+    {
+      "path": "/learning.html",
+      "status": 308,
+      "location": "/learning?audit=1",
+      "passed": true
+    },
+    {
+      "path": "/institutional/learning",
+      "status": 308,
+      "location": "/learning?audit=1",
+      "passed": true
+    },
+    {
+      "path": "/membership",
+      "status": 200,
+      "final": "https://stanaic-onboarding.vercel.app/membership",
+      "passed": true
+    },
+    {
+      "path": "/institutional/membership.html",
+      "status": 308,
+      "location": "/membership?audit=1",
+      "passed": true
+    },
+    {
+      "path": "/membership.html",
+      "status": 308,
+      "location": "/membership?audit=1",
+      "passed": true
+    },
+    {
+      "path": "/institutional/membership",
+      "status": 308,
+      "location": "/membership?audit=1",
+      "passed": true
+    },
+    {
+      "path": "/governance",
+      "status": 200,
+      "final": "https://stanaic-onboarding.vercel.app/governance",
+      "passed": true
+    },
+    {
+      "path": "/institutional/governance.html",
+      "status": 308,
+      "location": "/governance?audit=1",
+      "passed": true
+    },
+    {
+      "path": "/governance.html",
+      "status": 308,
+      "location": "/governance?audit=1",
+      "passed": true
+    },
+    {
+      "path": "/institutional/governance",
+      "status": 308,
+      "location": "/governance?audit=1",
+      "passed": true
+    },
+    {
+      "path": "/partnerships",
+      "status": 200,
+      "final": "https://stanaic-onboarding.vercel.app/partnerships",
+      "passed": true
+    },
+    {
+      "path": "/institutional/network.html",
+      "status": 308,
+      "location": "/partnerships?audit=1",
+      "passed": true
+    },
+    {
+      "path": "/network.html",
+      "status": 308,
+      "location": "/partnerships?audit=1",
+      "passed": true
+    },
+    {
+      "path": "/institutional/network",
+      "status": 308,
+      "location": "/partnerships?audit=1",
+      "passed": true
+    },
+    {
+      "path": "/architecture",
+      "status": 200,
+      "final": "https://stanaic-onboarding.vercel.app/architecture",
+      "passed": true
+    },
+    {
+      "path": "/institutional/architecture.html",
+      "status": 308,
+      "location": "/architecture?audit=1",
+      "passed": true
+    },
+    {
+      "path": "/architecture.html",
+      "status": 308,
+      "location": "/architecture?audit=1",
+      "passed": true
+    },
+    {
+      "path": "/institutional/architecture",
+      "status": 308,
+      "location": "/architecture?audit=1",
+      "passed": true
+    }
+  ],
+  "passed": 36
+}
