@@ -1,0 +1,239 @@
+{
+  "base": "https://stanaic-onboarding.vercel.app",
+  "tests": [
+    {
+      "test": "Original demo admin login",
+      "method": "POST",
+      "path": "/api/demo/login",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Original demo dashboard",
+      "method": "GET",
+      "path": "/api/demo/admin/dashboard",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Read protected demonstration outbox",
+      "method": "GET",
+      "path": "/api/demo/admin/mail",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Read invitation preview",
+      "method": "GET",
+      "path": "/api/demo/admin/mail/preview?id=4c38d74b-b5a5-44a0-9c62-1dd3d7fae700",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Exchange single-use invitation",
+      "method": "POST",
+      "path": "/api/demo/member/exchange",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Reject reused invitation",
+      "method": "POST",
+      "path": "/api/demo/member/exchange",
+      "status": 410,
+      "expected": 410,
+      "passed": true,
+      "error": "This demo invitation has expired or was already opened. Create a replacement link in the demo administrator portal."
+    },
+    {
+      "test": "Read own member profile",
+      "method": "GET",
+      "path": "/api/demo/member/profile",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Consent required on onboarding submission",
+      "method": "POST",
+      "path": "/api/demo/member/submit",
+      "status": 400,
+      "expected": 400,
+      "passed": true,
+      "error": "Please confirm consent before submitting."
+    },
+    {
+      "test": "Submit onboarding details",
+      "method": "POST",
+      "path": "/api/demo/member/submit",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Reject duplicate onboarding submission",
+      "method": "POST",
+      "path": "/api/demo/member/submit",
+      "status": 409,
+      "expected": 409,
+      "passed": true,
+      "error": "Details have already been submitted."
+    },
+    {
+      "test": "Admin reads submitted member",
+      "method": "GET",
+      "path": "/api/demo/admin/member?id=demo-member",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Admin updates approved designation",
+      "method": "POST",
+      "path": "/api/demo/admin/member/update",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Admin approves onboarding",
+      "method": "POST",
+      "path": "/api/demo/admin/review",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Member reads approved status",
+      "method": "GET",
+      "path": "/api/demo/member/profile",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Create synthetic invitation",
+      "method": "POST",
+      "path": "/api/demo/admin/invite",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Idempotent invitation retry",
+      "method": "POST",
+      "path": "/api/demo/admin/invite",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Reject duplicate active invite email",
+      "method": "POST",
+      "path": "/api/demo/admin/invite",
+      "status": 409,
+      "expected": 409,
+      "passed": true,
+      "error": "An active invitation already exists for this sample email."
+    },
+    {
+      "test": "Renew invitation",
+      "method": "POST",
+      "path": "/api/demo/admin/renew",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Revoke invitation",
+      "method": "POST",
+      "path": "/api/demo/admin/revoke",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Reject arbitrary real email in demo",
+      "method": "POST",
+      "path": "/api/demo/admin/invite",
+      "status": 400,
+      "expected": 400,
+      "passed": true,
+      "error": "For this demo, use a sample address ending in @example.org, @example.com, or @example.net."
+    },
+    {
+      "test": "Add synthetic staff",
+      "method": "POST",
+      "path": "/api/demo/admin/team",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "List synthetic staff",
+      "method": "GET",
+      "path": "/api/demo/admin/team",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Remove synthetic staff",
+      "method": "POST",
+      "path": "/api/demo/admin/team/remove",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Reset own original demo workspace",
+      "method": "POST",
+      "path": "/api/demo/reset",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Reset invalidates member session",
+      "method": "POST",
+      "path": "/api/demo/logout",
+      "status": 401,
+      "expected": 401,
+      "passed": true,
+      "error": "Sign in to the demo to continue."
+    },
+    {
+      "test": "Demo logout admin",
+      "method": "POST",
+      "path": "/api/demo/logout",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    }
+  ]
+}

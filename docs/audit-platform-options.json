@@ -1,0 +1,222 @@
+{
+  "base": "https://stanaic-onboarding.vercel.app",
+  "timestamp": "2026-10-31T17:20:59Z",
+  "tests": [
+    {
+      "test": "New options sandbox",
+      "method": "POST",
+      "path": "/api/platform/demo/start",
+      "status": 201,
+      "expected": 201,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Reject unknown role",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 400,
+      "expected": 400,
+      "passed": true,
+      "error": "Choose a valid simulation role."
+    },
+    {
+      "test": "Reject unknown action",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 403,
+      "expected": 403,
+      "passed": true,
+      "error": "Your current role cannot perform this action."
+    },
+    {
+      "test": "Switch role admin",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Create synthetic membership",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Approval blocked before review",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 409,
+      "expected": 409,
+      "passed": true,
+      "error": "A maintainer review is required."
+    },
+    {
+      "test": "Announcement blocked before approval",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 409,
+      "expected": 409,
+      "passed": true,
+      "error": "Approve the member before preparing an announcement."
+    },
+    {
+      "test": "Switch role courseadmin",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Update course before enrolment",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Switch role learner",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Create invoice demo order",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Switch role finance",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Manual invoice reconciliation in demo",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Switch role courseadmin",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Reject editing enrolled course",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 409,
+      "expected": 409,
+      "passed": true,
+      "error": "This version has enrolled learners. Create a new version rather than changing their learning contract."
+    },
+    {
+      "test": "Switch role author",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Submit options manuscript",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Switch role editor",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Screen options manuscript",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Assign independent additional reviewer",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Reject author as reviewer",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 409,
+      "expected": 409,
+      "passed": true,
+      "error": "An independent reviewer is required."
+    },
+    {
+      "test": "Cross-origin action rejected",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 403,
+      "expected": 403,
+      "passed": true,
+      "error": "Use this platform page to submit requests."
+    },
+    {
+      "test": "Switch role superadmin",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Reset options sandbox",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    }
+  ]
+}

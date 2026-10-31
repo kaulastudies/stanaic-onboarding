@@ -40,3 +40,13 @@ test('public demo attachment storage has a shared upper bound across workspaces'
  await f.pool.query('UPDATE stanaic_manuscript_files SET size=$1',[50*1024*1024]);
  const blocked=await a.files('upload',{mode:'demo',submissionId:id,...source,base64:Buffer.from('Different synthetic file').toString('base64')});assert.equal(blocked.status,413);assert.match(blocked.data.error,/Shared demonstration/);
 });
+
+test('sandbox reset deletes only its private files and releases attachment quota',async t=>{
+ const f=await fixture(t),a=f.browser(),b=f.browser();
+ for(const user of [a,b]){await user.platform('demo/start',{});await user.action('switchRole',{role:'author'});const paper=await user.action('submitPaper',{title:'Reset quota fixture',abstract:'Synthetic',manuscript:'Synthetic',consent:true});await user.files('upload',{mode:'demo',submissionId:paper.data.state.submissions[0].id,...source});}
+ assert.equal(Number((await f.pool.query('SELECT count(*) AS count FROM stanaic_manuscript_files')).rows[0].count),2);
+ assert.equal((await a.action('resetDemo')).status,200);
+ assert.equal(Number((await f.pool.query('SELECT count(*) AS count FROM stanaic_manuscript_files')).rows[0].count),1);
+ const paper=await a.action('submitPaper',{title:'After reset',abstract:'Synthetic',manuscript:'Synthetic',consent:true});
+ assert.equal((await a.files('upload',{mode:'demo',submissionId:paper.data.state.submissions[0].id,...source})).status,201);
+});
