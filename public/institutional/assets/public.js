@@ -13,3 +13,6 @@ const menu=document.querySelector('.menu');menu?.addEventListener('click',()=>{l
   if(path.endsWith('/learning.html')&&(catalogue.courses||[]).length){const section=document.createElement('section');section.className='section';const h=document.createElement('h2');h.textContent='Platform learning catalogue';section.append(h);const p=document.createElement('p');p.textContent='Original courses managed by the education team. The programmes above remain on the partner learning platform.';section.append(p);for(const c of catalogue.courses){const a=resource({title:c.title,type:'Platform programme',summary:c.summary,url:'/workspace?mode=live&view=learning'});if(a)section.append(a)}document.querySelector('main').append(section)}
  }catch{/* Original indexed resources remain available when the catalogue is unavailable. */}
 })();
+
+// Public verification is accessible without a staff or sandbox session.
+document.querySelectorAll('a[href="/workspace?tab=credentials"]').forEach(a=>a.href='/verify');
