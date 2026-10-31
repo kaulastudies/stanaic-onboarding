@@ -110,3 +110,37 @@ test('transaction rollback prevents orphan invitation if outbox write fails', as
   const result = await call(env, 'admin/invite', inviteData()); assert.equal(result.status, 500);
   assert.equal(env.DB.db.prepare('SELECT count(*) AS n FROM invitations').get().n, 0);
 });
+
+test('member can enter contact email and requested designation without changing invitation identity or approved title', async () => {
+  const env = fixture(), invitation = await invite(env), session = await join(env, invitation);
+  const input = { ...profile, contactEmail: 'contact@example.net', requestedDesignation: 'Technical Fellow', role: 'owner', email: 'replace@example.org', designation: 'Owner' };
+  assert.equal((await call(env, 'member/submit', { ...input, contactEmail: 'not-an-address' }, session)).status, 400);
+  assert.equal((await call(env, 'member/submit', input, session)).status, 200);
+  const member = (await call(env, 'member/profile', undefined, session)).data;
+  assert.equal(member.email, 'member@example.org');
+  assert.equal(member.designation, 'Research Fellow');
+  assert.equal(member.profile.contactEmail, 'contact@example.net');
+  assert.equal(member.profile.requestedDesignation, 'Technical Fellow');
+  assert.equal(env.DB.db.prepare('SELECT count(*) AS n FROM staff').get().n, 0);
+  const receipt = env.DB.db.prepare('SELECT recipient FROM outbox WHERE id=?').get(`${invitation.id}-receipt`);
+  assert.equal(receipt.recipient, 'member@example.org');
+});
+
+test('admin can assign an existing membership designation with audit evidence; maintainer and member cannot', async () => {
+  const env = fixture(), invitation = await invite(env), session = await join(env, invitation);
+  assert.equal((await call(env, 'admin/member/update', { id: invitation.id, designation: 'Technical Fellow' }, session)).status, 401);
+  for (const role of ['maintainer', 'viewer', 'admin']) {
+    const address = `${role}@example.org`, staff = { 'oai-authenticated-user-id': role, 'oai-authenticated-user-email': address };
+    await call(env, 'admin/team', { email: address, role });
+    const changed = await call(env, 'admin/member/update', { id: invitation.id, designation: 'Technical Fellow', role: 'owner' }, staff);
+    assert.equal(changed.status, role === 'admin' ? 200 : 403);
+  }
+  assert.equal((await call(env, 'member/profile', undefined, session)).data.designation, 'Technical Fellow');
+  assert.equal(env.DB.db.prepare("SELECT count(*) AS n FROM audit WHERE action='membership.designation.updated'").get().n, 1);
+  assert.equal(env.DB.db.prepare("SELECT role FROM staff WHERE email='admin@example.org'").get().role, 'admin');
+  assert.equal((await call(env, 'admin/member/update', { id: invitation.id, designation: '' })).status, 400);
+  assert.equal((await call(env, 'member/submit', profile, session)).status, 200);
+  assert.equal((await call(env, 'admin/member/update', { id: invitation.id, designation: 'Senior Advisor' })).status, 200);
+  assert.equal((await call(env, 'admin/review', { id: invitation.id, status: 'approved' })).status, 200);
+  assert.equal((await call(env, 'member/profile', undefined, session)).data.designation, 'Senior Advisor');
+});
