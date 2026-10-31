@@ -1,0 +1,942 @@
+{
+  "base": "https://stanaic-onboarding.vercel.app",
+  "timestamp": "2026-10-31T17:21:41Z",
+  "tests": [
+    {
+      "test": "Public catalogue",
+      "method": "GET",
+      "path": "/api/platform/catalogue",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Unauthenticated live state denied",
+      "method": "GET",
+      "path": "/api/platform/state",
+      "status": 401,
+      "expected": 401,
+      "passed": true,
+      "error": "Sign in with your verified account to use the live platform."
+    },
+    {
+      "test": "Unauthenticated demo state denied",
+      "method": "GET",
+      "path": "/api/platform/state?mode=demo",
+      "status": 401,
+      "expected": 401,
+      "passed": true,
+      "error": "Start an isolated demonstration workspace first."
+    },
+    {
+      "test": "Create isolated sandbox",
+      "method": "POST",
+      "path": "/api/platform/demo/start",
+      "status": 201,
+      "expected": 201,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Read own sandbox",
+      "method": "GET",
+      "path": "/api/platform/state?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Switch role superadmin",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Switch role admin",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Switch role maintainer",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Switch role courseadmin",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Switch role assessor",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Switch role registrar",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Switch role editor",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Switch role reviewer",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Switch role finance",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Switch role content",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Switch role auditor",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Switch role learner",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Switch role author",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Switch role learner",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Learner denied course creation",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 403,
+      "expected": 403,
+      "passed": true,
+      "error": "Your current role cannot perform this action."
+    },
+    {
+      "test": "Learner denied member approval",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 403,
+      "expected": 403,
+      "passed": true,
+      "error": "Your current role cannot perform this action."
+    },
+    {
+      "test": "Save learner profile",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Reject assessment without enrolment",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 409,
+      "expected": 409,
+      "passed": true,
+      "error": "Complete every lesson with an active enrolment first."
+    },
+    {
+      "test": "Enrol free course",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Reject assessment before lesson completion",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 409,
+      "expected": 409,
+      "passed": true,
+      "error": "Complete every lesson with an active enrolment first."
+    },
+    {
+      "test": "Complete lesson authority",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Complete lesson evidence",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Complete lesson revalidation",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Record failing assessment",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Record passing assessment",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Reject duplicate passing assessment",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 409,
+      "expected": 409,
+      "passed": true,
+      "error": "A passing assessment is already awaiting review or completed."
+    },
+    {
+      "test": "Switch role assessor",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Independent assessment approval",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Switch role registrar",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Issue unsigned demo credential",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Public credential verification with withheld identity",
+      "method": "GET",
+      "path": "/api/platform/verify/DEMO-EF912D752ECFEE79B29FB81D",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Reject duplicate issuance",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 409,
+      "expected": 409,
+      "passed": true,
+      "error": "Approved passing assessment is required."
+    },
+    {
+      "test": "Revoke demo credential",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Public revocation visible",
+      "method": "GET",
+      "path": "/api/platform/verify/DEMO-EF912D752ECFEE79B29FB81D",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Switch role author",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Submit anonymised manuscript",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Upload private manuscript",
+      "method": "POST",
+      "path": "/api/platform/files/upload?mode=demo",
+      "status": 201,
+      "expected": 201,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Duplicate file idempotency",
+      "method": "POST",
+      "path": "/api/platform/files/upload?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Author attachment list",
+      "method": "GET",
+      "path": "/api/platform/files/list?mode=demo&submissionId=aee60020-2e2d-4166-b92f-8062049f423c",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Switch role reviewer",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Unassigned reviewer attachment denied",
+      "method": "GET",
+      "path": "/api/platform/files/download/4907fe8e-1d18-4325-a5dc-505ce12e5c49?mode=demo",
+      "status": 403,
+      "expected": 403,
+      "passed": true,
+      "error": "This manuscript is outside your assigned access."
+    },
+    {
+      "test": "Switch role editor",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Reject publication before reviews",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 409,
+      "expected": 409,
+      "passed": true,
+      "error": "Acceptance and author proof/licence approval are required."
+    },
+    {
+      "test": "Editorial screening",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Switch role reviewer",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Assigned reviewer attachment anonymised",
+      "method": "GET",
+      "path": "/api/platform/files/list?mode=demo&submissionId=aee60020-2e2d-4166-b92f-8062049f423c",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Assigned reviewer private download",
+      "method": "GET",
+      "path": "/api/platform/files/download/4907fe8e-1d18-4325-a5dc-505ce12e5c49?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Reject review without conflict declaration",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 400,
+      "expected": 400,
+      "passed": true,
+      "error": "Declare no conflict before reviewing."
+    },
+    {
+      "test": "Independent review requesting revision",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Switch role editor",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Editorial revision request",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Switch role author",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Author revision",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Switch role editor",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Rescreen revision",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Switch role reviewer",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Independent acceptance review",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Switch role editor",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Editorial acceptance",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Reject publication before author proof",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 409,
+      "expected": 409,
+      "passed": true,
+      "error": "Acceptance and author proof/licence approval are required."
+    },
+    {
+      "test": "Switch role author",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Author approves proof",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Switch role editor",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Publish in isolated demo catalogue",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Switch role courseadmin",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Create paid synthetic course",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Update unpublished enrolment-free course",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Switch role learner",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Create pending paid demo order",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Paid content locked before payment",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 403,
+      "expected": 403,
+      "passed": true,
+      "error": "An active enrolment is required."
+    },
+    {
+      "test": "Switch role finance",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Simulate payment in demo only",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Switch role learner",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Paid lesson unlocked after demo payment",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Request demo refund",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Switch role finance",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Approve simulated refund",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Switch role learner",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Content withdrawn after refund",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 403,
+      "expected": 403,
+      "passed": true,
+      "error": "An active enrolment is required."
+    },
+    {
+      "test": "Switch role maintainer",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Review sample membership",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Switch role admin",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Approve sample membership",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Update approved member designation",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Prepare announcement draft only",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Switch role content",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Add synthetic research resource",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Switch role auditor",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Read-only auditor mutation denied",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 403,
+      "expected": 403,
+      "passed": true,
+      "error": "Your current role cannot perform this action."
+    },
+    {
+      "test": "Switch role admin",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Notification delivery status",
+      "method": "GET",
+      "path": "/api/platform/notifications/status?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Process synthetic notifications with preview transport",
+      "method": "POST",
+      "path": "/api/platform/notifications/process?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Notification status after processing",
+      "method": "GET",
+      "path": "/api/platform/notifications/status?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Switch role learner",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Learner notification processing denied",
+      "method": "POST",
+      "path": "/api/platform/notifications/process?mode=demo",
+      "status": 403,
+      "expected": 403,
+      "passed": true,
+      "error": "Only secretariat administrators may process notifications."
+    },
+    {
+      "test": "Switch role superadmin",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Demo role grants blocked",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 409,
+      "expected": 409,
+      "passed": true,
+      "error": "Use the simulation role selector in this isolated demo. It does not create real staff accounts."
+    },
+    {
+      "test": "Reset own synthetic workspace",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Reset removes public demo credential",
+      "method": "GET",
+      "path": "/api/platform/verify/DEMO-EF912D752ECFEE79B29FB81D",
+      "status": 404,
+      "expected": 404,
+      "passed": true,
+      "error": "Credential not found or demonstration workspace expired."
+    }
+  ]
+}

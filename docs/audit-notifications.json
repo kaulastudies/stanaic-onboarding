@@ -1,0 +1,105 @@
+{
+  "base": "https://stanaic-onboarding.vercel.app",
+  "timestamp": "2026-10-31T17:21:59Z",
+  "tests": [
+    {
+      "test": "Create notification sandbox",
+      "method": "POST",
+      "path": "/api/platform/demo/start",
+      "status": 201,
+      "expected": 201,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Switch role courseadmin",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Set demo fee before enrolment",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Switch role learner",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Create demo order",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Switch role finance",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Simulate payment generates receipt",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Switch role admin",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Nonempty preview captures receipt without email",
+      "method": "POST",
+      "path": "/api/platform/notifications/process?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Repeat preview does not requeue or send",
+      "method": "POST",
+      "path": "/api/platform/notifications/process?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Reset notification sandbox",
+      "method": "POST",
+      "path": "/api/platform/action?mode=demo",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    }
+  ]
+}
