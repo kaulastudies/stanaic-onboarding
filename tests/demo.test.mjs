@@ -87,3 +87,23 @@ test('demo: workspace separation, CSRF, sample addresses, reset and expiration',
   assert.equal((await first.call('logout', { role: 'member' })).status, 200);
   assert.equal((await first.call('member/profile')).status, 401);
 });
+
+test('demo: editable member contact and requested title; admin assigns approved designation without access escalation', async t => {
+  const { pg, browser } = await fixture(t), demo = browser();
+  await demo.login('member');
+  assert.equal((await demo.call('member/submit', { name: 'Demo Member', country: 'India', expertise: 'AI evaluation', contactEmail: 'person@gmail.com', requestedDesignation: 'Technical Fellow', consent: true })).status, 400);
+  assert.equal((await demo.call('member/submit', { name: 'Demo Member', country: 'India', expertise: 'AI evaluation', contactEmail: 'contact@example.net', requestedDesignation: 'Technical Fellow', designation: 'owner', role: 'owner', consent: true })).status, 200);
+  const submitted = (await demo.call('member/profile')).data;
+  assert.equal(submitted.profile.contactEmail, 'contact@example.net');
+  assert.equal(submitted.profile.requestedDesignation, 'Technical Fellow');
+  assert.equal(submitted.email, 'member@example.org');
+  assert.equal(submitted.designation, 'Sample role');
+  assert.equal((await demo.call('admin/member/update', { id: 'demo-member', designation: 'Senior Advisor' })).status, 401);
+  await demo.login('admin');
+  assert.equal((await demo.call('admin/member/update', { id: 'demo-member', designation: 'Senior Advisor', role: 'owner' })).status, 200);
+  assert.equal((await demo.call('member/profile')).data.designation, 'Senior Advisor');
+  assert.equal((await demo.call('admin/team')).data.staff.length, 0);
+  const workspace = (await pg.query('SELECT state FROM demo_workspaces')).rows[0].state;
+  assert.equal(workspace.audit[0].action, 'membership.designation.updated');
+  assert.equal((await pg.query('SELECT count(*) AS count FROM staff')).rows[0].count, 0);
+});

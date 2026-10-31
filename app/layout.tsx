@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "STANAIC · Member onboarding",
-  description: "An onboarding module contributed to STANAIC by Rama Chandra.",
+  title: "STANAIC · Institutional platform",
+  description: "Research, membership, professional learning and institutional operations.",
   robots: { index: false, follow: false },
   icons: {
     icon: "/favicon.svg",
