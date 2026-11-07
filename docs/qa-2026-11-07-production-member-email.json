@@ -1,0 +1,177 @@
+{
+  "base": "https://stanaic-onboarding.vercel.app",
+  "timestamp": "2026-11-07T08:20:35Z",
+  "tests": [
+    {
+      "test": "Invitation email opens seeded member session",
+      "method": "POST",
+      "path": "/api/demo/member-login",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Email-entry member sees own invitation",
+      "method": "GET",
+      "path": "/api/demo/member/profile",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Email entry grants no demo administrator role",
+      "method": "GET",
+      "path": "/api/demo/admin/dashboard",
+      "status": 401,
+      "expected": 401,
+      "passed": true,
+      "error": "Sign in to the demo to continue."
+    },
+    {
+      "test": "Email entry grants no live administrator session",
+      "method": "GET",
+      "path": "/api/admin/dashboard",
+      "status": 401,
+      "expected": 401,
+      "passed": true,
+      "error": "Sign in to the administrator portal."
+    },
+    {
+      "test": "Unknown sample email rejected",
+      "method": "POST",
+      "path": "/api/demo/member-login",
+      "status": 404,
+      "expected": 404,
+      "passed": true,
+      "error": "No active sample invitation matches this email in this browser. Use member@example.org for a new demo, or the exact sample email invited by the demo administrator in this browser."
+    },
+    {
+      "test": "Unknown email does not replace existing member identity",
+      "method": "GET",
+      "path": "/api/demo/member/profile",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Real email domain rejected in fictional email entry",
+      "method": "POST",
+      "path": "/api/demo/member-login",
+      "status": 400,
+      "expected": 400,
+      "passed": true,
+      "error": "For this demo, use a sample address ending in @example.org, @example.com, or @example.net."
+    },
+    {
+      "test": "Original member username remains compatible",
+      "method": "POST",
+      "path": "/api/demo/login",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Open isolated demo admin for invitation creation",
+      "method": "POST",
+      "path": "/api/demo/login",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Create new fictional member invitation",
+      "method": "POST",
+      "path": "/api/demo/admin/invite",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Exact new invitation email opens correct member",
+      "method": "POST",
+      "path": "/api/demo/member-login",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "New email entry is scoped to its own invited record",
+      "method": "GET",
+      "path": "/api/demo/member/profile",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Entered contact email and requested role persist",
+      "method": "POST",
+      "path": "/api/demo/member/submit",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Admin assigns reviewed designation after member request",
+      "method": "POST",
+      "path": "/api/demo/admin/member/update",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Admin approves entered-email member record",
+      "method": "POST",
+      "path": "/api/demo/admin/review",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Member sees reviewed designation with invitation identity preserved",
+      "method": "GET",
+      "path": "/api/demo/member/profile",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Reset only this regression sandbox",
+      "method": "POST",
+      "path": "/api/demo/reset",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    },
+    {
+      "test": "Reset invalidates email-entry member session",
+      "method": "GET",
+      "path": "/api/demo/member/profile",
+      "status": 401,
+      "expected": 401,
+      "passed": true,
+      "error": "Sign in to the demo to continue."
+    },
+    {
+      "test": "Admin logs out of temporary regression sandbox",
+      "method": "POST",
+      "path": "/api/demo/logout",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "error": null
+    }
+  ]
+}
