@@ -1,0 +1,6 @@
+'use client';
+export type PublicationTerms={configured:boolean;demo:boolean;text:string|null;version:string|null};
+export default function ProofApproval({terms,busy,onApprove}:{terms:PublicationTerms|undefined;busy:boolean;onApprove:(payload:{consent:boolean;licence:string;licenceVersion:string})=>void}){
+ if(!terms?.configured||!terms.text||!terms.version)return <div className="ws-callout" role="status">Author proof approval is unavailable until the committee-approved publication licence is configured.</div>;
+ return <form key={terms.version} className="ws-proof-approval" onSubmit={e=>{e.preventDefault();const form=new FormData(e.currentTarget);if(form.get('proofConsent')!=='on')return;onApprove({consent:true,licence:terms.text!,licenceVersion:terms.version!})}}><h4>Review the final proof and publication terms</h4><p className="ws-small">Read the manuscript above and the exact terms below. Changed terms require a new approval.</p><div className="ws-inset ws-lesson-body">{terms.text}</div><label className="ws-checkbox"><input name="proofConsent" type="checkbox" required/><span>I have reviewed the final proof and agree to the publication licence shown above.</span></label><button className="ws-button ws-secondary" disabled={busy}>Approve final proof and licence</button></form>
+}

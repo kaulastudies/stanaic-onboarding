@@ -20,7 +20,7 @@ class Session:
    def __init__(self,r):self.status_code=r.status;self.content=r.read();self.text=self.content.decode(errors='replace')
    def json(self):return j.loads(self.text)
   return Response(r)
-BASE='https://stanaic-onboarding.vercel.app'
+BASE=os.environ.get('BASE_URL','https://stanaic-onboarding.vercel.app').rstrip('/')
 s=Session();s.headers.update({'Origin':BASE,'Content-Type':'application/json'})
 results=[]
 def req(label,path,method='GET',data=None,expected=200,check=None):
@@ -36,7 +36,7 @@ def req(label,path,method='GET',data=None,expected=200,check=None):
  except Exception as e:
   results.append({'test':label,'path':path,'passed':False,'blocked':str(e)});print(label,'BLOCKED',str(e),flush=True);save();return {}
 def save():
- pathlib.Path('docs/audit-workflows.json').write_text(json.dumps({'base':BASE,'timestamp':time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime()),'tests':results},indent=2))
+ pathlib.Path(os.environ.get('AUDIT_OUTPUT','docs/audit-workflows.json')).write_text(json.dumps({'base':BASE,'timestamp':time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime()),'tests':results},indent=2))
 def act(label,action,payload={},expected=200):return req(label,'/api/platform/action?mode=demo','POST',{'mode':'demo','action':action,'payload':payload},expected)
 def role(r):return act('Switch role '+r,'switchRole',{'role':r})
 req('Public catalogue','/api/platform/catalogue',check=lambda d,r:'courses'in d)
@@ -78,7 +78,7 @@ role('author');act('Author revision','revisePaper',{'submissionId':paper,'manusc
 role('editor');act('Rescreen revision','screenPaper',{'submissionId':paper})
 role('reviewer');act('Independent acceptance review','reviewPaper',{'submissionId':paper,'notes':'Synthetic revision checked.','recommendation':'accept','noConflict':True})
 role('editor');act('Editorial acceptance','decidePaper',{'submissionId':paper,'decision':'accepted','note':'Synthetic acceptance.'});act('Reject publication before author proof','publishPaper',{'submissionId':paper},409)
-role('author');act('Author approves proof','approveProof',{'submissionId':paper,'consent':True,'licence':'Synthetic demonstration only'})
+proof_state=role('author');terms=proof_state['state']['settings']['publicationLicence'];act('Reject proof with missing displayed licence','approveProof',{'submissionId':paper,'consent':True},409);act('Author approves displayed proof terms','approveProof',{'submissionId':paper,'consent':True,'licence':terms['text'],'licenceVersion':terms['version']})
 role('editor');act('Publish in isolated demo catalogue','publishPaper',{'submissionId':paper})
 role('courseadmin');d=act('Create paid synthetic course','createCourse',{'title':'Synthetic Audit Course','summary':'Temporary demonstration course','price':100,'currency':'INR','version':'1','published':True,'lessons':[{'title':'Synthetic lesson','body':'Temporary material'}],'questions':[{'prompt':'Audit question','options':['Correct','Incorrect'],'answerIndex':0}]});course=d['state']['courses'][-1]['id']
 # Find by title rather than collection ordering.

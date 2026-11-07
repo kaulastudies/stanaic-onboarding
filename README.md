@@ -4,6 +4,19 @@
 
 A STANAIC workflow demonstration prepared for review and feedback. GitHub hosts the source; Vercel runs the Next.js application and APIs; PostgreSQL/Neon stores live and isolated demonstration records. The official stanaic.org website and partner learn.stanaic.com remain independent.
 
+## Review access - 7 November 2026
+
+Start at [Portal access](https://stanaic-onboarding.vercel.app/access). It explains each entry:
+
+- Workflow sandbox: no login or OTP; fictional role-based operations.
+- Member onboarding demo: enter `member@example.org`, or another active sample invitation email created in the same browser. No OTP is sent. The original public username/password accounts still work.
+- Demo administrator: one-click entry from `/demo` using the clearly identified public test account.
+- Live account: email plus emailed one-time code at `/sign-in`; live member onboarding uses its secure invitation link.
+
+The member form displays the original invitation address as a reference, with a separate editable contact email and requested designation. Administrators confirm the approved designation. Live records are never selected through the demo email entry.
+
+[Current review guide](https://stanaic-onboarding.vercel.app/review-guide) covers the handoffs. The PDFs dated 31 October remain the earlier review snapshot. Source is on GitHub and application hosting is on Vercel; no additional site-hosting platform is used.
+
 ## Implemented flows
 
 - Institutional public website, source-indexed research/governance library, partner programme links and live released catalogue.

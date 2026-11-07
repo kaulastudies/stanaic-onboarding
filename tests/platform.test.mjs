@@ -52,7 +52,7 @@ test('journal workflow enforces assignment, conflict declaration, author proof a
   assert.equal((await call('reviewPaper',{submissionId:id,notes:'Review without conflict statement.'})).status,400);
   await call('reviewPaper',{submissionId:id,notes:'Scope and evidence reviewed; accept with clear limitations.',noConflict:true,recommendation:'accept'});
   await call('switchRole',{role:'editor'});await call('decidePaper',{submissionId:id,decision:'accepted'});assert.equal((await call('publishPaper',{submissionId:id})).status,409);
-  await call('switchRole',{role:'author'});await call('approveProof',{submissionId:id,consent:true,licence:'Author-approved sample licence'});
+  r=await call('switchRole',{role:'author'});const terms=r.data.state.settings.publicationLicence;assert.equal(terms.demo,true);assert.equal(terms.configured,true);assert.equal((await call('approveProof',{submissionId:id,consent:true,licence:'Arbitrary alternative terms',licenceVersion:terms.version})).status,409);assert.equal((await call('approveProof',{submissionId:id,consent:true,licence:terms.text,licenceVersion:terms.version})).status,200);
   await call('switchRole',{role:'editor'});r=await call('publishPaper',{submissionId:id});assert.equal(r.data.state.submissions[0].status,'published');
  }finally{await f.pg.close()}
 });
@@ -87,5 +87,47 @@ test('authoring keeps answer keys private; manual payment flag false fails close
   s=platformAction(s,{actorId:'reviewer-two',role:'reviewer',demo:false},'reviewPaper',{submissionId:'paper',notes:'Second independent review.',noConflict:true,recommendation:'accept'}).state;assert.equal(s.submissions[0].status,'reviews_received');
   s=platformAction(s,{actorId:'editor-id',role:'editor',demo:false},'decidePaper',{submissionId:'paper',decision:'accepted'}).state;assert.equal(s.submissions[0].status,'accepted');
   assert.throws(()=>platformAction(s,{actorId:'author-id',role:'author',demo:false},'approveProof',{submissionId:'paper',consent:true}),/publication licence is not configured/);
+ }finally{await f.pg.close()}
+});
+
+
+test('live proof approval binds to the displayed current licence; stale requests and stale publication approvals fail without writes',async()=>{
+ const f=await fixture();try{
+  f.env.JOURNAL_PUBLICATION_LICENCE='Committee-approved test publication terms, revision A.\nReuse requires attribution.';
+  let r=await f.request('state',undefined,student);const termsA=r.data.state.settings.publicationLicence;
+  assert.equal(termsA.configured,true);assert.equal(termsA.demo,false);assert.equal(termsA.text,f.env.JOURNAL_PUBLICATION_LICENCE);assert.match(termsA.version,/^[a-f0-9]{64}$/);
+  const state=(await f.pool.query("SELECT state FROM stanaic_platform_workspaces WHERE id='institution-live'")).rows[0].state;
+  state.submissions.push({id:'licence-paper',authorId:student.id,authorName:'Alex Morgan',title:'Licence contract test',abstract:'Original test.',manuscript:'Original anonymised test.',status:'accepted',reviews:[],reviewerIds:[],versions:[],proofApproved:false});
+  await f.pool.query("UPDATE stanaic_platform_workspaces SET state=$1::jsonb WHERE id='institution-live'",[JSON.stringify(state)]);
+  const approve=(terms,overrides={})=>f.request('action',{action:'approveProof',payload:{submissionId:'licence-paper',consent:true,licence:terms.text,licenceVersion:terms.version,...overrides}},student);
+  assert.equal((await approve(termsA,{consent:false})).status,400);
+  assert.equal((await approve(termsA,{licenceVersion:undefined})).status,409);
+  assert.equal((await approve(termsA,{licence:'Unreviewed alternative terms'})).status,409);
+  f.env.JOURNAL_PUBLICATION_LICENCE='Committee-approved test publication terms, revision B. A different reuse condition.';
+  assert.equal((await approve(termsA)).status,409);
+  r=await f.request('state',undefined,student);const termsB=r.data.state.settings.publicationLicence;
+  assert.notEqual(termsB.version,termsA.version);assert.equal(r.data.state.submissions[0].proofApproved,false);
+  assert.equal(r.data.state.audit.length,0);
+  r=await approve(termsB);assert.equal(r.status,200);assert.equal(r.data.state.submissions[0].licence,termsB.text);assert.equal(r.data.state.submissions[0].proofLicenceVersion,termsB.version);assert.equal(r.data.state.submissions[0].proofApprovedBy,student.id);assert.ok(r.data.state.submissions[0].proofApprovedAt);
+  f.env.JOURNAL_PUBLICATION_LICENCE='Committee-approved test publication terms, revision C.';
+  r=await f.request('action',{action:'publishPaper',payload:{submissionId:'licence-paper'}},owner);assert.equal(r.status,409);assert.match(r.data.error,/changed after author approval/);
+  r=await f.request('state',undefined,student);assert.equal(r.data.state.submissions[0].status,'accepted');const termsC=r.data.state.settings.publicationLicence;
+  assert.equal((await approve(termsC)).status,200);
+  r=await f.request('action',{action:'publishPaper',payload:{submissionId:'licence-paper'}},owner);assert.equal(r.status,200);assert.equal(r.data.state.submissions[0].status,'published');assert.equal(r.data.state.submissions[0].licence,termsC.text);
+ }finally{await f.pg.close()}
+});
+
+test('missing or invalid live licence configuration is shown as unavailable and blocks author approval and publication',async()=>{
+ const f=await fixture();try{
+  let r=await f.request('state',undefined,student);assert.deepEqual(r.data.state.settings.publicationLicence,{configured:false,demo:false,text:null,version:null});
+  const state=(await f.pool.query("SELECT state FROM stanaic_platform_workspaces WHERE id='institution-live'")).rows[0].state;
+  state.submissions.push({id:'unconfigured-paper',authorId:student.id,title:'Missing licence test',status:'accepted',reviews:[],reviewerIds:[],versions:[],proofApproved:true,licence:'Old unconfigured terms',proofLicenceVersion:'old'});
+  await f.pool.query("UPDATE stanaic_platform_workspaces SET state=$1::jsonb WHERE id='institution-live'",[JSON.stringify(state)]);
+  r=await f.request('action',{action:'approveProof',payload:{submissionId:'unconfigured-paper',consent:true,licence:'Old unconfigured terms',licenceVersion:'old'}},student);assert.equal(r.status,503);
+  r=await f.request('action',{action:'publishPaper',payload:{submissionId:'unconfigured-paper'}},owner);assert.equal(r.status,503);
+  f.env.JOURNAL_PUBLICATION_LICENCE='   ';
+  r=await f.request('state',undefined,student);assert.equal(r.data.state.settings.publicationLicence.configured,false);
+  f.env.JOURNAL_PUBLICATION_LICENCE='x'.repeat(10001);
+  r=await f.request('state',undefined,student);assert.equal(r.data.state.settings.publicationLicence.configured,false);assert.equal(r.data.state.settings.publicationLicence.text,null);
  }finally{await f.pg.close()}
 });
