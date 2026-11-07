@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import "./portal-review.css";
 
 export const metadata: Metadata = {
   title: "STANAIC · Institutional platform",
