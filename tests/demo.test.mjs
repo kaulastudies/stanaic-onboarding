@@ -107,3 +107,29 @@ test('demo: editable member contact and requested title; admin assigns approved 
   assert.equal(workspace.audit[0].action, 'membership.designation.updated');
   assert.equal((await pg.query('SELECT count(*) AS count FROM staff')).rows[0].count, 0);
 });
+
+test('demo: invitation email entry selects only a member inside the same browser sandbox',async t=>{
+ const {pg,browser}=await fixture(t),first=browser(),second=browser();
+ assert.equal((await first.call('member-login',{email:'Member@Example.org'})).status,200);
+ assert.equal((await first.call('member/profile')).data.email,'member@example.org');
+ assert.equal((await first.call('admin/dashboard')).status,401);
+ assert.equal((await first.call('member-login',{email:'person@gmail.com'})).status,400);
+ assert.equal((await first.call('member-login',{email:'unknown@example.org'})).status,404);
+ assert.equal((await first.call('member/profile')).data.id,'demo-member');
+ await first.login('admin');
+ const invited=await first.call('admin/invite',{name:'Invited Example',email:'invited@example.org',designation:'Research member',requestKey:'email-entry'});
+ assert.equal(invited.status,200);
+ assert.equal((await second.call('member-login',{email:'invited@example.org'})).status,404);
+ assert.equal((await first.call('member-login',{email:'invited@example.org'},{origin:'https://elsewhere.example'})).status,403);
+ assert.equal((await first.call('member-login',{email:'invited@example.org'})).status,200);
+ assert.equal((await first.call('member/profile')).data.id,invited.data.id);
+ assert.equal((await first.call('member/submit',{name:'Invited Example',contactEmail:'contact@example.net',requestedDesignation:'Requested fellow',country:'India',expertise:'Synthetic review',consent:true})).status,200);
+ const profile=(await first.call('member/profile')).data;
+ assert.equal(profile.email,'invited@example.org');assert.equal(profile.profile.contactEmail,'contact@example.net');assert.equal(profile.profile.requestedDesignation,'Requested fellow');assert.equal(profile.designation,'Research member');
+ assert.equal((await first.call('admin/revoke',{id:invited.data.id})).status,409);
+ const revoked=await first.call('admin/invite',{name:'Revoked example',email:'revoked@example.net',designation:'Sample role',requestKey:'email-entry-revoked'});
+ assert.equal((await first.call('admin/revoke',{id:revoked.data.id})).status,200);
+ assert.equal((await first.call('member-login',{email:'revoked@example.net'})).status,404);
+ assert.equal((await pg.query('SELECT count(*) AS count FROM invitations')).rows[0].count,0);
+ assert.equal((await first.login('member')).status,200);
+});

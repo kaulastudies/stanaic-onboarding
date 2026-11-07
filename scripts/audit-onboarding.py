@@ -28,4 +28,4 @@ d=demo('List synthetic staff','admin/team');staff=d['staff'][0]['id']
 demo('Remove synthetic staff','admin/team/remove',{'id':staff})
 demo('Reset own original demo workspace','reset',{})
 demo('Reset invalidates member session','logout',{'role':'member'},401);demo('Demo logout admin','logout',{'role':'admin'})
-pathlib.Path('docs/audit-onboarding.json').write_text(json.dumps({'base':BASE,'tests':results},indent=2))
+save()
