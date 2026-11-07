@@ -1,0 +1,2647 @@
+{
+  "base_url": "https://stanaic-onboarding.vercel.app",
+  "captured_at": "2026-11-07T08:09:36.560848+00:00",
+  "scope": "Read-only HTTP GET, served HTML, repository link/control inventory and source-only privacy scan",
+  "summary": {
+    "public_pages": 9,
+    "source_anchor_instances": 320,
+    "live_anchor_instances": 320,
+    "app_link_instances": 60,
+    "http_targets": 70,
+    "http_results": {
+      "passed": 68,
+      "failed": 1,
+      "blocked": 1
+    },
+    "internal_http_results": {
+      "passed": 31,
+      "failed": 1
+    },
+    "fragment_checks": 22,
+    "broken_fragments": 0,
+    "legacy_redirects_passed": 27,
+    "legacy_redirects_total": 27
+  },
+  "public_pages": {
+    "/": {
+      "url": "https://stanaic-onboarding.vercel.app/",
+      "checked_at": "2026-11-07T08:05:35.188467+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/",
+      "location": null,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 9944,
+      "sha256": "a669e50e0b46e04a9ffc9a83829a38cf73936450917a3c38e706f929a478d70c",
+      "result": "passed",
+      "title": "A considered future for artificial intelligence | STANAIC",
+      "id_count": 0,
+      "ids": []
+    },
+    "/institution": {
+      "url": "https://stanaic-onboarding.vercel.app/institution",
+      "checked_at": "2026-11-07T08:05:35.189157+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/institution",
+      "location": null,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 5448,
+      "sha256": "111ded02d8cd87e3600bbc8e6dfc565e931a8d3d3bf2b543db7e16af9c1f41a8",
+      "result": "passed",
+      "title": "Institution & governance | STANAIC",
+      "id_count": 0,
+      "ids": []
+    },
+    "/research": {
+      "url": "https://stanaic-onboarding.vercel.app/research",
+      "checked_at": "2026-11-07T08:05:35.189768+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/research",
+      "location": null,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 7466,
+      "sha256": "25d0d2bb56444152a012a4b56be622d828b972156d515b908053b0c72624508f",
+      "result": "passed",
+      "title": "Research & knowledge library | STANAIC",
+      "id_count": 4,
+      "ids": [
+        "no-resources",
+        "resource-search",
+        "resource-type",
+        "resources"
+      ]
+    },
+    "/journal": {
+      "url": "https://stanaic-onboarding.vercel.app/journal",
+      "checked_at": "2026-11-07T08:05:35.190150+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/journal",
+      "location": null,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 5660,
+      "sha256": "8293eaa20800d0e477253e6ee2538caf216108203163dcac06e94f9e3ce87ea8",
+      "result": "passed",
+      "title": "Journal of AI Governance and Assurance | STANAIC",
+      "id_count": 0,
+      "ids": []
+    },
+    "/learning": {
+      "url": "https://stanaic-onboarding.vercel.app/learning",
+      "checked_at": "2026-11-07T08:05:43.568355+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/learning",
+      "location": null,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 6662,
+      "sha256": "1b4fd69b45aa04d1b91b4635d13f29c4a747bdf7c14b63d8af9f42cd30cba9f6",
+      "result": "passed",
+      "title": "Learning & professional development | STANAIC",
+      "id_count": 0,
+      "ids": []
+    },
+    "/membership": {
+      "url": "https://stanaic-onboarding.vercel.app/membership",
+      "checked_at": "2026-11-07T08:05:43.584674+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/membership",
+      "location": null,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 5418,
+      "sha256": "711bce34c7982427c9401d7f04f59aeb2ad8c3b45c38de47d3b2913528a032b9",
+      "result": "passed",
+      "title": "Membership & partnerships | STANAIC",
+      "id_count": 0,
+      "ids": []
+    },
+    "/governance": {
+      "url": "https://stanaic-onboarding.vercel.app/governance",
+      "checked_at": "2026-11-07T08:05:43.585677+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/governance",
+      "location": null,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 6210,
+      "sha256": "2fcc3cf9236f04c91eb0f83138bb29ea25cfe139ceb9f0ca955b35d912ca19e3",
+      "result": "passed",
+      "title": "Governance & standards | STANAIC",
+      "id_count": 0,
+      "ids": []
+    },
+    "/partnerships": {
+      "url": "https://stanaic-onboarding.vercel.app/partnerships",
+      "checked_at": "2026-11-07T08:05:43.596545+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/partnerships",
+      "location": null,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 5917,
+      "sha256": "5e0d0deb79cdb2a5a9322d333fd32381da8bd55cec031fcd7a036b7ccdbca8c8",
+      "result": "passed",
+      "title": "Partnerships & institutional updates | STANAIC",
+      "id_count": 0,
+      "ids": []
+    },
+    "/architecture": {
+      "url": "https://stanaic-onboarding.vercel.app/architecture",
+      "checked_at": "2026-11-07T08:05:51.200144+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/architecture",
+      "location": null,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 29245,
+      "sha256": "d91e4ea0c88c7f23a795bf7a551c194ad5870f6a323c06a3d94a19ad7b405577",
+      "result": "passed",
+      "title": "Technical architecture | STANAIC",
+      "id_count": 11,
+      "ids": [
+        "audit",
+        "boundaries",
+        "brief",
+        "data",
+        "decisions",
+        "flows",
+        "operations",
+        "roadmap",
+        "roles",
+        "sources",
+        "topology"
+      ]
+    }
+  },
+  "references": [
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "asset",
+      "href": "/institutional/assets/site.css",
+      "url": "https://stanaic-onboarding.vercel.app/institutional/assets/site.css"
+    },
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "asset",
+      "href": "/institutional/assets/extra.css",
+      "url": "https://stanaic-onboarding.vercel.app/institutional/assets/extra.css"
+    },
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "link",
+      "href": "/workspace?mode=demo",
+      "url": "https://stanaic-onboarding.vercel.app/workspace?mode=demo"
+    },
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "link",
+      "href": "/review/STANAIC_Workflow_Demo_Review_Brief.pdf",
+      "url": "https://stanaic-onboarding.vercel.app/review/STANAIC_Workflow_Demo_Review_Brief.pdf"
+    },
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "link",
+      "href": "/verify",
+      "url": "https://stanaic-onboarding.vercel.app/verify"
+    },
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "link",
+      "href": "/architecture",
+      "url": "https://stanaic-onboarding.vercel.app/architecture"
+    },
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "link",
+      "href": "/",
+      "url": "https://stanaic-onboarding.vercel.app/"
+    },
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "link",
+      "href": "/institution",
+      "url": "https://stanaic-onboarding.vercel.app/institution"
+    },
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "link",
+      "href": "/research",
+      "url": "https://stanaic-onboarding.vercel.app/research"
+    },
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "link",
+      "href": "/journal",
+      "url": "https://stanaic-onboarding.vercel.app/journal"
+    },
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "link",
+      "href": "/learning",
+      "url": "https://stanaic-onboarding.vercel.app/learning"
+    },
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "link",
+      "href": "/membership",
+      "url": "https://stanaic-onboarding.vercel.app/membership"
+    },
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "link",
+      "href": "/announcements",
+      "url": "https://stanaic-onboarding.vercel.app/announcements"
+    },
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "link",
+      "href": "/workspace",
+      "url": "https://stanaic-onboarding.vercel.app/workspace"
+    },
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "link",
+      "href": "/research",
+      "url": "https://stanaic-onboarding.vercel.app/research"
+    },
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "link",
+      "href": "/institution",
+      "url": "https://stanaic-onboarding.vercel.app/institution"
+    },
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "link",
+      "href": "/institution",
+      "url": "https://stanaic-onboarding.vercel.app/institution"
+    },
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "link",
+      "href": "/research",
+      "url": "https://stanaic-onboarding.vercel.app/research"
+    },
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "link",
+      "href": "/learning",
+      "url": "https://stanaic-onboarding.vercel.app/learning"
+    },
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "link",
+      "href": "/journal",
+      "url": "https://stanaic-onboarding.vercel.app/journal"
+    },
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "link",
+      "href": "/workspace?mode=demo&view=publishing&role=author",
+      "url": "https://stanaic-onboarding.vercel.app/workspace?mode=demo&view=publishing&role=author"
+    },
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "link",
+      "href": "/learning",
+      "url": "https://stanaic-onboarding.vercel.app/learning"
+    },
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "link",
+      "href": "/workspace?mode=demo&view=learning&role=learner",
+      "url": "https://stanaic-onboarding.vercel.app/workspace?mode=demo&view=learning&role=learner"
+    },
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "link",
+      "href": "https://learn.stanaic.com/",
+      "url": "https://learn.stanaic.com/"
+    },
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "link",
+      "href": "/workspace?mode=demo&view=learning&role=learner",
+      "url": "https://stanaic-onboarding.vercel.app/workspace?mode=demo&view=learning&role=learner"
+    },
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "link",
+      "href": "https://learn.stanaic.com/",
+      "url": "https://learn.stanaic.com/"
+    },
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "link",
+      "href": "/workspace?mode=demo&view=learning&role=learner",
+      "url": "https://stanaic-onboarding.vercel.app/workspace?mode=demo&view=learning&role=learner"
+    },
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "link",
+      "href": "https://learn.stanaic.com/",
+      "url": "https://learn.stanaic.com/"
+    },
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "link",
+      "href": "https://stanaic.org/?white-papers/427.html",
+      "url": "https://stanaic.org/?white-papers/427.html"
+    },
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "link",
+      "href": "https://stanaic.org/?white-papers/384.html",
+      "url": "https://stanaic.org/?white-papers/384.html"
+    },
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "link",
+      "href": "/membership",
+      "url": "https://stanaic-onboarding.vercel.app/membership"
+    },
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "link",
+      "href": "/",
+      "url": "https://stanaic-onboarding.vercel.app/"
+    },
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "link",
+      "href": "/institution",
+      "url": "https://stanaic-onboarding.vercel.app/institution"
+    },
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "link",
+      "href": "/research",
+      "url": "https://stanaic-onboarding.vercel.app/research"
+    },
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "link",
+      "href": "/governance",
+      "url": "https://stanaic-onboarding.vercel.app/governance"
+    },
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "link",
+      "href": "/partnerships",
+      "url": "https://stanaic-onboarding.vercel.app/partnerships"
+    },
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "link",
+      "href": "/journal",
+      "url": "https://stanaic-onboarding.vercel.app/journal"
+    },
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "link",
+      "href": "/membership",
+      "url": "https://stanaic-onboarding.vercel.app/membership"
+    },
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "link",
+      "href": "/learning",
+      "url": "https://stanaic-onboarding.vercel.app/learning"
+    },
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "link",
+      "href": "/verify",
+      "url": "https://stanaic-onboarding.vercel.app/verify"
+    },
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "link",
+      "href": "https://learn.stanaic.com/",
+      "url": "https://learn.stanaic.com/"
+    },
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "link",
+      "href": "/demo",
+      "url": "https://stanaic-onboarding.vercel.app/demo"
+    },
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "link",
+      "href": "mailto:info@stanaic.org",
+      "url": "mailto:info@stanaic.org"
+    },
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "link",
+      "href": "https://stanaic.org/",
+      "url": "https://stanaic.org/"
+    },
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "link",
+      "href": "/architecture",
+      "url": "https://stanaic-onboarding.vercel.app/architecture"
+    },
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "link",
+      "href": "/workspace",
+      "url": "https://stanaic-onboarding.vercel.app/workspace"
+    },
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "asset",
+      "href": "/institutional/assets/public.js",
+      "url": "https://stanaic-onboarding.vercel.app/institutional/assets/public.js"
+    },
+    {
+      "source": "public/institutional/institution.html",
+      "page": "/institution",
+      "scope": "source",
+      "kind": "asset",
+      "href": "/institutional/assets/site.css",
+      "url": "https://stanaic-onboarding.vercel.app/institutional/assets/site.css"
+    },
+    {
+      "source": "public/institutional/institution.html",
+      "page": "/institution",
+      "scope": "source",
+      "kind": "asset",
+      "href": "/institutional/assets/extra.css",
+      "url": "https://stanaic-onboarding.vercel.app/institutional/assets/extra.css"
+    },
+    {
+      "source": "public/institutional/institution.html",
+      "page": "/institution",
+      "scope": "source",
+      "kind": "link",
+      "href": "/verify",
+      "url": "https://stanaic-onboarding.vercel.app/verify"
+    },
+    {
+      "source": "public/institutional/institution.html",
+      "page": "/institution",
+      "scope": "source",
+      "kind": "link",
+      "href": "/architecture",
+      "url": "https://stanaic-onboarding.vercel.app/architecture"
+    },
+    {
+      "source": "public/institutional/institution.html",
+      "page": "/institution",
+      "scope": "source",
+      "kind": "link",
+      "href": "/",
+      "url": "https://stanaic-onboarding.vercel.app/"
+    },
+    {
+      "source": "public/institutional/institution.html",
+      "page": "/institution",
+      "scope": "source",
+      "kind": "link",
+      "href": "/institution",
+      "url": "https://stanaic-onboarding.vercel.app/institution"
+    },
+    {
+      "source": "public/institutional/institution.html",
+      "page": "/institution",
+      "scope": "source",
+      "kind": "link",
+      "href": "/research",
+      "url": "https://stanaic-onboarding.vercel.app/research"
+    },
+    {
+      "source": "public/institutional/institution.html",
+      "page": "/institution",
+      "scope": "source",
+      "kind": "link",
+      "href": "/journal",
+      "url": "https://stanaic-onboarding.vercel.app/journal"
+    },
+    {
+      "source": "public/institutional/institution.html",
+      "page": "/institution",
+      "scope": "source",
+      "kind": "link",
+      "href": "/learning",
+      "url": "https://stanaic-onboarding.vercel.app/learning"
+    },
+    {
+      "source": "public/institutional/institution.html",
+      "page": "/institution",
+      "scope": "source",
+      "kind": "link",
+      "href": "/membership",
+      "url": "https://stanaic-onboarding.vercel.app/membership"
+    },
+    {
+      "source": "public/institutional/institution.html",
+      "page": "/institution",
+      "scope": "source",
+      "kind": "link",
+      "href": "/announcements",
+      "url": "https://stanaic-onboarding.vercel.app/announcements"
+    },
+    {
+      "source": "public/institutional/institution.html",
+      "page": "/institution",
+      "scope": "source",
+      "kind": "link",
+      "href": "/workspace",
+      "url": "https://stanaic-onboarding.vercel.app/workspace"
+    },
+    {
+      "source": "public/institutional/institution.html",
+      "page": "/institution",
+      "scope": "source",
+      "kind": "link",
+      "href": "/governance",
+      "url": "https://stanaic-onboarding.vercel.app/governance"
+    },
+    {
+      "source": "public/institutional/institution.html",
+      "page": "/institution",
+      "scope": "source",
+      "kind": "link",
+      "href": "/journal",
+      "url": "https://stanaic-onboarding.vercel.app/journal"
+    },
+    {
+      "source": "public/institutional/institution.html",
+      "page": "/institution",
+      "scope": "source",
+      "kind": "link",
+      "href": "https://stanaic.org/?ai-certifications/",
+      "url": "https://stanaic.org/?ai-certifications/"
+    },
+    {
+      "source": "public/institutional/institution.html",
+      "page": "/institution",
+      "scope": "source",
+      "kind": "link",
+      "href": "https://www.linkedin.com/in/guomingxu/",
+      "url": "https://www.linkedin.com/in/guomingxu/"
+    },
+    {
+      "source": "public/institutional/institution.html",
+      "page": "/institution",
+      "scope": "source",
+      "kind": "link",
+      "href": "/workspace?mode=demo",
+      "url": "https://stanaic-onboarding.vercel.app/workspace?mode=demo"
+    },
+    {
+      "source": "public/institutional/institution.html",
+      "page": "/institution",
+      "scope": "source",
+      "kind": "link",
+      "href": "/",
+      "url": "https://stanaic-onboarding.vercel.app/"
+    },
+    {
+      "source": "public/institutional/institution.html",
+      "page": "/institution",
+      "scope": "source",
+      "kind": "link",
+      "href": "/institution",
+      "url": "https://stanaic-onboarding.vercel.app/institution"
+    },
+    {
+      "source": "public/institutional/institution.html",
+      "page": "/institution",
+      "scope": "source",
+      "kind": "link",
+      "href": "/research",
+      "url": "https://stanaic-onboarding.vercel.app/research"
+    },
+    {
+      "source": "public/institutional/institution.html",
+      "page": "/institution",
+      "scope": "source",
+      "kind": "link",
+      "href": "/governance",
+      "url": "https://stanaic-onboarding.vercel.app/governance"
+    },
+    {
+      "source": "public/institutional/institution.html",
+      "page": "/institution",
+      "scope": "source",
+      "kind": "link",
+      "href": "/partnerships",
+      "url": "https://stanaic-onboarding.vercel.app/partnerships"
+    },
+    {
+      "source": "public/institutional/institution.html",
+      "page": "/institution",
+      "scope": "source",
+      "kind": "link",
+      "href": "/journal",
+      "url": "https://stanaic-onboarding.vercel.app/journal"
+    },
+    {
+      "source": "public/institutional/institution.html",
+      "page": "/institution",
+      "scope": "source",
+      "kind": "link",
+      "href": "/membership",
+      "url": "https://stanaic-onboarding.vercel.app/membership"
+    },
+    {
+      "source": "public/institutional/institution.html",
+      "page": "/institution",
+      "scope": "source",
+      "kind": "link",
+      "href": "/learning",
+      "url": "https://stanaic-onboarding.vercel.app/learning"
+    },
+    {
+      "source": "public/institutional/institution.html",
+      "page": "/institution",
+      "scope": "source",
+      "kind": "link",
+      "href": "/verify",
+      "url": "https://stanaic-onboarding.vercel.app/verify"
+    },
+    {
+      "source": "public/institutional/institution.html",
+      "page": "/institution",
+      "scope": "source",
+      "kind": "link",
+      "href": "https://learn.stanaic.com/",
+      "url": "https://learn.stanaic.com/"
+    },
+    {
+      "source": "public/institutional/institution.html",
+      "page": "/institution",
+      "scope": "source",
+      "kind": "link",
+      "href": "/demo",
+      "url": "https://stanaic-onboarding.vercel.app/demo"
+    },
+    {
+      "source": "public/institutional/institution.html",
+      "page": "/institution",
+      "scope": "source",
+      "kind": "link",
+      "href": "mailto:info@stanaic.org",
+      "url": "mailto:info@stanaic.org"
+    },
+    {
+      "source": "public/institutional/institution.html",
+      "page": "/institution",
+      "scope": "source",
+      "kind": "link",
+      "href": "https://stanaic.org/",
+      "url": "https://stanaic.org/"
+    },
+    {
+      "source": "public/institutional/institution.html",
+      "page": "/institution",
+      "scope": "source",
+      "kind": "link",
+      "href": "/architecture",
+      "url": "https://stanaic-onboarding.vercel.app/architecture"
+    },
+    {
+      "source": "public/institutional/institution.html",
+      "page": "/institution",
+      "scope": "source",
+      "kind": "link",
+      "href": "/workspace",
+      "url": "https://stanaic-onboarding.vercel.app/workspace"
+    },
+    {
+      "source": "public/institutional/institution.html",
+      "page": "/institution",
+      "scope": "source",
+      "kind": "asset",
+      "href": "/institutional/assets/public.js",
+      "url": "https://stanaic-onboarding.vercel.app/institutional/assets/public.js"
+    },
+    {
+      "source": "public/institutional/research.html",
+      "page": "/research",
+      "scope": "source",
+      "kind": "asset",
+      "href": "/institutional/assets/site.css",
+      "url": "https://stanaic-onboarding.vercel.app/institutional/assets/site.css"
+    },
+    {
+      "source": "public/institutional/research.html",
+      "page": "/research",
+      "scope": "source",
+      "kind": "asset",
+      "href": "/institutional/assets/extra.css",
+      "url": "https://stanaic-onboarding.vercel.app/institutional/assets/extra.css"
+    },
+    {
+      "source": "public/institutional/research.html",
+      "page": "/research",
+      "scope": "source",
+      "kind": "link",
+      "href": "/verify",
+      "url": "https://stanaic-onboarding.vercel.app/verify"
+    },
+    {
+      "source": "public/institutional/research.html",
+      "page": "/research",
+      "scope": "source",
+      "kind": "link",
+      "href": "/architecture",
+      "url": "https://stanaic-onboarding.vercel.app/architecture"
+    },
+    {
+      "source": "public/institutional/research.html",
+      "page": "/research",
+      "scope": "source",
+      "kind": "link",
+      "href": "/",
+      "url": "https://stanaic-onboarding.vercel.app/"
+    },
+    {
+      "source": "public/institutional/research.html",
+      "page": "/research",
+      "scope": "source",
+      "kind": "link",
+      "href": "/institution",
+      "url": "https://stanaic-onboarding.vercel.app/institution"
+    },
+    {
+      "source": "public/institutional/research.html",
+      "page": "/research",
+      "scope": "source",
+      "kind": "link",
+      "href": "/research",
+      "url": "https://stanaic-onboarding.vercel.app/research"
+    },
+    {
+      "source": "public/institutional/research.html",
+      "page": "/research",
+      "scope": "source",
+      "kind": "link",
+      "href": "/journal",
+      "url": "https://stanaic-onboarding.vercel.app/journal"
+    },
+    {
+      "source": "public/institutional/research.html",
+      "page": "/research",
+      "scope": "source",
+      "kind": "link",
+      "href": "/learning",
+      "url": "https://stanaic-onboarding.vercel.app/learning"
+    },
+    {
+      "source": "public/institutional/research.html",
+      "page": "/research",
+      "scope": "source",
+      "kind": "link",
+      "href": "/membership",
+      "url": "https://stanaic-onboarding.vercel.app/membership"
+    },
+    {
+      "source": "public/institutional/research.html",
+      "page": "/research",
+      "scope": "source",
+      "kind": "link",
+      "href": "/announcements",
+      "url": "https://stanaic-onboarding.vercel.app/announcements"
+    },
+    {
+      "source": "public/institutional/research.html",
+      "page": "/research",
+      "scope": "source",
+      "kind": "link",
+      "href": "/workspace",
+      "url": "https://stanaic-onboarding.vercel.app/workspace"
+    },
+    {
+      "source": "public/institutional/research.html",
+      "page": "/research",
+      "scope": "source",
+      "kind": "link",
+      "href": "https://stanaic.org/?white-papers/427.html",
+      "url": "https://stanaic.org/?white-papers/427.html"
+    },
+    {
+      "source": "public/institutional/research.html",
+      "page": "/research",
+      "scope": "source",
+      "kind": "link",
+      "href": "https://stanaic.org/?white-papers/396.html",
+      "url": "https://stanaic.org/?white-papers/396.html"
+    },
+    {
+      "source": "public/institutional/research.html",
+      "page": "/research",
+      "scope": "source",
+      "kind": "link",
+      "href": "https://stanaic.org/?white-papers/384.html",
+      "url": "https://stanaic.org/?white-papers/384.html"
+    },
+    {
+      "source": "public/institutional/research.html",
+      "page": "/research",
+      "scope": "source",
+      "kind": "link",
+      "href": "https://stanaic.org/?white-papers/322.html",
+      "url": "https://stanaic.org/?white-papers/322.html"
+    },
+    {
+      "source": "public/institutional/research.html",
+      "page": "/research",
+      "scope": "source",
+      "kind": "link",
+      "href": "https://stanaic.org/?white-papers/30.html",
+      "url": "https://stanaic.org/?white-papers/30.html"
+    },
+    {
+      "source": "public/institutional/research.html",
+      "page": "/research",
+      "scope": "source",
+      "kind": "link",
+      "href": "https://stanaic.org/?industry-research-projects/238.html",
+      "url": "https://stanaic.org/?industry-research-projects/238.html"
+    },
+    {
+      "source": "public/institutional/research.html",
+      "page": "/research",
+      "scope": "source",
+      "kind": "link",
+      "href": "https://stanaic.org/?industry-research-projects/224.html",
+      "url": "https://stanaic.org/?industry-research-projects/224.html"
+    },
+    {
+      "source": "public/institutional/research.html",
+      "page": "/research",
+      "scope": "source",
+      "kind": "link",
+      "href": "https://stanaic.org/?accountability-oversight/",
+      "url": "https://stanaic.org/?accountability-oversight/"
+    },
+    {
+      "source": "public/institutional/research.html",
+      "page": "/research",
+      "scope": "source",
+      "kind": "link",
+      "href": "https://stanaic.org/?risk-compliance/",
+      "url": "https://stanaic.org/?risk-compliance/"
+    },
+    {
+      "source": "public/institutional/research.html",
+      "page": "/research",
+      "scope": "source",
+      "kind": "link",
+      "href": "https://stanaic.org/?governance-structure/",
+      "url": "https://stanaic.org/?governance-structure/"
+    },
+    {
+      "source": "public/institutional/research.html",
+      "page": "/research",
+      "scope": "source",
+      "kind": "link",
+      "href": "https://stanaic.org/?official-announcements/542.html",
+      "url": "https://stanaic.org/?official-announcements/542.html"
+    },
+    {
+      "source": "public/institutional/research.html",
+      "page": "/research",
+      "scope": "source",
+      "kind": "link",
+      "href": "https://stanaic.org/?official-announcements/537.html",
+      "url": "https://stanaic.org/?official-announcements/537.html"
+    },
+    {
+      "source": "public/institutional/research.html",
+      "page": "/research",
+      "scope": "source",
+      "kind": "link",
+      "href": "/",
+      "url": "https://stanaic-onboarding.vercel.app/"
+    },
+    {
+      "source": "public/institutional/research.html",
+      "page": "/research",
+      "scope": "source",
+      "kind": "link",
+      "href": "/institution",
+      "url": "https://stanaic-onboarding.vercel.app/institution"
+    },
+    {
+      "source": "public/institutional/research.html",
+      "page": "/research",
+      "scope": "source",
+      "kind": "link",
+      "href": "/research",
+      "url": "https://stanaic-onboarding.vercel.app/research"
+    },
+    {
+      "source": "public/institutional/research.html",
+      "page": "/research",
+      "scope": "source",
+      "kind": "link",
+      "href": "/governance",
+      "url": "https://stanaic-onboarding.vercel.app/governance"
+    },
+    {
+      "source": "public/institutional/research.html",
+      "page": "/research",
+      "scope": "source",
+      "kind": "link",
+      "href": "/partnerships",
+      "url": "https://stanaic-onboarding.vercel.app/partnerships"
+    },
+    {
+      "source": "public/institutional/research.html",
+      "page": "/research",
+      "scope": "source",
+      "kind": "link",
+      "href": "/journal",
+      "url": "https://stanaic-onboarding.vercel.app/journal"
+    },
+    {
+      "source": "public/institutional/research.html",
+      "page": "/research",
+      "scope": "source",
+      "kind": "link",
+      "href": "/membership",
+      "url": "https://stanaic-onboarding.vercel.app/membership"
+    },
+    {
+      "source": "public/institutional/research.html",
+      "page": "/research",
+      "scope": "source",
+      "kind": "link",
+      "href": "/learning",
+      "url": "https://stanaic-onboarding.vercel.app/learning"
+    },
+    {
+      "source": "public/institutional/research.html",
+      "page": "/research",
+      "scope": "source",
+      "kind": "link",
+      "href": "/verify",
+      "url": "https://stanaic-onboarding.vercel.app/verify"
+    },
+    {
+      "source": "public/institutional/research.html",
+      "page": "/research",
+      "scope": "source",
+      "kind": "link",
+      "href": "https://learn.stanaic.com/",
+      "url": "https://learn.stanaic.com/"
+    },
+    {
+      "source": "public/institutional/research.html",
+      "page": "/research",
+      "scope": "source",
+      "kind": "link",
+      "href": "/demo",
+      "url": "https://stanaic-onboarding.vercel.app/demo"
+    },
+    {
+      "source": "public/institutional/research.html",
+      "page": "/research",
+      "scope": "source",
+      "kind": "link",
+      "href": "mailto:info@stanaic.org",
+      "url": "mailto:info@stanaic.org"
+    },
+    {
+      "source": "public/institutional/research.html",
+      "page": "/research",
+      "scope": "source",
+      "kind": "link",
+      "href": "https://stanaic.org/",
+      "url": "https://stanaic.org/"
+    },
+    {
+      "source": "public/institutional/research.html",
+      "page": "/research",
+      "scope": "source",
+      "kind": "link",
+      "href": "/architecture",
+      "url": "https://stanaic-onboarding.vercel.app/architecture"
+    },
+    {
+      "source": "public/institutional/research.html",
+      "page": "/research",
+      "scope": "source",
+      "kind": "link",
+      "href": "/workspace",
+      "url": "https://stanaic-onboarding.vercel.app/workspace"
+    },
+    {
+      "source": "public/institutional/research.html",
+      "page": "/research",
+      "scope": "source",
+      "kind": "asset",
+      "href": "/institutional/assets/public.js",
+      "url": "https://stanaic-onboarding.vercel.app/institutional/assets/public.js"
+    },
+    {
+      "source": "public/institutional/journal.html",
+      "page": "/journal",
+      "scope": "source",
+      "kind": "asset",
+      "href": "/institutional/assets/site.css",
+      "url": "https://stanaic-onboarding.vercel.app/institutional/assets/site.css"
+    },
+    {
+      "source": "public/institutional/journal.html",
+      "page": "/journal",
+      "scope": "source",
+      "kind": "asset",
+      "href": "/institutional/assets/extra.css",
+      "url": "https://stanaic-onboarding.vercel.app/institutional/assets/extra.css"
+    },
+    {
+      "source": "public/institutional/journal.html",
+      "page": "/journal",
+      "scope": "source",
+      "kind": "link",
+      "href": "/verify",
+      "url": "https://stanaic-onboarding.vercel.app/verify"
+    },
+    {
+      "source": "public/institutional/journal.html",
+      "page": "/journal",
+      "scope": "source",
+      "kind": "link",
+      "href": "/architecture",
+      "url": "https://stanaic-onboarding.vercel.app/architecture"
+    },
+    {
+      "source": "public/institutional/journal.html",
+      "page": "/journal",
+      "scope": "source",
+      "kind": "link",
+      "href": "/",
+      "url": "https://stanaic-onboarding.vercel.app/"
+    },
+    {
+      "source": "public/institutional/journal.html",
+      "page": "/journal",
+      "scope": "source",
+      "kind": "link",
+      "href": "/institution",
+      "url": "https://stanaic-onboarding.vercel.app/institution"
+    },
+    {
+      "source": "public/institutional/journal.html",
+      "page": "/journal",
+      "scope": "source",
+      "kind": "link",
+      "href": "/research",
+      "url": "https://stanaic-onboarding.vercel.app/research"
+    },
+    {
+      "source": "public/institutional/journal.html",
+      "page": "/journal",
+      "scope": "source",
+      "kind": "link",
+      "href": "/journal",
+      "url": "https://stanaic-onboarding.vercel.app/journal"
+    },
+    {
+      "source": "public/institutional/journal.html",
+      "page": "/journal",
+      "scope": "source",
+      "kind": "link",
+      "href": "/learning",
+      "url": "https://stanaic-onboarding.vercel.app/learning"
+    },
+    {
+      "source": "public/institutional/journal.html",
+      "page": "/journal",
+      "scope": "source",
+      "kind": "link",
+      "href": "/membership",
+      "url": "https://stanaic-onboarding.vercel.app/membership"
+    },
+    {
+      "source": "public/institutional/journal.html",
+      "page": "/journal",
+      "scope": "source",
+      "kind": "link",
+      "href": "/announcements",
+      "url": "https://stanaic-onboarding.vercel.app/announcements"
+    },
+    {
+      "source": "public/institutional/journal.html",
+      "page": "/journal",
+      "scope": "source",
+      "kind": "link",
+      "href": "/workspace",
+      "url": "https://stanaic-onboarding.vercel.app/workspace"
+    },
+    {
+      "source": "public/institutional/journal.html",
+      "page": "/journal",
+      "scope": "source",
+      "kind": "link",
+      "href": "/workspace?mode=demo&view=publishing&role=author",
+      "url": "https://stanaic-onboarding.vercel.app/workspace?mode=demo&view=publishing&role=author"
+    },
+    {
+      "source": "public/institutional/journal.html",
+      "page": "/journal",
+      "scope": "source",
+      "kind": "link",
+      "href": "https://stanaic.org/?society-publications/548.html",
+      "url": "https://stanaic.org/?society-publications/548.html"
+    },
+    {
+      "source": "public/institutional/journal.html",
+      "page": "/journal",
+      "scope": "source",
+      "kind": "link",
+      "href": "mailto:info@stanaic.org",
+      "url": "mailto:info@stanaic.org"
+    },
+    {
+      "source": "public/institutional/journal.html",
+      "page": "/journal",
+      "scope": "source",
+      "kind": "link",
+      "href": "/architecture#flows",
+      "url": "https://stanaic-onboarding.vercel.app/architecture#flows"
+    },
+    {
+      "source": "public/institutional/journal.html",
+      "page": "/journal",
+      "scope": "source",
+      "kind": "link",
+      "href": "/",
+      "url": "https://stanaic-onboarding.vercel.app/"
+    },
+    {
+      "source": "public/institutional/journal.html",
+      "page": "/journal",
+      "scope": "source",
+      "kind": "link",
+      "href": "/institution",
+      "url": "https://stanaic-onboarding.vercel.app/institution"
+    },
+    {
+      "source": "public/institutional/journal.html",
+      "page": "/journal",
+      "scope": "source",
+      "kind": "link",
+      "href": "/research",
+      "url": "https://stanaic-onboarding.vercel.app/research"
+    },
+    {
+      "source": "public/institutional/journal.html",
+      "page": "/journal",
+      "scope": "source",
+      "kind": "link",
+      "href": "/governance",
+      "url": "https://stanaic-onboarding.vercel.app/governance"
+    },
+    {
+      "source": "public/institutional/journal.html",
+      "page": "/journal",
+      "scope": "source",
+      "kind": "link",
+      "href": "/partnerships",
+      "url": "https://stanaic-onboarding.vercel.app/partnerships"
+    },
+    {
+      "source": "public/institutional/journal.html",
+      "page": "/journal",
+      "scope": "source",
+      "kind": "link",
+      "href": "/journal",
+      "url": "https://stanaic-onboarding.vercel.app/journal"
+    },
+    {
+      "source": "public/institutional/journal.html",
+      "page": "/journal",
+      "scope": "source",
+      "kind": "link",
+      "href": "/membership",
+      "url": "https://stanaic-onboarding.vercel.app/membership"
+    },
+    {
+      "source": "public/institutional/journal.html",
+      "page": "/journal",
+      "scope": "source",
+      "kind": "link",
+      "href": "/learning",
+      "url": "https://stanaic-onboarding.vercel.app/learning"
+    },
+    {
+      "source": "public/institutional/journal.html",
+      "page": "/journal",
+      "scope": "source",
+      "kind": "link",
+      "href": "/verify",
+      "url": "https://stanaic-onboarding.vercel.app/verify"
+    },
+    {
+      "source": "public/institutional/journal.html",
+      "page": "/journal",
+      "scope": "source",
+      "kind": "link",
+      "href": "https://learn.stanaic.com/",
+      "url": "https://learn.stanaic.com/"
+    },
+    {
+      "source": "public/institutional/journal.html",
+      "page": "/journal",
+      "scope": "source",
+      "kind": "link",
+      "href": "/demo",
+      "url": "https://stanaic-onboarding.vercel.app/demo"
+    },
+    {
+      "source": "public/institutional/journal.html",
+      "page": "/journal",
+      "scope": "source",
+      "kind": "link",
+      "href": "mailto:info@stanaic.org",
+      "url": "mailto:info@stanaic.org"
+    },
+    {
+      "source": "public/institutional/journal.html",
+      "page": "/journal",
+      "scope": "source",
+      "kind": "link",
+      "href": "https://stanaic.org/",
+      "url": "https://stanaic.org/"
+    },
+    {
+      "source": "public/institutional/journal.html",
+      "page": "/journal",
+      "scope": "source",
+      "kind": "link",
+      "href": "/architecture",
+      "url": "https://stanaic-onboarding.vercel.app/architecture"
+    },
+    {
+      "source": "public/institutional/journal.html",
+      "page": "/journal",
+      "scope": "source",
+      "kind": "link",
+      "href": "/workspace",
+      "url": "https://stanaic-onboarding.vercel.app/workspace"
+    },
+    {
+      "source": "public/institutional/journal.html",
+      "page": "/journal",
+      "scope": "source",
+      "kind": "asset",
+      "href": "/institutional/assets/public.js",
+      "url": "https://stanaic-onboarding.vercel.app/institutional/assets/public.js"
+    },
+    {
+      "source": "public/institutional/learning.html",
+      "page": "/learning",
+      "scope": "source",
+      "kind": "asset",
+      "href": "/institutional/assets/site.css",
+      "url": "https://stanaic-onboarding.vercel.app/institutional/assets/site.css"
+    },
+    {
+      "source": "public/institutional/learning.html",
+      "page": "/learning",
+      "scope": "source",
+      "kind": "asset",
+      "href": "/institutional/assets/extra.css",
+      "url": "https://stanaic-onboarding.vercel.app/institutional/assets/extra.css"
+    },
+    {
+      "source": "public/institutional/learning.html",
+      "page": "/learning",
+      "scope": "source",
+      "kind": "link",
+      "href": "/verify",
+      "url": "https://stanaic-onboarding.vercel.app/verify"
+    },
+    {
+      "source": "public/institutional/learning.html",
+      "page": "/learning",
+      "scope": "source",
+      "kind": "link",
+      "href": "/architecture",
+      "url": "https://stanaic-onboarding.vercel.app/architecture"
+    },
+    {
+      "source": "public/institutional/learning.html",
+      "page": "/learning",
+      "scope": "source",
+      "kind": "link",
+      "href": "/",
+      "url": "https://stanaic-onboarding.vercel.app/"
+    },
+    {
+      "source": "public/institutional/learning.html",
+      "page": "/learning",
+      "scope": "source",
+      "kind": "link",
+      "href": "/institution",
+      "url": "https://stanaic-onboarding.vercel.app/institution"
+    },
+    {
+      "source": "public/institutional/learning.html",
+      "page": "/learning",
+      "scope": "source",
+      "kind": "link",
+      "href": "/research",
+      "url": "https://stanaic-onboarding.vercel.app/research"
+    },
+    {
+      "source": "public/institutional/learning.html",
+      "page": "/learning",
+      "scope": "source",
+      "kind": "link",
+      "href": "/journal",
+      "url": "https://stanaic-onboarding.vercel.app/journal"
+    },
+    {
+      "source": "public/institutional/learning.html",
+      "page": "/learning",
+      "scope": "source",
+      "kind": "link",
+      "href": "/learning",
+      "url": "https://stanaic-onboarding.vercel.app/learning"
+    },
+    {
+      "source": "public/institutional/learning.html",
+      "page": "/learning",
+      "scope": "source",
+      "kind": "link",
+      "href": "/membership",
+      "url": "https://stanaic-onboarding.vercel.app/membership"
+    },
+    {
+      "source": "public/institutional/learning.html",
+      "page": "/learning",
+      "scope": "source",
+      "kind": "link",
+      "href": "/announcements",
+      "url": "https://stanaic-onboarding.vercel.app/announcements"
+    },
+    {
+      "source": "public/institutional/learning.html",
+      "page": "/learning",
+      "scope": "source",
+      "kind": "link",
+      "href": "/workspace",
+      "url": "https://stanaic-onboarding.vercel.app/workspace"
+    },
+    {
+      "source": "public/institutional/learning.html",
+      "page": "/learning",
+      "scope": "source",
+      "kind": "link",
+      "href": "https://learn.stanaic.com/",
+      "url": "https://learn.stanaic.com/"
+    },
+    {
+      "source": "public/institutional/learning.html",
+      "page": "/learning",
+      "scope": "source",
+      "kind": "link",
+      "href": "/workspace?mode=demo&view=learning&role=learner",
+      "url": "https://stanaic-onboarding.vercel.app/workspace?mode=demo&view=learning&role=learner"
+    },
+    {
+      "source": "public/institutional/learning.html",
+      "page": "/learning",
+      "scop…122221 tokens truncated…naic-onboarding.vercel.app/architecture#sources",
+      "target_path": "/architecture",
+      "exists_live": true,
+      "exists_source": true
+    }
+  ],
+  "non_http_references": [
+    {
+      "source": "public/institutional/index.html",
+      "page": "/",
+      "scope": "source",
+      "kind": "link",
+      "href": "mailto:info@stanaic.org",
+      "url": "mailto:info@stanaic.org"
+    },
+    {
+      "source": "public/institutional/institution.html",
+      "page": "/institution",
+      "scope": "source",
+      "kind": "link",
+      "href": "mailto:info@stanaic.org",
+      "url": "mailto:info@stanaic.org"
+    },
+    {
+      "source": "public/institutional/research.html",
+      "page": "/research",
+      "scope": "source",
+      "kind": "link",
+      "href": "mailto:info@stanaic.org",
+      "url": "mailto:info@stanaic.org"
+    },
+    {
+      "source": "public/institutional/journal.html",
+      "page": "/journal",
+      "scope": "source",
+      "kind": "link",
+      "href": "mailto:info@stanaic.org",
+      "url": "mailto:info@stanaic.org"
+    },
+    {
+      "source": "public/institutional/journal.html",
+      "page": "/journal",
+      "scope": "source",
+      "kind": "link",
+      "href": "mailto:info@stanaic.org",
+      "url": "mailto:info@stanaic.org"
+    },
+    {
+      "source": "public/institutional/learning.html",
+      "page": "/learning",
+      "scope": "source",
+      "kind": "link",
+      "href": "mailto:info@stanaic.org",
+      "url": "mailto:info@stanaic.org"
+    },
+    {
+      "source": "public/institutional/membership.html",
+      "page": "/membership",
+      "scope": "source",
+      "kind": "link",
+      "href": "mailto:info@stanaic.org?subject=Individual%20membership%20inquiry",
+      "url": "mailto:info@stanaic.org?subject=Individual%20membership%20inquiry"
+    },
+    {
+      "source": "public/institutional/membership.html",
+      "page": "/membership",
+      "scope": "source",
+      "kind": "link",
+      "href": "mailto:info@stanaic.org?subject=Institutional%20membership%20inquiry",
+      "url": "mailto:info@stanaic.org?subject=Institutional%20membership%20inquiry"
+    },
+    {
+      "source": "public/institutional/membership.html",
+      "page": "/membership",
+      "scope": "source",
+      "kind": "link",
+      "href": "mailto:info@stanaic.org",
+      "url": "mailto:info@stanaic.org"
+    },
+    {
+      "source": "public/institutional/governance.html",
+      "page": "/governance",
+      "scope": "source",
+      "kind": "link",
+      "href": "mailto:info@stanaic.org",
+      "url": "mailto:info@stanaic.org"
+    },
+    {
+      "source": "public/institutional/network.html",
+      "page": "/partnerships",
+      "scope": "source",
+      "kind": "link",
+      "href": "mailto:info@stanaic.org",
+      "url": "mailto:info@stanaic.org"
+    },
+    {
+      "source": "public/institutional/architecture.html",
+      "page": "/architecture",
+      "scope": "source",
+      "kind": "link",
+      "href": "mailto:info@stanaic.org",
+      "url": "mailto:info@stanaic.org"
+    },
+    {
+      "source": "/",
+      "page": "/",
+      "scope": "live_html",
+      "kind": "link",
+      "href": "mailto:info@stanaic.org",
+      "url": "mailto:info@stanaic.org"
+    },
+    {
+      "source": "/institution",
+      "page": "/institution",
+      "scope": "live_html",
+      "kind": "link",
+      "href": "mailto:info@stanaic.org",
+      "url": "mailto:info@stanaic.org"
+    },
+    {
+      "source": "/research",
+      "page": "/research",
+      "scope": "live_html",
+      "kind": "link",
+      "href": "mailto:info@stanaic.org",
+      "url": "mailto:info@stanaic.org"
+    },
+    {
+      "source": "/journal",
+      "page": "/journal",
+      "scope": "live_html",
+      "kind": "link",
+      "href": "mailto:info@stanaic.org",
+      "url": "mailto:info@stanaic.org"
+    },
+    {
+      "source": "/journal",
+      "page": "/journal",
+      "scope": "live_html",
+      "kind": "link",
+      "href": "mailto:info@stanaic.org",
+      "url": "mailto:info@stanaic.org"
+    },
+    {
+      "source": "/learning",
+      "page": "/learning",
+      "scope": "live_html",
+      "kind": "link",
+      "href": "mailto:info@stanaic.org",
+      "url": "mailto:info@stanaic.org"
+    },
+    {
+      "source": "/membership",
+      "page": "/membership",
+      "scope": "live_html",
+      "kind": "link",
+      "href": "mailto:info@stanaic.org?subject=Individual%20membership%20inquiry",
+      "url": "mailto:info@stanaic.org?subject=Individual%20membership%20inquiry"
+    },
+    {
+      "source": "/membership",
+      "page": "/membership",
+      "scope": "live_html",
+      "kind": "link",
+      "href": "mailto:info@stanaic.org?subject=Institutional%20membership%20inquiry",
+      "url": "mailto:info@stanaic.org?subject=Institutional%20membership%20inquiry"
+    },
+    {
+      "source": "/membership",
+      "page": "/membership",
+      "scope": "live_html",
+      "kind": "link",
+      "href": "mailto:info@stanaic.org",
+      "url": "mailto:info@stanaic.org"
+    },
+    {
+      "source": "/governance",
+      "page": "/governance",
+      "scope": "live_html",
+      "kind": "link",
+      "href": "mailto:info@stanaic.org",
+      "url": "mailto:info@stanaic.org"
+    },
+    {
+      "source": "/partnerships",
+      "page": "/partnerships",
+      "scope": "live_html",
+      "kind": "link",
+      "href": "mailto:info@stanaic.org",
+      "url": "mailto:info@stanaic.org"
+    },
+    {
+      "source": "/architecture",
+      "page": "/architecture",
+      "scope": "live_html",
+      "kind": "link",
+      "href": "mailto:info@stanaic.org",
+      "url": "mailto:info@stanaic.org"
+    }
+  ],
+  "http_checks": [
+    {
+      "url": "https://stanaic-onboarding.vercel.app/",
+      "checked_at": "2026-11-07T08:20:27.787117+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/",
+      "location": null,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 9911,
+      "sha256": "ba23e69c683b7b1d83cc70dc5b7a1e256878e67ab41bb52316d8958c555be9a8",
+      "result": "passed",
+      "title": "A considered future for artificial intelligence | STANAIC"
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/_next/static/immutable/chunks/04bsozhjiv9xj.css",
+      "checked_at": "2026-11-07T08:20:50.720794+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/_next/static/immutable/chunks/04bsozhjiv9xj.css",
+      "location": null,
+      "content_type": "text/css; charset=utf-8",
+      "bytes": 28952,
+      "sha256": "5991c1211ce1948429c467a0356c3c3face7197c947d6c138947001204eeb9d1",
+      "result": "passed"
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/_next/static/immutable/chunks/05evy_zsxloid.js",
+      "checked_at": "2026-11-07T08:20:50.721284+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/_next/static/immutable/chunks/05evy_zsxloid.js",
+      "location": null,
+      "content_type": "application/javascript; charset=utf-8",
+      "bytes": 183098,
+      "sha256": "209fa1e11cf4d5a82f12db9228410496855903041728e1c658bee323faacce76",
+      "result": "passed"
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+      "checked_at": "2026-11-07T08:20:50.721684+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+      "location": null,
+      "content_type": "application/javascript; charset=utf-8",
+      "bytes": 112594,
+      "sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683",
+      "result": "passed"
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/_next/static/immutable/chunks/1kbt14nefgsiq.js",
+      "checked_at": "2026-11-07T08:20:50.722284+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/_next/static/immutable/chunks/1kbt14nefgsiq.js",
+      "location": null,
+      "content_type": "application/javascript; charset=utf-8",
+      "bytes": 16797,
+      "sha256": "49cf866bf4d0282119e51835114325403f28e53fd0bccb63dde7ba3114a8e9fb",
+      "result": "passed"
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/_next/static/immutable/chunks/2corl6wyj4669.js",
+      "checked_at": "2026-11-07T08:20:58.427375+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/_next/static/immutable/chunks/2corl6wyj4669.js",
+      "location": null,
+      "content_type": "application/javascript; charset=utf-8",
+      "bytes": 14377,
+      "sha256": "34ed6abf4c6d0d1bb3dc56d3f133d2a5dbc3a3c89c791deab314e27143ac14ce",
+      "result": "passed"
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/_next/static/immutable/chunks/3y4cp6p0bheui.js",
+      "checked_at": "2026-11-07T08:20:58.451238+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/_next/static/immutable/chunks/3y4cp6p0bheui.js",
+      "location": null,
+      "content_type": "application/javascript; charset=utf-8",
+      "bytes": 229662,
+      "sha256": "7339d36156f031766a0f494667c89390c81b85acd739700bfb25b4fd3a45235b",
+      "result": "passed"
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/_next/static/immutable/chunks/42w0h79y41tha.js",
+      "checked_at": "2026-11-07T08:20:58.608667+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/_next/static/immutable/chunks/42w0h79y41tha.js",
+      "location": null,
+      "content_type": "application/javascript; charset=utf-8",
+      "bytes": 1311,
+      "sha256": "598c4def7e716d8bebb8f06ae15fe5097937e3e9d2077e3e484683fa84bbab88",
+      "result": "passed"
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/_next/static/immutable/chunks/turbopack-1nbyka7ho7_bp.js",
+      "checked_at": "2026-11-07T08:20:58.651477+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/_next/static/immutable/chunks/turbopack-1nbyka7ho7_bp.js",
+      "location": null,
+      "content_type": "application/javascript; charset=utf-8",
+      "bytes": 10943,
+      "sha256": "d3998276ba8a8b0e98d65d4b7d313bc4e1ab5bb54f0886bfbba0e3a96c423258",
+      "result": "passed"
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/access",
+      "checked_at": "2026-11-07T08:20:42.938098+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/access",
+      "location": null,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 23663,
+      "sha256": "822c3dd6b694f056077ab947382d3f70da027a5755ad4b37819cb773d4f86642",
+      "result": "passed",
+      "title": "Portal access | STANAIC"
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/admin",
+      "checked_at": "2026-11-07T08:21:06.119232+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/admin",
+      "location": null,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 8782,
+      "sha256": "39508f448624a9bf4d5d4ea2739e8c96d1bb7c989ee6df02dda6724995275edb",
+      "result": "passed",
+      "title": "STANAIC \u00b7 Institutional platform"
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/announcements",
+      "checked_at": "2026-11-07T08:21:06.123216+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/announcements",
+      "location": null,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 15288,
+      "sha256": "66a2a158ee08f90e866b202bcd0e18fe2504b782ddb584d9fa580e2a342cb5ac",
+      "result": "passed",
+      "title": "Member announcements | STANAIC"
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/announcements?demo=1",
+      "checked_at": "2026-11-07T08:21:06.167614+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/announcements?demo=1",
+      "location": null,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 15288,
+      "sha256": "66a2a158ee08f90e866b202bcd0e18fe2504b782ddb584d9fa580e2a342cb5ac",
+      "result": "passed",
+      "title": "Member announcements | STANAIC"
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/architecture",
+      "checked_at": "2026-11-07T08:20:42.920041+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/architecture",
+      "location": null,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 29246,
+      "sha256": "775420437ace38811bf40ed0ce147c00b251ffe7de54f702b087fa2cfb156ecd",
+      "result": "passed",
+      "title": "Technical architecture | STANAIC"
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/assistant",
+      "checked_at": "2026-11-07T08:21:06.283294+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/assistant",
+      "location": null,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 10707,
+      "sha256": "535326c1fc05114f72f7f6e2bc241531ceac8eae43a75de565cc41b13686d1a0",
+      "result": "passed",
+      "title": "STANAIC \u00b7 Institutional platform"
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/demo",
+      "checked_at": "2026-11-07T08:21:13.911865+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/demo",
+      "location": null,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 12466,
+      "sha256": "814bcb3caa5482bea5ec61775177f74be0ffa960bc8be9269418968f30fe4eb7",
+      "result": "passed",
+      "title": "STANAIC \u00b7 Institutional platform"
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/demo/admin",
+      "checked_at": "2026-11-07T08:21:13.913138+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/demo/admin",
+      "location": null,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 9621,
+      "sha256": "a3f465b5973246b914b0e01bd91bded8090ee90b7f14564008cb1c1fa2190dd6",
+      "result": "passed",
+      "title": "STANAIC \u00b7 Institutional platform"
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/demo/member",
+      "checked_at": "2026-11-07T08:21:13.916101+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/demo/member",
+      "location": null,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 10893,
+      "sha256": "ab01410582ba017a275add6fba704907a3f994595cfdeef6a5cdc4a05f4c0735",
+      "result": "passed",
+      "title": "STANAIC \u00b7 Institutional platform"
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/favicon.svg",
+      "checked_at": "2026-11-07T08:21:13.931678+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/favicon.svg",
+      "location": null,
+      "content_type": "image/svg+xml",
+      "bytes": 712,
+      "sha256": "e6d2e59b7b5bbb0342e0fb496dfc262decbfe4426bbb7b047aec8d467d1dc6f7",
+      "result": "passed"
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/governance",
+      "checked_at": "2026-11-07T08:20:35.064758+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/governance",
+      "location": null,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 6211,
+      "sha256": "e058d63951bc7774c8bc601b643953c8a984e99b169b0304f7ed896a1458b4fd",
+      "result": "passed",
+      "title": "Governance & standards | STANAIC"
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/institution",
+      "checked_at": "2026-11-07T08:20:27.787635+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/institution",
+      "location": null,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 5449,
+      "sha256": "d3c18b81eb91040e5806ca56cab2cdee84cf5a9ac870b5ce09614bf6de08da62",
+      "result": "passed",
+      "title": "Institution & governance | STANAIC"
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/institutional/architecture.md",
+      "checked_at": "2026-11-07T08:21:21.856996+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/institutional/architecture.md",
+      "location": null,
+      "content_type": "text/markdown; charset=utf-8",
+      "bytes": 12336,
+      "sha256": "ce76a5b6231f4894ce56800341bf9310d8d56ccee2ee092824e0a0c72d0c7747",
+      "result": "passed"
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/institutional/assets/extra.css",
+      "checked_at": "2026-11-07T08:21:21.956029+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/institutional/assets/extra.css",
+      "location": null,
+      "content_type": "text/css; charset=utf-8",
+      "bytes": 2873,
+      "sha256": "852f9c02ce8dfa9c238b88cd5eaa84569d959bad0acc756ee0d3571d6f5ece6d",
+      "result": "passed"
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/institutional/assets/public.js",
+      "checked_at": "2026-11-07T08:21:21.987806+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/institutional/assets/public.js",
+      "location": null,
+      "content_type": "application/javascript; charset=utf-8",
+      "bytes": 3546,
+      "sha256": "0c5d742843187cc61e12994093450a4bc2954726e3e1abca15fddc64d2a46c7c",
+      "result": "passed"
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/institutional/assets/site.css",
+      "checked_at": "2026-11-07T08:21:22.044182+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/institutional/assets/site.css",
+      "location": null,
+      "content_type": "text/css; charset=utf-8",
+      "bytes": 14280,
+      "sha256": "a743329553cad83822d860742625f603df0061e1eafe9cf016deb5173d6fb0b1",
+      "result": "passed"
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/join",
+      "checked_at": "2026-11-07T08:21:29.483575+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/join",
+      "location": null,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 10076,
+      "sha256": "31cad695cd40c80599e829966e7950c0c20510b52fca301fb296adb5dcb8899f",
+      "result": "passed",
+      "title": "STANAIC \u00b7 Institutional platform"
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/journal",
+      "checked_at": "2026-11-07T08:20:27.788481+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/journal",
+      "location": null,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 5661,
+      "sha256": "3a0bfe620082c9c9d046d6df59dedcdb8b175bd6b0da442f0f2422be783ccbab",
+      "result": "passed",
+      "title": "Journal of AI Governance and Assurance | STANAIC"
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/learning",
+      "checked_at": "2026-11-07T08:20:34.944648+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/learning",
+      "location": null,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 6663,
+      "sha256": "bea7a46ddbc58dff92390f905f0d68ac45705628823f6161765c19aeda6f3403",
+      "result": "passed",
+      "title": "Learning & professional development | STANAIC"
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/membership",
+      "checked_at": "2026-11-07T08:20:35.020545+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/membership",
+      "location": null,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 5419,
+      "sha256": "d7ec3f628f5bd1ce4d145f4cb43f2636ae1a9ada97a4dfca71fd9857fad653d0",
+      "result": "passed",
+      "title": "Membership & partnerships | STANAIC"
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/partnerships",
+      "checked_at": "2026-11-07T08:20:35.248149+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/partnerships",
+      "location": null,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 5918,
+      "sha256": "1167d898b390ccefa314380d89ffe3e5abb0dd74a9296ed69247b02f2a184bdd",
+      "result": "passed",
+      "title": "Partnerships & institutional updates | STANAIC"
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/research",
+      "checked_at": "2026-11-07T08:20:27.787980+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/research",
+      "location": null,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 7467,
+      "sha256": "058cfaf272e75bf4cd4aaef9cd9807b34c5d78a21f41c08864fbfef9b8c49ff9",
+      "result": "passed",
+      "title": "Research & knowledge library | STANAIC"
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/review-guide",
+      "checked_at": "2026-11-07T08:20:42.939746+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/review-guide",
+      "location": null,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 16045,
+      "sha256": "d4e7b33b1446b3e1b3eee903cc8256fa7737c5454189887a0711e985636dd25e",
+      "result": "passed",
+      "title": "Workflow review guide | STANAIC"
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/sign-in",
+      "checked_at": "2026-11-07T08:21:29.483993+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/sign-in",
+      "location": null,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 8051,
+      "sha256": "125e8a815c3d0f8062498c44fcd38da09eb1b5b73a63246c6c8f62d778553577",
+      "result": "passed",
+      "title": "STANAIC \u00b7 Institutional platform"
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/verify",
+      "checked_at": "2026-11-07T08:21:29.523521+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/verify",
+      "location": null,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 8076,
+      "sha256": "fbbb96edf90278b772443257fc471a910357508ff7789921422b10c5ed4c135f",
+      "result": "passed",
+      "title": "STANAIC \u00b7 Credential verification"
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/workspace",
+      "checked_at": "2026-11-07T08:21:29.563273+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/workspace",
+      "location": null,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 17653,
+      "sha256": "14084a67323cb9e71a2193a1249b7d4b6d13e378d6116f1381b06eefca549009",
+      "result": "passed",
+      "title": "STANAIC \u00b7 Institutional workspace"
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/workspace?mode=demo",
+      "checked_at": "2026-11-07T08:21:37.215860+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/workspace?mode=demo",
+      "location": null,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 17653,
+      "sha256": "14084a67323cb9e71a2193a1249b7d4b6d13e378d6116f1381b06eefca549009",
+      "result": "passed",
+      "title": "STANAIC \u00b7 Institutional workspace"
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/workspace?mode=demo&role=superadmin",
+      "checked_at": "2026-11-07T08:21:37.217074+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/workspace?mode=demo&role=superadmin",
+      "location": null,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 17653,
+      "sha256": "14084a67323cb9e71a2193a1249b7d4b6d13e378d6116f1381b06eefca549009",
+      "result": "passed",
+      "title": "STANAIC \u00b7 Institutional workspace"
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/workspace?mode=demo&view=finance&role=finance",
+      "checked_at": "2026-11-07T08:21:37.219749+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/workspace?mode=demo&view=finance&role=finance",
+      "location": null,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 17653,
+      "sha256": "14084a67323cb9e71a2193a1249b7d4b6d13e378d6116f1381b06eefca549009",
+      "result": "passed",
+      "title": "STANAIC \u00b7 Institutional workspace"
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/workspace?mode=demo&view=learning&role=learner",
+      "checked_at": "2026-11-07T08:21:37.240677+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/workspace?mode=demo&view=learning&role=learner",
+      "location": null,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 17653,
+      "sha256": "14084a67323cb9e71a2193a1249b7d4b6d13e378d6116f1381b06eefca549009",
+      "result": "passed",
+      "title": "STANAIC \u00b7 Institutional workspace"
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/workspace?mode=demo&view=membership&role=admin",
+      "checked_at": "2026-11-07T08:21:44.808656+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/workspace?mode=demo&view=membership&role=admin",
+      "location": null,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 17653,
+      "sha256": "14084a67323cb9e71a2193a1249b7d4b6d13e378d6116f1381b06eefca549009",
+      "result": "passed",
+      "title": "STANAIC \u00b7 Institutional workspace"
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/workspace?mode=demo&view=publishing&role=author",
+      "checked_at": "2026-11-07T08:21:44.836491+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/workspace?mode=demo&view=publishing&role=author",
+      "location": null,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 17653,
+      "sha256": "14084a67323cb9e71a2193a1249b7d4b6d13e378d6116f1381b06eefca549009",
+      "result": "passed",
+      "title": "STANAIC \u00b7 Institutional workspace"
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/workspace?view=credentials",
+      "checked_at": "2026-11-07T08:21:44.844517+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/workspace?view=credentials",
+      "location": null,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 17653,
+      "sha256": "14084a67323cb9e71a2193a1249b7d4b6d13e378d6116f1381b06eefca549009",
+      "result": "passed",
+      "title": "STANAIC \u00b7 Institutional workspace"
+    }
+  ],
+  "catalogue": {
+    "http": {
+      "url": "https://stanaic-onboarding.vercel.app/api/platform/catalogue",
+      "checked_at": "2026-11-07T08:21:52.465579+00:00",
+      "status": 200,
+      "final_url": "https://stanaic-onboarding.vercel.app/api/platform/catalogue",
+      "location": null,
+      "content_type": "application/json",
+      "bytes": 616,
+      "sha256": "c6a0abca7d4e90089eaaedb5f65de537da2d49d4e19bd054604e6edcefc70002",
+      "result": "passed"
+    },
+    "collections": {
+      "courses": 1,
+      "resources": 0,
+      "publications": 0,
+      "sources": 1
+    },
+    "keys": [
+      "courses",
+      "publications",
+      "resources",
+      "sources"
+    ],
+    "dynamic_urls": []
+  },
+  "legacy_redirects": [
+    {
+      "url": "https://stanaic-onboarding.vercel.app/institutional/index.html?qa=links",
+      "checked_at": "2026-11-07T08:22:00.469608+00:00",
+      "status": 308,
+      "final_url": "https://stanaic-onboarding.vercel.app/institutional/index.html?qa=links",
+      "location": "/?qa=links",
+      "content_type": "text/plain",
+      "bytes": 15,
+      "sha256": "7c040f8633b8823d72ed63da9b3b2dfe9846e912c66a64c9433ec9c4815d76c2",
+      "result": "passed",
+      "path": "/institutional/index.html",
+      "expected_path": "/",
+      "passed": true
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/index.html?qa=links",
+      "checked_at": "2026-11-07T08:22:00.470171+00:00",
+      "status": 308,
+      "final_url": "https://stanaic-onboarding.vercel.app/index.html?qa=links",
+      "location": "/?qa=links",
+      "content_type": "text/plain",
+      "bytes": 15,
+      "sha256": "7c040f8633b8823d72ed63da9b3b2dfe9846e912c66a64c9433ec9c4815d76c2",
+      "result": "passed",
+      "path": "/index.html",
+      "expected_path": "/",
+      "passed": true
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/institutional/index?qa=links",
+      "checked_at": "2026-11-07T08:22:00.470710+00:00",
+      "status": 308,
+      "final_url": "https://stanaic-onboarding.vercel.app/institutional/index?qa=links",
+      "location": "/?qa=links",
+      "content_type": "text/plain",
+      "bytes": 15,
+      "sha256": "7c040f8633b8823d72ed63da9b3b2dfe9846e912c66a64c9433ec9c4815d76c2",
+      "result": "passed",
+      "path": "/institutional/index",
+      "expected_path": "/",
+      "passed": true
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/institutional/institution.html?qa=links",
+      "checked_at": "2026-11-07T08:22:00.471617+00:00",
+      "status": 308,
+      "final_url": "https://stanaic-onboarding.vercel.app/institutional/institution.html?qa=links",
+      "location": "/institution?qa=links",
+      "content_type": "text/plain",
+      "bytes": 15,
+      "sha256": "7c040f8633b8823d72ed63da9b3b2dfe9846e912c66a64c9433ec9c4815d76c2",
+      "result": "passed",
+      "path": "/institutional/institution.html",
+      "expected_path": "/institution",
+      "passed": true
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/institution.html?qa=links",
+      "checked_at": "2026-11-07T08:22:08.087464+00:00",
+      "status": 308,
+      "final_url": "https://stanaic-onboarding.vercel.app/institution.html?qa=links",
+      "location": "/institution?qa=links",
+      "content_type": "text/plain",
+      "bytes": 15,
+      "sha256": "7c040f8633b8823d72ed63da9b3b2dfe9846e912c66a64c9433ec9c4815d76c2",
+      "result": "passed",
+      "path": "/institution.html",
+      "expected_path": "/institution",
+      "passed": true
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/institutional/institution?qa=links",
+      "checked_at": "2026-11-07T08:22:08.090496+00:00",
+      "status": 308,
+      "final_url": "https://stanaic-onboarding.vercel.app/institutional/institution?qa=links",
+      "location": "/institution?qa=links",
+      "content_type": "text/plain",
+      "bytes": 15,
+      "sha256": "7c040f8633b8823d72ed63da9b3b2dfe9846e912c66a64c9433ec9c4815d76c2",
+      "result": "passed",
+      "path": "/institutional/institution",
+      "expected_path": "/institution",
+      "passed": true
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/institutional/research.html?qa=links",
+      "checked_at": "2026-11-07T08:22:08.125944+00:00",
+      "status": 308,
+      "final_url": "https://stanaic-onboarding.vercel.app/institutional/research.html?qa=links",
+      "location": "/research?qa=links",
+      "content_type": "text/plain",
+      "bytes": 15,
+      "sha256": "7c040f8633b8823d72ed63da9b3b2dfe9846e912c66a64c9433ec9c4815d76c2",
+      "result": "passed",
+      "path": "/institutional/research.html",
+      "expected_path": "/research",
+      "passed": true
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/research.html?qa=links",
+      "checked_at": "2026-11-07T08:22:08.133594+00:00",
+      "status": 308,
+      "final_url": "https://stanaic-onboarding.vercel.app/research.html?qa=links",
+      "location": "/research?qa=links",
+      "content_type": "text/plain",
+      "bytes": 15,
+      "sha256": "7c040f8633b8823d72ed63da9b3b2dfe9846e912c66a64c9433ec9c4815d76c2",
+      "result": "passed",
+      "path": "/research.html",
+      "expected_path": "/research",
+      "passed": true
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/institutional/research?qa=links",
+      "checked_at": "2026-11-07T08:22:15.595762+00:00",
+      "status": 308,
+      "final_url": "https://stanaic-onboarding.vercel.app/institutional/research?qa=links",
+      "location": "/research?qa=links",
+      "content_type": "text/plain",
+      "bytes": 15,
+      "sha256": "7c040f8633b8823d72ed63da9b3b2dfe9846e912c66a64c9433ec9c4815d76c2",
+      "result": "passed",
+      "path": "/institutional/research",
+      "expected_path": "/research",
+      "passed": true
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/institutional/journal.html?qa=links",
+      "checked_at": "2026-11-07T08:22:15.609173+00:00",
+      "status": 308,
+      "final_url": "https://stanaic-onboarding.vercel.app/institutional/journal.html?qa=links",
+      "location": "/journal?qa=links",
+      "content_type": "text/plain",
+      "bytes": 15,
+      "sha256": "7c040f8633b8823d72ed63da9b3b2dfe9846e912c66a64c9433ec9c4815d76c2",
+      "result": "passed",
+      "path": "/institutional/journal.html",
+      "expected_path": "/journal",
+      "passed": true
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/journal.html?qa=links",
+      "checked_at": "2026-11-07T08:22:15.625464+00:00",
+      "status": 308,
+      "final_url": "https://stanaic-onboarding.vercel.app/journal.html?qa=links",
+      "location": "/journal?qa=links",
+      "content_type": "text/plain",
+      "bytes": 15,
+      "sha256": "7c040f8633b8823d72ed63da9b3b2dfe9846e912c66a64c9433ec9c4815d76c2",
+      "result": "passed",
+      "path": "/journal.html",
+      "expected_path": "/journal",
+      "passed": true
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/institutional/journal?qa=links",
+      "checked_at": "2026-11-07T08:22:15.626209+00:00",
+      "status": 308,
+      "final_url": "https://stanaic-onboarding.vercel.app/institutional/journal?qa=links",
+      "location": "/journal?qa=links",
+      "content_type": "text/plain",
+      "bytes": 15,
+      "sha256": "7c040f8633b8823d72ed63da9b3b2dfe9846e912c66a64c9433ec9c4815d76c2",
+      "result": "passed",
+      "path": "/institutional/journal",
+      "expected_path": "/journal",
+      "passed": true
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/institutional/learning.html?qa=links",
+      "checked_at": "2026-11-07T08:22:23.597816+00:00",
+      "status": 308,
+      "final_url": "https://stanaic-onboarding.vercel.app/institutional/learning.html?qa=links",
+      "location": "/learning?qa=links",
+      "content_type": "text/plain",
+      "bytes": 15,
+      "sha256": "7c040f8633b8823d72ed63da9b3b2dfe9846e912c66a64c9433ec9c4815d76c2",
+      "result": "passed",
+      "path": "/institutional/learning.html",
+      "expected_path": "/learning",
+      "passed": true
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/learning.html?qa=links",
+      "checked_at": "2026-11-07T08:22:23.602878+00:00",
+      "status": 308,
+      "final_url": "https://stanaic-onboarding.vercel.app/learning.html?qa=links",
+      "location": "/learning?qa=links",
+      "content_type": "text/plain",
+      "bytes": 15,
+      "sha256": "7c040f8633b8823d72ed63da9b3b2dfe9846e912c66a64c9433ec9c4815d76c2",
+      "result": "passed",
+      "path": "/learning.html",
+      "expected_path": "/learning",
+      "passed": true
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/institutional/learning?qa=links",
+      "checked_at": "2026-11-07T08:22:23.616913+00:00",
+      "status": 308,
+      "final_url": "https://stanaic-onboarding.vercel.app/institutional/learning?qa=links",
+      "location": "/learning?qa=links",
+      "content_type": "text/plain",
+      "bytes": 15,
+      "sha256": "7c040f8633b8823d72ed63da9b3b2dfe9846e912c66a64c9433ec9c4815d76c2",
+      "result": "passed",
+      "path": "/institutional/learning",
+      "expected_path": "/learning",
+      "passed": true
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/institutional/membership.html?qa=links",
+      "checked_at": "2026-11-07T08:22:23.651295+00:00",
+      "status": 308,
+      "final_url": "https://stanaic-onboarding.vercel.app/institutional/membership.html?qa=links",
+      "location": "/membership?qa=links",
+      "content_type": "text/plain",
+      "bytes": 15,
+      "sha256": "7c040f8633b8823d72ed63da9b3b2dfe9846e912c66a64c9433ec9c4815d76c2",
+      "result": "passed",
+      "path": "/institutional/membership.html",
+      "expected_path": "/membership",
+      "passed": true
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/membership.html?qa=links",
+      "checked_at": "2026-11-07T08:22:31.085142+00:00",
+      "status": 308,
+      "final_url": "https://stanaic-onboarding.vercel.app/membership.html?qa=links",
+      "location": "/membership?qa=links",
+      "content_type": "text/plain",
+      "bytes": 15,
+      "sha256": "7c040f8633b8823d72ed63da9b3b2dfe9846e912c66a64c9433ec9c4815d76c2",
+      "result": "passed",
+      "path": "/membership.html",
+      "expected_path": "/membership",
+      "passed": true
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/institutional/membership?qa=links",
+      "checked_at": "2026-11-07T08:22:31.134039+00:00",
+      "status": 308,
+      "final_url": "https://stanaic-onboarding.vercel.app/institutional/membership?qa=links",
+      "location": "/membership?qa=links",
+      "content_type": "text/plain",
+      "bytes": 15,
+      "sha256": "7c040f8633b8823d72ed63da9b3b2dfe9846e912c66a64c9433ec9c4815d76c2",
+      "result": "passed",
+      "path": "/institutional/membership",
+      "expected_path": "/membership",
+      "passed": true
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/institutional/governance.html?qa=links",
+      "checked_at": "2026-11-07T08:22:31.168665+00:00",
+      "status": 308,
+      "final_url": "https://stanaic-onboarding.vercel.app/institutional/governance.html?qa=links",
+      "location": "/governance?qa=links",
+      "content_type": "text/plain",
+      "bytes": 15,
+      "sha256": "7c040f8633b8823d72ed63da9b3b2dfe9846e912c66a64c9433ec9c4815d76c2",
+      "result": "passed",
+      "path": "/institutional/governance.html",
+      "expected_path": "/governance",
+      "passed": true
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/governance.html?qa=links",
+      "checked_at": "2026-11-07T08:22:31.179094+00:00",
+      "status": 308,
+      "final_url": "https://stanaic-onboarding.vercel.app/governance.html?qa=links",
+      "location": "/governance?qa=links",
+      "content_type": "text/plain",
+      "bytes": 15,
+      "sha256": "7c040f8633b8823d72ed63da9b3b2dfe9846e912c66a64c9433ec9c4815d76c2",
+      "result": "passed",
+      "path": "/governance.html",
+      "expected_path": "/governance",
+      "passed": true
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/institutional/governance?qa=links",
+      "checked_at": "2026-11-07T08:22:38.608175+00:00",
+      "status": 308,
+      "final_url": "https://stanaic-onboarding.vercel.app/institutional/governance?qa=links",
+      "location": "/governance?qa=links",
+      "content_type": "text/plain",
+      "bytes": 15,
+      "sha256": "7c040f8633b8823d72ed63da9b3b2dfe9846e912c66a64c9433ec9c4815d76c2",
+      "result": "passed",
+      "path": "/institutional/governance",
+      "expected_path": "/governance",
+      "passed": true
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/institutional/network.html?qa=links",
+      "checked_at": "2026-11-07T08:22:38.649367+00:00",
+      "status": 308,
+      "final_url": "https://stanaic-onboarding.vercel.app/institutional/network.html?qa=links",
+      "location": "/partnerships?qa=links",
+      "content_type": "text/plain",
+      "bytes": 15,
+      "sha256": "7c040f8633b8823d72ed63da9b3b2dfe9846e912c66a64c9433ec9c4815d76c2",
+      "result": "passed",
+      "path": "/institutional/network.html",
+      "expected_path": "/partnerships",
+      "passed": true
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/network.html?qa=links",
+      "checked_at": "2026-11-07T08:22:38.664126+00:00",
+      "status": 308,
+      "final_url": "https://stanaic-onboarding.vercel.app/network.html?qa=links",
+      "location": "/partnerships?qa=links",
+      "content_type": "text/plain",
+      "bytes": 15,
+      "sha256": "7c040f8633b8823d72ed63da9b3b2dfe9846e912c66a64c9433ec9c4815d76c2",
+      "result": "passed",
+      "path": "/network.html",
+      "expected_path": "/partnerships",
+      "passed": true
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/institutional/network?qa=links",
+      "checked_at": "2026-11-07T08:22:38.691166+00:00",
+      "status": 308,
+      "final_url": "https://stanaic-onboarding.vercel.app/institutional/network?qa=links",
+      "location": "/partnerships?qa=links",
+      "content_type": "text/plain",
+      "bytes": 15,
+      "sha256": "7c040f8633b8823d72ed63da9b3b2dfe9846e912c66a64c9433ec9c4815d76c2",
+      "result": "passed",
+      "path": "/institutional/network",
+      "expected_path": "/partnerships",
+      "passed": true
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/institutional/architecture.html?qa=links",
+      "checked_at": "2026-11-07T08:22:46.219549+00:00",
+      "status": 308,
+      "final_url": "https://stanaic-onboarding.vercel.app/institutional/architecture.html?qa=links",
+      "location": "/architecture?qa=links",
+      "content_type": "text/plain",
+      "bytes": 15,
+      "sha256": "7c040f8633b8823d72ed63da9b3b2dfe9846e912c66a64c9433ec9c4815d76c2",
+      "result": "passed",
+      "path": "/institutional/architecture.html",
+      "expected_path": "/architecture",
+      "passed": true
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/architecture.html?qa=links",
+      "checked_at": "2026-11-07T08:22:46.219991+00:00",
+      "status": 308,
+      "final_url": "https://stanaic-onboarding.vercel.app/architecture.html?qa=links",
+      "location": "/architecture?qa=links",
+      "content_type": "text/plain",
+      "bytes": 15,
+      "sha256": "7c040f8633b8823d72ed63da9b3b2dfe9846e912c66a64c9433ec9c4815d76c2",
+      "result": "passed",
+      "path": "/architecture.html",
+      "expected_path": "/architecture",
+      "passed": true
+    },
+    {
+      "url": "https://stanaic-onboarding.vercel.app/institutional/architecture?qa=links",
+      "checked_at": "2026-11-07T08:22:46.220766+00:00",
+      "status": 308,
+      "final_url": "https://stanaic-onboarding.vercel.app/institutional/architecture?qa=links",
+      "location": "/architecture?qa=links",
+      "content_type": "text/plain",
+      "bytes": 15,
+      "sha256": "7c040f8633b8823d72ed63da9b3b2dfe9846e912c66a64c9433ec9c4815d76c2",
+      "result": "passed",
+      "path": "/institutional/architecture",
+      "expected_path": "/architecture",
+      "passed": true
+    }
+  ],
+  "source_privacy_scan": [
+    {
+      "source": "public/institutional/institution.html",
+      "category": "public_chair_name",
+      "count": 2,
+      "line_numbers": [
+        1
+      ]
+    },
+    {
+      "source": "app/announcements/announcements.tsx",
+      "category": "public_chair_name",
+      "count": 2,
+      "line_numbers": [
+        35
+      ]
+    },
+    {
+      "source": "lib/assistant.mjs",
+      "category": "public_chair_name",
+      "count": 1,
+      "line_numbers": [
+        10
+      ]
+    }
+  ],
+  "privacy_scan_configuration": {
+    "folders": [
+      "public",
+      "app",
+      "lib",
+      "scripts"
+    ],
+    "private_name_pattern_applied": false,
+    "private_pattern_saved": false
+  },
+  "limitations": [
+    "A successful GET does not prove a link's business workflow or any button works. Controls/options are inventoried for browser coverage by the UI audit.",
+    "Protected pages may return a sign-in shell with HTTP 200; no authentication was attempted.",
+    "Template/generated record URLs and JavaScript-created content require separate workflow/browser evidence.",
+    "No email, payment, LinkedIn posting, credential issuance, or account change was triggered.",
+    "External timeouts and 502/503/504 responses remain unverified; 401/403/429/999 are access blocks, not proof of broken destinations.",
+    "Source privacy scan is pattern-based and does not establish absence of every possible personal value."
+  ],
+  "deployment_commit": "28edf347e07f3c13ee02357c32a708cd3cbc1739",
+  "external_destinations": "Intentionally skipped in final production pass; baseline report retains external observations."
+}
